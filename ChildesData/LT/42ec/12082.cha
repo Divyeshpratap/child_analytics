@@ -1,0 +1,951 @@
+@UTF8
+@PID:	11312/c-00006219-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, INV Investigator
+@Options:	multi
+@ID:	eng|EllisWeismer|CHI|3;06.|male|LT||Target_Child||ec|
+@ID:	eng|EllisWeismer|INV|||||Investigator|||
+@Media:	12082, audio
+@Comment:	Child overlaps at end
+@Transcriber:	Jordan Hulse
+@Types:	long, toyplay, LT
+*CHI:	xxx .
+*INV:	can I move this ? 9242_9962
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|move-Inf-S pron|this-Dem-S1 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	huh ? 10008_10748
+%mor:	intj|huh ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	can I move it here ? 11415_12305
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|move-Inf-S pron|it-Prs-Acc-S3 adv|here ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*INV:	alright . 14027_14607
+%mor:	intj|alright .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	uhoh look_it that . 14652_16341
+%mor:	intj|uhoh intj|lookit pron|that-Dem-S1 .
+%gra:	1|3|DISCOURSE 2|3|DISCOURSE 3|3|ROOT 4|3|PUNCT
+*INV:	the door broke . 16475_17235
+%mor:	det|the-Def-Art noun|door verb|break-Fin-Ind-Past-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*INV:	huh . 19938_20148
+%mor:	intj|huh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I wonder how that happened ? 20766_22936
+%mor:	pron|I-Prs-Nom-S1 verb|wonder-Fin-Ind-Pres-S1 adv|how pron|that-Dem-S1 verb|happen-Fin-Ind-Past-S3 ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|ADVMOD 4|5|NSUBJ 5|2|CCOMP 6|2|PUNCT
+*CHI:	I don't know . 22953_24353
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	let's see if I can fix it . 26082_27512
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S sconj|if pron|I-Prs-Nom-S1 aux|can-Fin-S verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|8|ROOT 2|1|OBJ 3|1|XCOMP 4|7|MARK 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|7|OBJ 9|1|PUNCT
+*INV:	look . 27702_27972
+%mor:	verb|look-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I fixed it . 28669_29339
+%mor:	pron|I-Prs-Nom-S1 verb|fix-Fin-Ind-Past-S1 pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	xxx .
+*INV:	oh phew ! 32063_32883
+%mor:	intj|oh intj|phew !
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*INV:	let's see . 33116_33216
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*INV:	here's a dad .
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|dad .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	uhhuh . 33943_34783
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	mom . 36092_37022
+%mor:	noun|mom .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	where's mom ? 37864_38594
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 noun|mom ?
+%gra:	1|3|ADVMOD 2|3|COP 3|3|ROOT 4|3|PUNCT
+*INV:	there's another dad . 38752_39532
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|another-Def noun|dad .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*CHI:	look . 42219_42379
+%mor:	verb|look-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby . 44044_44624
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	baby . 44864_45484
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	where 0does [*] baby go ?
+%mor:	adv|where noun|baby verb|go-Fin-Ind-Pres-S3 ?
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*INV:	I don't know . 45500_45650
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	where should it go ? 47659_48789
+%mor:	adv|where aux|should-Fin-S pron|it-Prs-Nom-S3 verb|go-Inf-S ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	&-uh over here . 49503_50233
+%mor:	adv|over adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	okay . 50698_51378
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	I bet there are other babies in here . 56404_59744
+%mor:	pron|I-Prs-Nom-S1 verb|bet-Fin-Ind-Pres-S1 pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 adj|other-Pos-S1 noun|baby-Plur adp|in adv|here .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|EXPL 4|2|CCOMP 5|6|AMOD 6|4|NSUBJ 7|8|CASE 8|4|OBL 9|2|PUNCT
+*CHI:	uhhuh . 60255_60765
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here's a swing . 61412_62542
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|swing .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	baby up . 66154_67094
+%mor:	noun|baby adv|up .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*INV:	you gonna put the baby in the swing ? 67245_71405
+%mor:	pron|you-Prs-Nom-S2 adv|gonna verb|put-Fin-Ind-Pres-S2 det|the-Def-Art noun|baby adp|in det|the-Def-Art noun|swing ?
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*INV:	take him out_of there ? 71460_72330
+%mor:	verb|take-Fin-Imp-S pron|he-Prs-Acc-S3 adv|outof adv|there ?
+%gra:	1|4|ROOT 2|1|OBJ 3|4|ADVMOD 4|1|ADVMOD 5|1|PUNCT
+*CHI:	&-uh out . 73613_73853
+%mor:	adv|out .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	mhm . 75211_75841
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx milk . 76989_77429
+%mor:	noun|milk .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx milk . 79998_80588
+%mor:	noun|milk .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	look . 81435_81715
+%mor:	verb|look-Fin-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh . 82079_82949
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	you wanna throw the baby ? 84420_85720
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-S verb|throw-Inf-S det|the-Def-Art noun|baby ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	milk . 86486_86796
+%mor:	noun|milk .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	is his gonna throw his milk ? 86819_87849
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|his-Prs-Gen-S3 adv|gonna verb|throw-Inf-S pron|his-Prs-Gen-S3 noun|milk ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*CHI:	yeah . 88304_88524
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	ah . 88804_89324
+%mor:	intj|ah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	here sometimes it's easier if we take it out and you put it in . 93089_96729
+%mor:	adv|here adv|sometimes pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|easy-Cmp-S1 sconj|if pron|we-Prs-Nom-P1 verb|take-Fin-Ind-Pres-P1 pron|it-Prs-Acc-S3 adp|out cconj|and pron|you-Prs-Nom-S2 verb|put-Fin-Ind-Pres-S2 pron|it-Prs-Acc-S3 adv|in .
+%gra:	1|5|ADVMOD 2|5|ADVMOD 3|5|NSUBJ 4|5|COP 5|15|ROOT 6|8|MARK 7|8|NSUBJ 8|5|ADVCL 9|8|OBJ 10|8|COMPOUND-PRT 11|13|CC 12|13|NSUBJ 13|5|CONJ 14|13|OBJ 15|13|ADVMOD 16|5|PUNCT
+*INV:	should we get another baby to go in there ? 98924_100334
+%mor:	aux|should-Fin-S pron|we-Prs-Nom-P1 verb|get-Inf-S det|another-Def noun|baby part|to verb|go-Inf-S adp|in adv|there ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|9|ROOT 4|5|DET 5|3|OBJ 6|7|MARK 7|3|ADVCL 8|9|CASE 9|7|OBL 10|3|PUNCT
+*CHI:	&-uh xxx .
+*INV:	we have lots_of babies . 101866_102336
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 noun|lotsof noun|baby-Plur .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|COMPOUND 4|2|OBJ 5|2|PUNCT
+*INV:	see ? 102510_102640
+%mor:	verb|see-Fin-Imp-S ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby xxx in here . 103027_108837
+%mor:	noun|baby adp|in adv|here .
+%gra:	1|3|ROOT 2|3|CASE 3|1|NMOD 4|1|PUNCT
+*INV:	okay that baby in there . 109100_109820
+%mor:	intj|okay det|that-Def-Dem noun|baby adp|in adv|there .
+%gra:	1|3|DISCOURSE 2|3|DET 3|5|ROOT 4|5|CASE 5|3|NMOD 6|3|PUNCT
+*CHI:	<baby xxx> [>] +/. 109820_110100
+%mor:	noun|baby +/.
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	<you want> [<] another baby in here ? 111387_113627
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 det|another-Def noun|baby adp|in adv|here ?
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*CHI:	xxx yeah . 114235_115005
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	so we have two little babies in there . 115857_118927
+%mor:	adv|so pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 num|two adj|little-Pos-S1 noun|baby-Plur adp|in adv|there .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|6|NUMMOD 5|6|AMOD 6|3|OBJ 7|8|CASE 8|3|OBL 9|3|PUNCT
+*INV:	alright .
+%mor:	intj|alright .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here [<] +... 119729_120479
+%mor:	adv|here +...
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	baby under here . 122264_123634
+%mor:	noun|baby adp|under adv|here .
+%gra:	1|3|ROOT 2|3|CASE 3|1|NMOD 4|1|PUNCT
+*INV:	baby under here ? 124220_125150
+%mor:	noun|baby adp|under adv|here ?
+%gra:	1|3|ROOT 2|3|CASE 3|1|NMOD 4|1|PUNCT
+*CHI:	yeah . 125227_125537
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	okay that sounds good . 125620_127000
+%mor:	intj|okay pron|that-Dem-S1 verb|sound-Fin-Ind-Pres-S3 adj|good-Pos-S1 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*INV:	oh look ! 128518_128818
+%mor:	intj|oh verb|look-Fin-Imp-S !
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*INV:	I found a kitty . 128940_129580
+%mor:	pron|I-Prs-Nom-S1 verb|find-Fin-Ind-Past-S1 det|a-Ind-Art noun|kitty .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0 . 129625_129854
+%act:	laughs .
+*CHI:	where [* 0's] doggie ? 130693_132523
+%mor:	adv|where noun|doggie ?
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	oh maybe here . 132917_133967
+%mor:	intj|oh adv|maybe adv|here .
+%gra:	1|3|DISCOURSE 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*INV:	there's doggie . 134274_135114
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 noun|doggie .
+%gra:	1|2|EXPL 2|3|ROOT 3|2|NSUBJ 4|2|PUNCT
+*CHI:	xxx doggie outside . 135813_136983
+%mor:	noun|doggie adv|outside .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	xxx doggie . 137643_138163
+%mor:	noun|doggie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	0 .
+%act:	barks .
+*INV:	doggie outside . 138383_139003
+%mor:	noun|doggie adv|outside .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*INV:	doggie . 140562_140862
+%mor:	noun|doggie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh that doesn't fit it's too big . 142756_146976
+%mor:	intj|oh pron|that-Dem-S1 aux|do-Fin-Ind-Pres-S3~part|not verb|fit-Inf-S pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|too adj|big-Pos-S1 .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|9|ROOT 6|9|NSUBJ 7|9|COP 8|9|ADVMOD 9|5|CCOMP 10|5|PUNCT
+*INV:	oh yeah there it fits . 147120_148150
+%mor:	intj|oh intj|yeah pron|there-Int-S1 pron|it-Prs-Nom-S3 verb|fit-Fin-Ind-Pres-S3 .
+%gra:	1|5|DISCOURSE 2|5|DISCOURSE 3|5|EXPL 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	0 . 150816_152086
+%act:	barks .
+*INV:	here dad's gonna sit and watch . 153272_155312
+%mor:	adv|here noun|dad~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|sit-Inf-S cconj|and verb|watch-Inf-S .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|CC 7|5|CONJ 8|5|PUNCT
+*INV:	yay ! 156074_157284
+%mor:	intj|yay !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here comes mom . 157303_159113
+%mor:	adv|here verb|come-Fin-Ind-Pres-S3 noun|mom .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|NSUBJ 4|2|PUNCT
+*CHI:	where [* 0's] daddy ? 159431_160551
+%mor:	adv|where noun|daddy ?
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	<there's an> [//] here's a chair for this daddy . 161240_163000
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|chair adp|for det|this-Def-Dem noun|daddy .
+%gra:	1|7|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|7|CASE 6|7|DET 7|4|NMOD 8|1|PUNCT
+*CHI:	daddy +... 164875_165605
+%mor:	noun|daddy +...
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	whoops . 166778_167108
+%mor:	intj|whoops .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx ?
+*CHI:	xxx .
+*CHI:	xxx baby . 170516_171026
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	another baby . 171354_172374
+%mor:	det|another-Def noun|baby .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	oh yuck ! 172519_176919
+%mor:	intj|oh intj|yuck !
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*INV:	oh yuck ! 177837_178517
+%mor:	intj|oh intj|yuck !
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*INV:	what's the doggie doing ? 180390_181730
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doggie verb|do-Ger-S ?
+%gra:	1|5|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|ACL 6|1|PUNCT
+*CHI:	xxx baby . 183644_184374
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	the baby ? 184544_185244
+%mor:	det|the-Def-Art noun|baby ?
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*INV:	is he licking the baby ? 186955_188105
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|lick-Part-Pres-S det|the-Def-Art noun|baby ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	yeah . 188151_188401
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	saying hello baby ! 189844_190914
+%mor:	verb|say-Ger-S intj|hello noun|baby !
+%gra:	1|3|ROOT 2|3|COMPOUND 3|1|OBJ 4|1|PUNCT
+*CHI:	hey on top of 0the [*] house . 190937_193127
+%mor:	intj|hey adp|on noun|top adp|of noun|house .
+%gra:	1|5|ROOT 2|3|CASE 3|1|OBL 4|5|CASE 5|3|NMOD 6|1|PUNCT
+*INV:	hey on top of the house . 193538_194888
+%mor:	intj|hey adp|on noun|top adp|of det|the-Def-Art noun|house .
+%gra:	1|6|ROOT 2|3|CASE 3|1|OBL 4|6|CASE 5|6|DET 6|3|NMOD 7|1|PUNCT
+*INV:	what's he doing there ? 195139_195929
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|do-Part-Pres-S adv|there ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	I don't know . 196233_197143
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	here's the sink . 198985_199915
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|sink .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	we'll put that in the bathroom . 200039_200929
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S verb|put-Inf-S pron|that-Dem-S1 adp|in det|the-Def-Art noun|bathroom .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	xxx down . 201118_201718
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	no down [/] down [/] down . 202239_204579
+%mor:	intj|no adv|down .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*INV:	come down baby . 204846_206006
+%mor:	verb|come-Fin-Imp-S adp|down noun|baby .
+%gra:	1|3|ROOT 2|1|COMPOUND-PRT 3|1|OBJ 4|1|PUNCT
+*INV:	down . 206340_206930
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx down . 207837_209177
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	dad hasta go get the baby . 209319_210969
+%mor:	noun|dad x|hasta verb|go-Fin-Imp-S verb|get-Inf-S det|the-Def-Art noun|baby .
+%gra:	1|3|NSUBJ 2|3|DISCOURSE 3|6|ROOT 4|3|XCOMP 5|6|DET 6|4|OBJ 7|3|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	look what happens . 211022_211202
+%mor:	verb|look-Fin-Imp-S pron|what-Rel-S1 verb|happen-Fin-Ind-Pres-S3 .
+%gra:	1|3|ROOT 2|1|OBJ 3|2|ACL-RELCL 4|1|PUNCT
+*INV:	we can move these stairs down . 212800_215040
+%mor:	pron|we-Prs-Nom-P1 aux|can-Fin-S verb|move-Inf-S det|this-Def-Dem noun|stair-Plur adv|down .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*INV:	then he goes up up up up up . 215626_217896
+%mor:	adv|then pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|up adv|up adv|up adv|up adv|up .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ROOT 4|3|ADVMOD 5|3|ADVMOD 6|3|ADVMOD 7|8|ADVMOD 8|3|ADVMOD 9|3|PUNCT
+*INV:	up [/] up [/] up [/] up . 219201_220601
+%mor:	adv|up .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	come here baby . 221091_222751
+%mor:	verb|come-Fin-Imp-S adv|here noun|baby .
+%gra:	1|3|ROOT 2|1|ADVMOD 3|1|OBJ 4|1|PUNCT
+*INV:	down [/] down [/] down [/] down [/] down [/] down [/] down [/] down . 225053_229483
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here's the baby . 230457_231557
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|baby .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	look_it this . 231641_235151
+%mor:	verb|lookit-Fin-Imp-S pron|this-Dem-S1 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*INV:	whoop ! 236173_236463
+%mor:	noun|whoop !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	the baby fell . 239350_240650
+%mor:	det|the-Def-Art noun|baby verb|fall-Fin-Ind-Past-S3 .
+%gra:	1|2|DET 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	let me try . 243467_244367
+%mor:	verb|let-Fin-Imp-S pron|I-Prs-Acc-S1 verb|try-Inf-S .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*INV:	let you try ? 245599_246339
+%mor:	verb|let-Fin-Imp-S pron|you-Prs-Acc-S2 verb|try-Inf-S ?
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	yeah . 246636_246886
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	here it helps if you straighten his legs out . 250202_251732
+%mor:	adv|here pron|it-Prs-Nom-S3 verb|help-Fin-Ind-Pres-S3 sconj|if pron|you-Prs-Nom-S2 verb|straighten-Fin-Ind-Pres-S2 pron|his-Prs-Gen-S3 noun|leg-Plur adv|out .
+%gra:	1|3|ADVMOD 2|3|EXPL 3|9|ROOT 4|6|MARK 5|6|NSUBJ 6|3|CSUBJ 7|8|NMOD-POSS 8|6|OBJ 9|6|ADVMOD 10|3|PUNCT
+*INV:	this one does it too . 252039_252869
+%mor:	det|this-Def-Dem noun|one verb|do-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 adv|too .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*INV:	wanna trade ? 255542_256052
+%mor:	adj|wanna-Pos-S1 noun|trade ?
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*INV:	oh you got it . 256719_257309
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Past-S2 pron|it-Prs-Acc-S3 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*INV:	and you hafta squeeze him way down here . 258156_259656
+%mor:	cconj|and pron|you-Prs-Nom-S2 aux|hafta-Fin-Ind-S verb|squeeze-Inf-S pron|he-Prs-Acc-S3 adv|way adv|down adv|here .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|ADVMOD 7|8|ADVMOD 8|4|ADVMOD 9|4|PUNCT
+*INV:	squeeze his shoes together . 260173_261173
+%mor:	verb|squeeze-Fin-Imp-S pron|his-Prs-Gen-S3 noun|shoe-Plur adv|together .
+%gra:	1|4|ROOT 2|3|NMOD-POSS 3|1|OBJ 4|1|ADVMOD 5|1|PUNCT
+*INV:	look ! 261189_261309
+%mor:	verb|look-Fin-Imp-S !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	there you did it . 264871_265621
+%mor:	adv|there pron|you-Prs-Nom-S2 verb|do-Fin-Ind-Past-S2 pron|it-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	mommy . 267340_267410
+%mor:	noun|mommy .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	mommy ? 267410_267860
+%mor:	noun|mommy ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	what does mommy do ? 267992_269522
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Pres-S3 noun|mommy verb|do-Inf-S ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*INV:	if you squeeze her shoes together she rocks . 270772_273512
+%mor:	sconj|if pron|you-Prs-Nom-S2 verb|squeeze-Fin-Ind-Pres-S2 pron|her-Prs-Gen-S3 noun|shoe-Plur adv|together pron|she-Prs-Nom-S3 verb|rock-Fin-Ind-Pres-S3 .
+%gra:	1|3|MARK 2|3|NSUBJ 3|8|ADVCL 4|5|NMOD-POSS 5|3|OBJ 6|3|ADVMOD 7|8|NSUBJ 8|8|ROOT 9|8|PUNCT
+*CHI:	rock . 275607_275917
+%mor:	noun|rock .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	this xxx rock . 277102_277832
+%mor:	det|this-Def-Dem noun|rock .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	rock in there . 287572_288492
+%mor:	noun|rock adp|in adv|there .
+%gra:	1|3|ROOT 2|3|CASE 3|1|NMOD 4|1|PUNCT
+*CHI:	baby . 289831_290551
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here's a baby seat . 291935_293075
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|baby noun|seat .
+%gra:	1|5|ROOT 2|1|COP 3|5|DET 4|5|COMPOUND 5|1|NSUBJ 6|1|PUNCT
+*CHI:	baby xxx . 295494_296594
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here's a baby . 297251_298001
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|baby .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	baby up . 298663_299483
+%mor:	noun|baby adv|up .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*INV:	oh baby went up again . 299846_302036
+%mor:	intj|oh noun|baby verb|go-Fin-Ind-Past-S3 adp|up adv|again .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|5|ROOT 4|3|COMPOUND-PRT 5|3|ADVMOD 6|3|PUNCT
+*CHI:	xxx .
+*INV:	daddy's going up up up up . 306531_308561
+%mor:	noun|daddy~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|up adv|up adv|up adv|up .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|ADVMOD 5|3|ADVMOD 6|7|ADVMOD 7|3|ADVMOD 8|3|PUNCT
+*INV:	flip the stairs up . 309090_310450
+%mor:	verb|flip-Fin-Imp-S det|the-Def-Art noun|stair-Plur adv|up .
+%gra:	1|4|ROOT 2|3|DET 3|1|OBJ 4|1|ADVMOD 5|1|PUNCT
+*INV:	up [/] up [/] up . 310998_311478
+%mor:	adv|up .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh [>] .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<I got you> [<] . 311518_317108
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*INV:	I got you . 317503_318253
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Past-S1 pron|you-Prs-Acc-S2 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*INV:	yay ! 318379_320239
+%mor:	intj|yay !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here comes daddy . 321928_323348
+%mor:	adv|here verb|come-Fin-Ind-Pres-S3 noun|daddy .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|NSUBJ 4|2|PUNCT
+*CHI:	xxx .
+*INV:	tadah we got the baby safe and sound . 332741_336001
+%mor:	intj|tadah pron|we-Prs-Nom-P1 verb|get-Fin-Ind-Past-P1 det|the-Def-Art noun|baby adj|safe-Pos-S1 cconj|and noun|sound .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|3|XCOMP 7|8|CC 8|6|CONJ 9|3|PUNCT
+*CHI:	yay ! 336235_337165
+%mor:	intj|yay !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	yay baby's safe . 337705_339345
+%mor:	adj|yay-Pos-S1 noun|baby~part|s adj|safe-Pos-S1 .
+%gra:	1|2|AMOD 2|4|NMOD-POSS 3|2|CASE 4|4|ROOT 5|4|PUNCT
+*INV:	here's a plate for some food . 341401_345361
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|plate adp|for det|some-Def noun|food .
+%gra:	1|7|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|7|CASE 6|7|DET 7|4|NMOD 8|1|PUNCT
+*INV:	oh look how high baby is now . 348160_351090
+%mor:	intj|oh verb|look-Fin-Imp-S adv|how adj|high-Pos-S1 noun|baby aux|be-Fin-Ind-Pres-S3 adv|now .
+%gra:	1|2|DISCOURSE 2|7|ROOT 3|4|ADVMOD 4|5|AMOD 5|7|NSUBJ 6|7|COP 7|2|CCOMP 8|2|PUNCT
+*INV:	oh no . 351462_352472
+%mor:	intj|oh intj|no .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*INV:	and here the dog's there too . 353059_354829
+%mor:	cconj|and adv|here det|the-Def-Art noun|dog~aux|be-Fin-Ind-Pres-S3 adv|there adv|too .
+%gra:	1|2|CC 2|7|ROOT 3|4|DET 4|6|NSUBJ 5|2|COP 6|2|ADVMOD 7|6|ADVMOD 8|2|PUNCT
+*CHI:	xxx another baby . 356412_358442
+%mor:	det|another-Def noun|baby .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*INV:	another baby ? 358909_359699
+%mor:	det|another-Def noun|baby ?
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	yeah . 359972_360352
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	oh_my_goodness ! 362728_363768
+%mor:	noun|ohmygoodness !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	so many babies on the roof . 363786_365286
+%mor:	adv|so adj|many-Pos-S1 noun|baby-Plur adp|on det|the-Def-Art noun|roof .
+%gra:	1|2|ADVMOD 2|3|AMOD 3|6|ROOT 4|6|CASE 5|6|DET 6|3|NMOD 7|3|PUNCT
+*CHI:	baby . 366314_366614
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I see three oh four babies a cat and a dog . 368538_373568
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 num|three intj|oh num|four noun|baby-Plur det|a-Ind-Art noun|cat cconj|and det|a-Ind-Art noun|dog .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|6|NUMMOD 4|6|DISCOURSE 5|6|NUMMOD 6|8|NSUBJ 7|8|DET 8|2|OBJ 9|11|CC 10|11|DET 11|8|CONJ 12|2|PUNCT
+*INV:	oh_my_goodness he needs help . 374004_375444
+%mor:	noun|ohmygoodness pron|he-Prs-Nom-S3 verb|need-Fin-Ind-Pres-S3 noun|help .
+%gra:	1|4|ROOT 2|3|NSUBJ 3|1|PARATAXIS 4|3|OBJ 5|1|PUNCT
+*CHI:	up here . 375674_379154
+%mor:	adv|up adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	oh up there . 382826_383206
+%mor:	intj|oh adv|up adv|there .
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*INV:	okay . 383884_384514
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	jump jump . 385247_387717
+%mor:	verb|jump-Inf-S noun|jump .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	no [/] no . 389304_392114
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	no going on the roof . 393480_394980
+%mor:	intj|no verb|go-Ger-S adp|on det|the-Def-Art noun|roof .
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*CHI:	no no go 0on [*] 0the [*] roof . 395437_397017
+%mor:	intj|no intj|no verb|go-Fin-Imp-S noun|roof .
+%gra:	1|3|DISCOURSE 2|3|DISCOURSE 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*INV:	maybe this baby needs to go in the crib . 397071_401631
+%mor:	adv|maybe det|this-Def-Dem noun|baby verb|need-Fin-Ind-Pres-S3 part|to verb|go-Inf-S adp|in det|the-Def-Art noun|crib .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|9|ROOT 5|6|MARK 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|4|PUNCT
+*CHI:	yeah . 402753_403163
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	so he doesn't go on the roof anymore . 404194_405974
+%mor:	adv|so pron|he-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|go-Inf-S adp|on det|the-Def-Art noun|roof adv|anymore .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|9|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|ADVMOD 10|5|PUNCT
+*CHI:	uhhuh . 407048_407418
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	uhhuh . 409267_409567
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	alright gotta get more babies . 411432_412632
+%mor:	intj|alright aux|gotta-Fin-S verb|get-Fin-Imp-S adj|more-Cmp-S1 noun|baby-Plur .
+%gra:	1|3|DISCOURSE 2|3|AUX 3|5|ROOT 4|5|AMOD 5|3|OBJ 6|3|PUNCT
+*CHI:	me too . 412686_413996
+%mor:	pron|I-Prs-Acc-S1 adv|too .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	dog . 416904_417824
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh you've got the dog . 418143_419223
+%mor:	intj|oh pron|you-Prs-Nom-S2~aux|have-Fin-Ind-Pres-S2 verb|get-Part-Past-S det|the-Def-Art noun|dog .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*INV:	I'll get the cat . 419246_419936
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|get-Inf-S det|the-Def-Art noun|cat .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	xxx baby xxx . 421109_422299
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	there's the last baby . 425552_427282
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art adj|last-Pos-S1 noun|baby .
+%gra:	1|2|EXPL 2|5|ROOT 3|5|DET 4|5|AMOD 5|2|NSUBJ 6|2|PUNCT
+*INV:	oh she's gonna take a nap in the bed . 427391_429141
+%mor:	intj|oh pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|take-Inf-S det|a-Ind-Art noun|nap adp|in det|the-Def-Art noun|bed .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|10|ROOT 6|7|DET 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
+*CHI:	xxx .
+*INV:	hm . 430171_432521
+%mor:	intj|hm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby . 433762_434452
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh that baby's going in the oven . 435439_437639
+%mor:	intj|oh det|that-Def-Dem noun|baby~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adp|in det|the-Def-Art noun|oven .
+%gra:	1|5|DISCOURSE 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*INV:	poor baby . 439623_440593
+%mor:	adj|poor-Pos-S1 noun|baby .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	xxx baby . 442669_442849
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	there's a newspaper in the refrigerator . 450439_452259
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|newspaper adp|in det|the-Def-Art noun|refrigerator .
+%gra:	1|2|EXPL 2|7|ROOT 3|4|DET 4|2|NSUBJ 5|7|CASE 6|7|DET 7|2|OBL 8|2|PUNCT
+*INV:	you're putting it outside . 456482_457822
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 verb|put-Part-Pres-S pron|it-Prs-Acc-S3 adv|outside .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*INV:	good idea . 457872_458212
+%mor:	adj|good-Pos-S1 noun|idea .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	no no . 458560_459290
+%mor:	intj|no intj|no .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	doggie outside . 459509_460059
+%mor:	noun|doggie adv|outside .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*INV:	where's the doggie ? 460694_461534
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doggie ?
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	should the dog get the newspaper ? 461587_462777
+%mor:	aux|should-Fin-S det|the-Def-Art noun|dog verb|get-Inf-S det|the-Def-Art noun|newspaper ?
+%gra:	1|4|AUX 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	yeah . 463645_463945
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I don't think it actually fits in the mailbox . 464141_466741
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S pron|it-Prs-Nom-S3 adv|actually verb|fit-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|mailbox .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|10|ROOT 5|7|NSUBJ 6|7|ADVMOD 7|4|CCOMP 8|10|CASE 9|10|DET 10|7|OBL 11|4|PUNCT
+*INV:	here's the puppy he's coming outside . 467291_469061
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|puppy pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S adv|outside .
+%gra:	1|8|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|7|NSUBJ 6|7|AUX 7|4|ACL-RELCL 8|7|ADVMOD 9|1|PUNCT
+*CHI:	0 . 469110_469710
+%act:	barks .
+*INV:	look he got the newspaper . 471351_476351
+%mor:	verb|look-Fin-Imp-S pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3 det|the-Def-Art noun|newspaper .
+%gra:	1|5|ROOT 2|3|NSUBJ 3|1|CCOMP 4|5|DET 5|3|OBJ 6|1|PUNCT
+*CHI:	xxx .
+*INV:	yeah cat on the table . 481128_482778
+%mor:	intj|yeah noun|cat adp|on det|the-Def-Art noun|table .
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|2|PUNCT
+*INV:	what's he doing there ? 483008_483698
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|do-Part-Pres-S adv|there ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	I don't know . 483931_484411
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	I don't know either . 484892_486262
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S adv|either .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	0 . 491125_492585
+%act:	laughs .
+*INV:	there's the puppy . 492633_493683
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|puppy .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*INV:	he got the newspaper . 493701_495821
+%mor:	pron|he-Prs-Nom-S3 verb|get-Fin-Ind-Past-S3 det|the-Def-Art noun|newspaper .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0 . 495872_496112
+%act:	barks .
+*INV:	thanks puppy . 496871_497261
+%mor:	noun|thanks noun|puppy .
+%gra:	1|2|ROOT 2|1|VOCATIVE 3|1|PUNCT
+*INV:	let's see if we can make +... 501190_504310
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S sconj|if pron|we-Prs-Nom-P1 aux|can-Fin-S verb|make-Inf-S +...
+%gra:	1|7|ROOT 2|1|OBJ 3|1|XCOMP 4|7|MARK 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|1|PUNCT
+*INV:	oh look she's holding the newspaper . 504742_506122
+%mor:	intj|oh verb|look-Fin-Imp-S pron|she-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|hold-Part-Pres-S det|the-Def-Art noun|newspaper .
+%gra:	1|2|DISCOURSE 2|7|ROOT 3|5|NSUBJ 4|5|AUX 5|2|CCOMP 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*INV:	is he gonna have a seat ? 509525_510465
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 adv|gonna verb|have-Inf-S det|a-Ind-Art noun|seat ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	xxx .
+*INV:	we need that . 511855_512395
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 pron|that-Dem-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*INV:	<hold him up> [>] . 512602_512692
+%mor:	verb|hold-Fin-Imp-S pron|he-Prs-Acc-S3 adp|up .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|COMPOUND-PRT 4|1|PUNCT
+*CHI:	<a movie> [<] a movie . 512692_514302
+%mor:	det|a-Ind-Art noun|movie det|a-Ind-Art noun|movie .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	movie . 515684_516235
+%mor:	noun|movie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	movie . 517832_518392
+%mor:	noun|movie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	hm . 518592_519923
+%mor:	intj|hm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	boy that baby's pretty energetic .
+%mor:	intj|boy det|that-Def-Dem noun|baby~aux|be-Fin-Ind-Pres-S3 adv|pretty adj|energetic-Pos-S1 .
+%gra:	1|6|DISCOURSE 2|3|DET 3|6|NSUBJ 4|6|COP 5|6|ADVMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	oh . 522366_523785
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	he goes in the fridge and in the oven . 526169_528439
+%mor:	pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|fridge cconj|and adp|in det|the-Def-Art noun|oven .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|9|CC 7|9|CASE 8|9|DET 9|5|CONJ 10|2|PUNCT
+*CHI:	yeah . 529316_529726
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	now he's gonna have his feet on the chair . 530354_532184
+%mor:	adv|now pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|have-Inf-S pron|his-Prs-Gen-S3 noun|foot-Plur adp|on det|the-Def-Art noun|chair .
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|10|ROOT 6|7|NMOD-POSS 7|5|OBJ 8|10|CASE 9|10|DET 10|5|OBL 11|5|PUNCT
+*CHI:	xxx .
+*INV:	there he is . 541286_542056
+%mor:	adv|there pron|he-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|3|ROOT 2|1|NSUBJ 3|1|COP 4|1|PUNCT
+*INV:	whoops . 542126_542706
+%mor:	intj|whoops .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby xxx . 543177_543667
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh baby's going back on the roof . 543868_546648
+%mor:	intj|oh noun|baby~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|back adp|on det|the-Def-Art noun|roof .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|ADVMOD 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	xxx .
+*INV:	are they falling down ? 554452_555622
+%mor:	aux|be-Fin-Ind-Pres-P3 pron|they-Prs-Nom-P3 verb|fall-Part-Pres-S adv|down ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	yeah . 556175_556415
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh ouch . 556785_557825
+%mor:	intj|oh intj|ouch .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*INV:	ouch says the baby . 558764_560274
+%mor:	noun|ouch verb|say-Fin-Ind-Pres-S3 det|the-Def-Art noun|baby .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	mama I xxx . 560524_563444
+%mor:	noun|mama pron|I-Prs-Nom-S1 .
+%gra:	1|2|ROOT 2|1|FLAT 3|1|PUNCT
+*INV:	look this one's on the chimney . 564699_566469
+%mor:	verb|look-Fin-Imp-S det|this-Def-Dem noun|one~aux|be-Fin-Ind-Pres-S3 adp|on det|the-Def-Art noun|chimney .
+%gra:	1|7|ROOT 2|3|DET 3|4|NSUBJ 4|7|COP 5|7|CASE 6|7|DET 7|1|ADVCL 8|1|PUNCT
+*CHI:	xxx .
+*INV:	see there's a chimney back here . 568782_570092
+%mor:	verb|see-Fin-Imp-S pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|chimney adv|back adv|here .
+%gra:	1|7|ROOT 2|3|EXPL 3|1|CCOMP 4|5|DET 5|3|NSUBJ 6|7|ADVMOD 7|3|ADVMOD 8|1|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	xxx .
+*INV:	the stairs come down . 587460_589810
+%mor:	det|the-Def-Art noun|stair-Plur verb|come-Fin-Ind-Pres-P3 adv|down .
+%gra:	1|2|DET 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	where 0is [*] dad ? 589959_591689
+%mor:	adv|where noun|dad ?
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	where is the dad ? 591817_592287
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|dad ?
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	xxx .
+*CHI:	hey get down . 598063_599403
+%mor:	intj|hey verb|get-Fin-Imp-S adv|down .
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	down down . 599514_600544
+%mor:	adv|down adv|down .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	oops ! 601881_602711
+%mor:	noun|oop !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oops look_it the puppy . 602916_604976
+%mor:	noun|oop-Plur verb|lookit-Fin-Ind-Pres-P3 det|the-Def-Art noun|puppy .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*INV:	ouch ! 606549_606989
+%mor:	intj|ouch !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	ouch !
+%mor:	intj|ouch !
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh well he's okay . 607165_607305
+%mor:	intj|oh intj|well pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|okay-Pos-S1 .
+%gra:	1|5|DISCOURSE 2|5|DISCOURSE 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*INV:	he's going right back up . 609230_610900
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S adv|right adv|back adv|up .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|5|ADVMOD 5|6|ADVMOD 6|3|ADVMOD 7|3|PUNCT
+*CHI:	xxx .
+*CHI:	xxx go up there . 614444_616664
+%mor:	verb|go-Fin-Imp-S adp|up adv|there .
+%gra:	1|3|ROOT 2|1|COMPOUND-PRT 3|1|ADVMOD 4|1|PUNCT
+*INV:	he's gonna go there okay . 616964_618354
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|go-Inf-S adv|there adj|okay-Pos-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*CHI:	xxx down baby . 619519_620879
+%mor:	adv|down noun|baby .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	down baby down . 620899_622159
+%mor:	adv|down noun|baby adv|down .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	go down . 622733_623733
+%mor:	verb|go-Fin-Imp-S adv|down .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	go down . 623779_624089
+%mor:	verb|go-Fin-Imp-S adv|down .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*INV:	does he need help getting the babies ? 624537_625947
+%mor:	aux|do-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|need-Inf-S noun|help verb|get-Ger-S det|the-Def-Art noun|baby-Plur ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|4|ACL 6|7|DET 7|5|OBJ 8|3|PUNCT
+*CHI:	yeah . 626101_626391
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	okay . 626632_627152
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	here mom will help . 627659_628699
+%mor:	adv|here noun|mom aux|will-Fin-S verb|help-Inf-S .
+%gra:	1|4|ROOT 2|4|NSUBJ 3|4|AUX 4|1|ADVCL-RELCL 5|1|PUNCT
+*INV:	boom . 628748_630408
+%mor:	noun|boom .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	whoop .
+%mor:	noun|whoop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx down baby . 632367_640337
+%mor:	adv|down noun|baby .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	get down baby . 640358_641388
+%mor:	verb|get-Fin-Imp-S adp|down noun|baby .
+%gra:	1|3|ROOT 2|1|COMPOUND-PRT 3|1|OBJ 4|1|PUNCT
+*INV:	I'll save you . 641647_642217
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|save-Inf-S pron|you-Prs-Acc-S2 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	I xxx dog . 642321_645441
+%mor:	pron|I-Prs-Nom-S1 verb|dog-Fin-Ind-Pres-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*INV:	there you sit on the rug . 645622_646702
+%mor:	adv|there pron|you-Prs-Nom-S2 verb|sit-Fin-Ind-Pres-S2 adp|on det|the-Def-Art noun|rug .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	xxx dog . 648130_648530
+%mor:	noun|dog .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	dog'll sit there . 649290_650140
+%mor:	noun|dog~aux|will-Fin-S verb|sit-Inf-S adv|there .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*INV:	okay back up back up . 650303_652033
+%mor:	intj|okay adv|back adv|up adv|back adv|up .
+%gra:	1|3|DISCOURSE 2|3|ADVMOD 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	back up back up . 652085_653495
+%mor:	adv|back adv|up adv|back adv|up .
+%gra:	1|4|ROOT 2|1|ADVMOD 3|4|ADVMOD 4|1|ADVMOD 5|1|PUNCT
+*CHI:	xxx down . 654173_654813
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	come here baby . 654836_655406
+%mor:	verb|come-Fin-Imp-S adv|here noun|baby .
+%gra:	1|3|ROOT 2|1|ADVMOD 3|1|OBJ 4|1|PUNCT
+*INV:	this baby's gonna sit on the windowsill . 656771_659261
+%mor:	det|this-Def-Dem noun|baby~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|sit-Inf-S adp|on det|the-Def-Art noun|windowsill .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*INV:	look_it that . 659306_659946
+%mor:	verb|lookit-Fin-Imp-S pron|that-Dem-S1 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	xxx down . 662488_663098
+%mor:	adv|down .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	down baby down . 663339_664379
+%mor:	adv|down noun|baby adv|down .
+%gra:	1|2|ADVMOD 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*INV:	whoops sorry . 665726_666596
+%mor:	noun|whoop-Plur adj|sorry-Pos-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*INV:	up [/] up [/] up [/] up . 668223_670143
+%mor:	adv|up .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*INV:	oh good I thought there were no more babies . 671480_673590
+%mor:	intj|oh intj|good pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Past-S1 pron|there-Int-S1 verb|be-Fin-Ind-Past-S3 det|no-Def adj|more-Cmp-S1 noun|baby-Plur .
+%gra:	1|4|DISCOURSE 2|4|DISCOURSE 3|4|NSUBJ 4|9|ROOT 5|6|EXPL 6|4|CCOMP 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|4|PUNCT
+*INV:	I'll save you . 674244_675404
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|save-Inf-S pron|you-Prs-Acc-S2 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	xxx .
+*INV:	now this baby's sitting on the table .
+%mor:	adv|now det|this-Def-Dem noun|baby~aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|table .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	xxx baby xxx . 679043_680753
+%mor:	noun|baby .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby [>] +/.
+%mor:	noun|baby +/.
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	no [<] ? 681214_682484
+%mor:	intj|no ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh that baby's sitting on the plate . 684623_686573
+%mor:	intj|oh det|that-Def-Dem noun|baby~aux|be-Fin-Ind-Pres-S3 verb|sit-Part-Pres-S adp|on det|the-Def-Art noun|plate .
+%gra:	1|5|DISCOURSE 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|CASE 7|8|DET 8|5|OBL 9|5|PUNCT
+*CHI:	xxx .
+*INV:	that's silly . 688060_688890
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 adj|silly-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	a xxx . 689626_691206
+%mor:	det|a-Ind-Art .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	there's nothing on that plate . 692206_693406
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 pron|nothing-Neg-S1 adp|on det|that-Def-Dem noun|plate .
+%gra:	1|2|EXPL 2|6|ROOT 3|2|NSUBJ 4|6|CASE 5|6|DET 6|3|NMOD 7|2|PUNCT
+*CHI:	no xxx . 693706_694636
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	oh you want a bear on the plate ? 695116_696696
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 det|a-Ind-Art noun|bear adp|on det|the-Def-Art noun|plate ?
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|3|OBJ 6|8|CASE 7|8|DET 8|3|OBL 9|3|PUNCT
+*CHI:	out [/] out [/] out [/] out [/] out [/] out [/] out . 696803_700733
+%mor:	adv|out .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	everybody out . 700939_701569
+%mor:	pron|everybody-Tot-S1 adv|out .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	everybody out . 702203_702933
+%mor:	pron|everybody-Tot-S1 adv|out .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	everybody out . 703098_703918
+%mor:	pron|everybody-Tot-S1 adv|out .
+%gra:	1|2|ROOT 2|1|ADVMOD 3|1|PUNCT
+*CHI:	xxx .
+*CHI:	doggie xxx . 710952_711412
+%mor:	noun|doggie .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	dog cat and a bear . 712169_713509
+%mor:	noun|dog noun|cat cconj|and det|a-Ind-Art noun|bear .
+%gra:	1|2|COMPOUND 2|5|ROOT 3|5|CC 4|5|DET 5|2|CONJ 6|2|PUNCT
+*CHI:	xxx .
+*INV:	should we get a big bear ? 716113_717053
+%mor:	aux|should-Fin-S pron|we-Prs-Nom-P1 verb|get-Inf-S det|a-Ind-Art adj|big-Pos-S1 noun|bear ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	xxx bear . 718398_718988
+%mor:	verb|bear-Inf-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	there's a big bear . 719097_720157
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-Pos-S1 noun|bear .
+%gra:	1|2|EXPL 2|5|ROOT 3|5|DET 4|5|AMOD 5|2|NSUBJ 6|2|PUNCT
+*CHI:	xxx bear . 720727_721097
+%mor:	verb|bear-Inf-Imp-S .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx that bear's xxx . 722650_722657
+%mor:	det|that-Def-Dem noun|bear~part|s .
+%gra:	1|2|DET 2|3|ROOT 3|2|CASE 4|2|PUNCT
+*CHI:	xxx bear's xxx .
+%mor:	noun|bear~part|s .
+%gra:	1|2|ROOT 2|1|CASE 3|1|PUNCT
+*CHI:	baby xxx baby .
+%mor:	noun|baby noun|baby .
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*INV:	I wonder +... 722657_726067
+%mor:	pron|I-Prs-Nom-S1 verb|wonder-Fin-Ind-Pres-S1 +...
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*INV:	oh baby in there . 727067_731687
+%mor:	intj|oh noun|baby adp|in adv|there .
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|4|CASE 4|2|NMOD 5|2|PUNCT
+*CHI:	xxx .
+*INV:	and then a bear maybe in here ? 733247_736097
+%mor:	cconj|and adv|then det|a-Ind-Art noun|bear adv|maybe adp|in adv|here ?
+%gra:	1|4|CC 2|4|ADVMOD 3|4|DET 4|7|ROOT 5|4|ADVMOD 6|7|CASE 7|4|NMOD 8|4|PUNCT
+*INV:	I don't think the bear will fit here . 736146_737796
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S det|the-Def-Art noun|bear aux|will-Fin-S verb|fit-Inf-S adv|here .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|6|DET 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|8|ADVMOD 10|4|PUNCT
+@End

@@ -1,0 +1,588 @@
+@UTF8
+@PID:	11312/c-00006052-1
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Target_Child
+@Options:	multi
+@ID:	eng|EllisWeismer|MOT||female|||Mother|||
+@ID:	eng|EllisWeismer|CHI|2;06.|male|TD||Target_Child||pc|
+@Media:	12028, audio
+@Transcriber:	Jordan Abramowitz
+@Types:	long, toyplay, TD
+*MOT:	wanna put it on ? 100_700
+%mor:	intj|wanna verb|put-Fin-Ind-Past-S pron|it-Prs-Acc-S3 adp|on ?
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|2|OBJ 4|2|COMPOUND-PRT 5|2|PUNCT
+*MOT:	where does this go ? 2926_3246
+%mor:	adv|where aux|do-Fin-Ind-Pres-S3 pron|this-Dem-S1 verb|go-Inf-S ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*MOT:	do you need help ? 6417_8387
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|need-Inf-S noun|help ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	this one ? 9132_9372
+%mor:	det|this-Def-Dem noun|one ?
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*MOT:	okay . 16072_16192
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	there it goes . 16242_16632
+%mor:	pron|there-Int-S1 pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|3|EXPL 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*MOT:	is that how it goes ? 16840_17290
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that adv|how pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 ?
+%gra:	1|5|ROOT 2|5|MARK 3|5|ADVMOD 4|5|NSUBJ 5|1|CCOMP 6|1|PUNCT
+*MOT:	maybe it clips on like that . 17357_17977
+%mor:	adv|maybe pron|it-Prs-Nom-S3 verb|clip-Fin-Ind-Pres-S3 adp|on adp|like pron|that-Dem-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|6|ROOT 4|3|COMPOUND-PRT 5|6|CASE 6|3|OBL 7|3|PUNCT
+*MOT:	you knew how it goes . 19368_19778
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Past-S2 adv|how pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|ADVMOD 4|5|NSUBJ 5|2|CCOMP 6|2|PUNCT
+*MOT:	there [=! gasps] ! 21096_21316
+%mor:	adv|there !
+%gra:	1|1|ROOT 2|1|PUNCT
+%com:	opens barn door and cow moos
+*MOT:	is there someone who can ride that tractor in there ? 25099_31599
+%mor:	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 pron|someone-Ind-S1 pron|who-Rel-S1 aux|can-Fin-S verb|ride-Inf-S det|that-Def-Dem noun|tractor adp|in adv|there ?
+%gra:	1|10|ROOT 2|1|EXPL 3|1|NSUBJ 4|6|NSUBJ 5|6|AUX 6|3|ACL-RELCL 7|8|DET 8|6|OBJ 9|10|CASE 10|6|OBL 11|1|PUNCT
+*MOT:	let's see . 34186_34456
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*MOT:	what's that ? 39322_39682
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem-S1 ?
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*CHI:	<is this> [//] it [//] that's a wagon . 42446_45276
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|wagon .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*MOT:	that is a wagon . 45459_46159
+%mor:	pron|that-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|wagon .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	put it down here . 46821_49811
+%mor:	verb|put-Fin-Imp-S pron|it-Prs-Acc-S3 adp|down adv|here .
+%gra:	1|4|ROOT 2|1|OBJ 3|1|COMPOUND-PRT 4|1|ADVMOD 5|1|PUNCT
+*MOT:	you're gonna put it down there ? 50085_50955
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adv|gonna verb|put-Part-Past-S pron|it-Prs-Acc-S3 adp|down adv|there ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|ADVMOD 8|4|PUNCT
+*MOT:	okay . 51240_51480
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and this +... 52584_53194
+%mor:	cconj|and pron|this-Dem-S1 +...
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+%com:	rustles with toys
+*CHI:	and this tractor . 56205_58785
+%mor:	cconj|and det|this-Def-Dem noun|tractor .
+%gra:	1|3|CC 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	that's a tractor . 59812_60782
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|tractor .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	and put in . 61952_62992
+%mor:	cconj|and verb|put-Fin-Imp-S adp|in .
+%gra:	1|2|CC 2|3|ROOT 3|2|COMPOUND-PRT 4|2|PUNCT
+*CHI:	and this put in . 65530_67420
+%mor:	cconj|and pron|this-Dem-S1 verb|put-Fin-Ind-Past-S3 adv|in .
+%gra:	1|3|CC 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*MOT:	you're gonna put it in ? 68329_69369
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adv|gonna verb|put-Part-Past-S pron|it-Prs-Acc-S3 adv|in ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	&-uh boom@o . 70455_70845
+%mor:	noun|boom .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	&=laughs boom@o . 71922_72062
+%mor:	noun|boom .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	is there someone in there for the tractor ? 77350_79030
+%mor:	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 pron|someone-Ind-S1 adp|in adv|there adp|for det|the-Def-Art noun|tractor ?
+%gra:	1|8|ROOT 2|1|EXPL 3|1|NSUBJ 4|5|CASE 5|3|NMOD 6|8|CASE 7|8|DET 8|1|OBL 9|1|PUNCT
+*MOT:	&=gasps who's that ? 82007_82787
+%mor:	pron|who-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|that-Dem-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	a horsie . 85724_86354
+%mor:	det|a-Ind-Art noun|horsie .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*MOT:	oh horsie . 87576_88086
+%mor:	intj|oh noun|horsie .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*MOT:	what's he doing ? 90477_91147
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|do-Part-Pres-S ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	beep@o . 93413_93593
+%mor:	noun|beep .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	beep@o . 94396_94596
+%mor:	noun|beep .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	did that horsie beep your nose ? 94888_95918
+%mor:	aux|do-Fin-Ind-Past-S3 det|that-Def-Dem noun|horsie verb|beep-Inf-S pron|your-Prs-Gen-S2 noun|nose ?
+%gra:	1|4|AUX 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|NMOD-POSS 6|4|OBJ 7|4|PUNCT
+*MOT:	oh . 99140_99170
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	where's the horsie ? 101154_102074
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|horsie ?
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	hm hm . 103204_105244
+%mor:	intj|hm intj|hm .
+%gra:	1|2|ROOT 2|1|FLAT 3|1|PUNCT
+*MOT:	yeah what's he doing ? 105755_107715
+%mor:	intj|yeah pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|do-Part-Pres-S ?
+%gra:	1|5|DISCOURSE 2|5|OBJ 3|5|AUX 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	hm . 108452_108652
+%mor:	intj|hm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	he's getting the tractor ? 111051_112031
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Pres-S det|the-Def-Art noun|tractor ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	should we make him go ? 112327_113027
+%mor:	aux|should-Fin-S pron|we-Prs-Nom-P1 verb|make-Inf-S pron|he-Prs-Acc-S3 verb|go-Inf-S ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|XCOMP 6|3|PUNCT
+*MOT:	&=gasps we need a driver . 113151_114701
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 det|a-Ind-Art noun|driver .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	who's gonna drive the tractor ? 114799_116089
+%mor:	pron|who-Rel-S1~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|drive-Inf-S det|the-Def-Art noun|tractor ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	we need a driver . 118738_119678
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 det|a-Ind-Art noun|driver .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	here it comes boom@o boom@o boom@o boom@o boom@o boom@o boom@o . 120376_124806
+%mor:	adv|here pron|it-Prs-Nom-S3 verb|come-Fin-Ind-Pres-S3 noun|boom noun|boom noun|boom noun|boom noun|boom noun|boom noun|boom .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|10|ROOT 4|6|COMPOUND 5|6|COMPOUND 6|7|COMPOUND 7|8|COMPOUND 8|10|COMPOUND 9|10|COMPOUND 10|3|OBJ 11|3|PUNCT
+*MOT:	there's the farmer . 125844_126594
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|farmer .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*MOT:	the farmer goes on the tractor . 130339_131469
+%mor:	det|the-Def-Art noun|farmer verb|go-Fin-Ind-Pres-S3 adp|on det|the-Def-Art noun|tractor .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*MOT:	here's another farmer for that tractor . 133277_134637
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|another-Def noun|farmer adp|for det|that-Def-Dem noun|tractor .
+%gra:	1|7|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|7|CASE 6|7|DET 7|4|NMOD 8|1|PUNCT
+*MOT:	I think he fits better . 134852_135832
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|fit-Fin-Ind-Pres-S3 adj|good-Cmp-S1 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|XCOMP 6|2|PUNCT
+*MOT:	can you make him drive that tractor ? 136104_137374
+%mor:	aux|can-Fin-S pron|you-Prs-Nom-S2 verb|make-Inf-S pron|he-Prs-Acc-S3 verb|drive-Inf-S det|that-Def-Dem noun|tractor ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|3|XCOMP 6|7|DET 7|5|OBJ 8|3|PUNCT
+*MOT:	look at this one . 139339_139869
+%mor:	verb|look-Fin-Imp-S adp|at det|this-Def-Dem noun|one .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
+*MOT:	boom@o boom@o boom@o boom@o boom@o boom@o boom@o . 140713_143343
+%mor:	noun|boom noun|boom noun|boom noun|boom noun|boom noun|boom noun|boom .
+%gra:	1|2|COMPOUND 2|3|COMPOUND 3|4|COMPOUND 4|5|COMPOUND 5|6|COMPOUND 6|7|COMPOUND 7|7|ROOT 8|7|PUNCT
+*MOT:	lets go horsie . 143430_144120
+%mor:	noun|let-Plur verb|go-Inf-S noun|horsie .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	0 . 146898_147078
+%act:	makes tractor noises .
+*CHI:	oh . 148376_148996
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	<is your tractor> [//] is your farmer driving ? 150695_152625
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 noun|farmer noun|driving ?
+%gra:	1|4|COP 2|4|NMOD-POSS 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*MOT:	put it on ? 154854_159674
+%mor:	verb|put-Fin-Imp-S pron|it-Prs-Acc-S3 adv|on ?
+%gra:	1|3|ROOT 2|1|OBJ 3|1|ADVMOD 4|1|PUNCT
+*CHI:	I know is put it on . 159742_161632
+%mor:	pron|I-Prs-Nom-S1 verb|know-Fin-Ind-Pres-S1 aux|be-Fin-Ind-Pres-S3 verb|put-Part-Past-S pron|it-Prs-Acc-S3 adp|on .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|AUX-PASS 4|2|CCOMP 5|4|OBJ 6|4|COMPOUND-PRT 7|2|PUNCT
+*MOT:	you don't know how to put it on ? 163069_164049
+%mor:	pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2~part|not verb|know-Inf-S adv|how part|to verb|put-Inf-S pron|it-Prs-Acc-S3 adp|on ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|4|OBJ 6|7|MARK 7|5|ACL 8|7|OBJ 9|7|COMPOUND-PRT 10|4|PUNCT
+*MOT:	wanna try again ? 166057_166617
+%mor:	intj|wanna verb|try-Fin-Imp-S adv|again ?
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	I don't put it on . 175646_177726
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|put-Inf-S pron|it-Prs-Acc-S3 adp|on .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|4|PUNCT
+*MOT:	it's not going on is it ? 177830_178950
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 part|not verb|go-Part-Pres-S adp|on aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Acc-S3 ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|4|COMPOUND-PRT 6|7|COP 7|4|ADVCL 8|4|PUNCT
+*MOT:	should we +... 179430_179630
+%mor:	aux|should-Fin-S pron|we-Prs-Nom-P1 +...
+%gra:	1|2|ROOT 2|1|NSUBJ 3|1|PUNCT
+*MOT:	hook it right there . 180414_181224
+%mor:	verb|hook-Fin-Imp-S pron|it-Prs-Acc-S3 adv|right adv|there .
+%gra:	1|4|ROOT 2|1|OBJ 3|4|ADVMOD 4|1|ADVMOD 5|1|PUNCT
+*MOT:	you got it . 184985_186145
+%mor:	pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Past-S2 pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	now it's on . 187949_188809
+%mor:	adv|now pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|on .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*MOT:	now where does the farmer go ? 188883_189563
+%mor:	adv|now adv|where aux|do-Fin-Ind-Pres-S3 det|the-Def-Art noun|farmer verb|go-Inf-S ?
+%gra:	1|6|ADVMOD 2|6|ADVMOD 3|6|AUX 4|5|DET 5|6|NSUBJ 6|6|ROOT 7|6|PUNCT
+*CHI:	&-uh right here . 196711_197111
+%mor:	adv|right adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	I'm right here . 198106_198796
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adv|right adv|here .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	is he gonna take a animal with him ? 200108_201528
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 adv|gonna verb|take-Inf-S det|a-Ind-Art noun|animal adp|with pron|he-Prs-Acc-S3 ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|ADVMOD 4|8|ROOT 5|6|DET 6|4|OBJ 7|8|CASE 8|4|OBL 9|4|PUNCT
+*MOT:	maybe he wants to take an animal with him . 202445_204275
+%mor:	adv|maybe pron|he-Prs-Nom-S3 verb|want-Fin-Ind-Pres-S3 part|to verb|take-Inf-S det|a-Ind-Art noun|animal adp|with pron|he-Prs-Acc-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|9|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|9|CASE 9|5|OBL 10|3|PUNCT
+*MOT:	who's he gonna take ? 204312_204912
+%mor:	pron|who-Int-S1~aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 adv|gonna verb|take-Inf-S ?
+%gra:	1|5|OBJ 2|5|AUX 3|5|NSUBJ 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*MOT:	who's in there to go +... 207441_208731
+%mor:	pron|who-Rel-S1~aux|be-Fin-Ind-Pres-S3 adp|in adv|there part|to verb|go-Inf-S +...
+%gra:	1|4|NSUBJ 2|4|COP 3|4|CASE 4|6|ROOT 5|6|MARK 6|4|ADVCL 7|4|PUNCT
+*CHI:	and the chicken ride [*] . 209363_211963
+%mor:	cconj|and det|the-Def-Art noun|chicken noun|ride .
+%gra:	1|4|CC 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*MOT:	the chicken is going to ride . 212539_213989
+%mor:	det|the-Def-Art noun|chicken aux|be-Fin-Ind-Pres-S3 verb|go-Part-Pres-S part|to verb|ride-Inf-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*MOT:	okay Chicken . 216040_216740
+%mor:	intj|okay noun|chicken .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*MOT:	0 . 218639_218729
+%act:	makes clucking sounds .
+*MOT:	you gonna follow this farmer ? 220742_221712
+%mor:	pron|you-Prs-Nom-S2 adv|gonna verb|follow-Inf-S det|this-Def-Dem noun|farmer ?
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	here we go . 222639_223329
+%mor:	adv|here pron|we-Prs-Nom-P1 verb|go-Fin-Ind-Pres-P1 .
+%gra:	1|3|ROOT 2|3|NSUBJ 3|1|ADVCL-RELCL 4|1|PUNCT
+*MOT:	0 . 230487_231947
+%act:	makes tractor sounds .
+*MOT:	there he goes . 235329_239379
+%mor:	adv|there pron|he-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*MOT:	oh maybe they can go get some icecream . 239479_241109
+%mor:	intj|oh adv|maybe pron|they-Prs-Nom-P3 aux|can-Fin-S verb|go-Inf-S verb|get-Inf-S det|some-Def noun|icecream .
+%gra:	1|5|DISCOURSE 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|5|XCOMP 7|8|DET 8|6|OBJ 9|5|PUNCT
+*MOT:	here comes your other farmer . 247121_248661
+%mor:	adv|here verb|come-Fin-Ind-Pres-S3 pron|your-Prs-Gen-S2 adj|other-Pos-S1 noun|farmer .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|5|NMOD-POSS 4|5|AMOD 5|2|NSUBJ 6|2|PUNCT
+*MOT:	0 . 250282_250982
+%act:	makes tractor sounds .
+*MOT:	&=gasps what happened to him ? 255067_255537
+%mor:	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to pron|he-Prs-Acc-S3 ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*MOT:	what happened to the farmer ? 255810_258029
+%mor:	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to det|the-Def-Art noun|farmer ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*MOT:	you wanna get some of these out ? 261902_263752
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-S verb|get-Inf-S det|some-Def adp|of pron|this-Dem-P1 adv|out ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|3|ADVMOD 8|3|PUNCT
+*MOT:	what's in here ? 266214_267014
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|in adv|here ?
+%gra:	1|4|NSUBJ 2|4|COP 3|4|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	icecream . 268638_268938
+%mor:	noun|icecream .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	is it good ? 273215_273725
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 adj|good-Pos-S1 ?
+%gra:	1|3|COP 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	icecream . 275580_275940
+%mor:	noun|icecream .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	mm . 276191_276711
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	icecream . 278142_278552
+%mor:	noun|icecream .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	icecream . 278838_279688
+%mor:	noun|icecream .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	I have icecream too . 279808_280668
+%mor:	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 noun|icecream adv|too .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*MOT:	oh , I have a pink icecream . 280737_284927
+%mor:	intj|oh cm|cm pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 det|a-Ind-Art adj|pink-Pos-S1 noun|icecream .
+%gra:	1|4|DISCOURSE 2|1|PUNCT 3|4|NSUBJ 4|7|ROOT 5|7|DET 6|7|AMOD 7|4|OBJ 8|4|PUNCT
+%com:	makes smacking sounds
+*MOT:	smells like strawberry . 287564_288584
+%mor:	verb|smell-Fin-Ind-Pres-S3 adp|like noun|strawberry .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*MOT:	yum . 293640_293920
+%mor:	intj|yum .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	mm . 300360_300530
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	you even can scoop the icecream . 303318_303998
+%mor:	pron|you-Prs-Nom-S2 adv|even aux|can-Fin-S verb|scoop-Inf-S det|the-Def-Art noun|icecream .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	I can scoop the icecream . 305515_307495
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|scoop-Inf-S det|the-Def-Art noun|icecream .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	I can scoop the icecream . 308266_309526
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S verb|scoop-Inf-S det|the-Def-Art noun|icecream .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	here's some to scoop . 309669_310519
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|some-Def part|to verb|scoop-Inf-S .
+%gra:	1|5|ROOT 2|1|COP 3|1|NSUBJ 4|5|MARK 5|3|ACL 6|1|PUNCT
+*CHI:	oh [/] oh blueberry . 312870_314650
+%mor:	intj|oh noun|blueberry .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*MOT:	oh what ? 316355_317055
+%mor:	intj|oh pron|what-Int-S1 ?
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*CHI:	it's a blueberry . 318526_319816
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|blueberry .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*MOT:	it's a blueberry icecream ? 320266_321386
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|blueberry noun|icecream ?
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*MOT:	oh that looks good . 321662_323152
+%mor:	intj|oh pron|that-Dem-S1 verb|look-Fin-Ind-Pres-S3 adj|good-Pos-S1 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|XCOMP 5|3|PUNCT
+*MOT:	I see a cherry . 324408_325388
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 det|a-Ind-Art noun|cherry .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	do you want it on top ? 325878_330058
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S pron|it-Prs-Acc-S3 adp|on noun|top ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|3|OBJ 5|6|CASE 6|3|OBL 7|3|PUNCT
+*CHI:	and the icecream . 341857_343167
+%mor:	cconj|and det|the-Def-Art noun|icecream .
+%gra:	1|3|CC 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	and you're eating the icecream . 344213_345883
+%mor:	cconj|and pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 verb|eat-Part-Pres-S det|the-Def-Art noun|icecream .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	that is yummy . 346112_346612
+%mor:	pron|that-Dem-S1 aux|be-Fin-Ind-Pres-S3 adj|yummy-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*MOT:	that looks yummy . 348720_349200
+%mor:	pron|that-Dem-S1 verb|look-Fin-Ind-Pres-S3 adj|yummy-Pos-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	<and the> [/] and the blue icecream . 349708_352958
+%mor:	cconj|and det|the-Def-Art adj|blue-Pos-S1 noun|icecream .
+%gra:	1|4|CC 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	oh <and a> [/] and a blue icecream . 352997_355297
+%mor:	intj|oh cconj|and det|a-Ind-Art adj|blue-Pos-S1 noun|icecream .
+%gra:	1|5|DISCOURSE 2|5|CC 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*MOT:	I have another scoop of icecream . 355366_357126
+%mor:	pron|I-Prs-Nom-S1 verb|have-Fin-Ind-Pres-S1 det|another-Def noun|scoop adp|of noun|icecream .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|4|NMOD 7|2|PUNCT
+*MOT:	you want it ? 357165_357385
+%mor:	pron|you-Prs-Nom-S2 verb|want-Fin-Ind-Pres-S2 pron|it-Prs-Acc-S3 ?
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	mm yummy . 361997_362227
+%mor:	intj|mm adj|yummy-Pos-S1 .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*MOT:	what happened to that icecream ? 364945_366215
+%mor:	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to det|that-Def-Dem noun|icecream ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*MOT:	&=laughs .
+*MOT:	here should we put the icecream in [/] in there before they melt ? 377152_379572
+%mor:	adv|here aux|should-Fin-S pron|we-Prs-Nom-P1 verb|put-Inf-S det|the-Def-Art noun|icecream adp|in adv|there sconj|before pron|they-Prs-Nom-P3 verb|melt-Fin-Ind-Pres-P3 ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|11|ROOT 5|6|DET 6|4|OBJ 7|8|CASE 8|4|OBL 9|11|MARK 10|11|NSUBJ 11|4|ADVCL 12|4|PUNCT
+*MOT:	so they don't melt ? 380205_381565
+%mor:	adv|so pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|melt-Inf-S ?
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*MOT:	in . 383150_383480
+%mor:	adv|in .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	three (.) <and two> [/] (.) and two [/] two +/. 386742_396452
+%mor:	num|three cconj|and num|two +/.
+%gra:	1|3|ROOT 2|3|CC 3|1|CONJ 4|1|PUNCT
+*MOT:	two icecreams ? 396744_396924
+%mor:	num|two noun|icecream-Plur ?
+%gra:	1|2|NUMMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	how many are in there ? 399469_400369
+%mor:	adv|how adj|many-Pos-S1 aux|be-Fin-Ind-Pres-P3 adp|in adv|there ?
+%gra:	1|2|ADVMOD 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	I'm close it [*] . 402833_403983
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|close-Pos-S1 pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	I'm gonna close it . 404302_405052
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adv|gonna verb|close-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*MOT:	close it up . 406170_406720
+%mor:	verb|close-Fin-Imp-S pron|it-Prs-Acc-S3 adp|up .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|COMPOUND-PRT 4|1|PUNCT
+*CHI:	three (.) two (.) one . 407895_412685
+%mor:	num|three num|two num|one .
+%gra:	1|3|ROOT 2|1|DEP 3|1|DEP 4|1|PUNCT
+*MOT:	three two one icecream . 412800_414430
+%mor:	num|three num|two num|one noun|icecream .
+%gra:	1|4|NUMMOD 2|4|NUMMOD 3|4|NUMMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	okay close it . 418501_419441
+%mor:	intj|okay verb|close-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|DISCOURSE 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	now [/] now eat the icecream . 420810_423180
+%mor:	adv|now verb|eat-Fin-Imp-S det|the-Def-Art noun|icecream .
+%gra:	1|2|ADVMOD 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	now eat the icecream . 423314_424784
+%mor:	adv|now verb|eat-Fin-Imp-S det|the-Def-Art noun|icecream .
+%gra:	1|2|ADVMOD 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+%com:	makes eating sounds
+*MOT:	can I have some icecream please ? 426390_427490
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|some-Def noun|icecream intj|please ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|DISCOURSE 7|3|PUNCT
+*MOT:	0 . 430851_430961
+%act:	makes eating sounds .
+*MOT:	how_about the horsie ? 434625_435395
+%mor:	intj|howabout det|the-Def-Art noun|horsie ?
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	can the horsie eat some icecream ? 439499_440679
+%mor:	aux|can-Fin-S det|the-Def-Art noun|horsie verb|eat-Inf-S det|some-Def noun|icecream ?
+%gra:	1|4|AUX 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	mm . 441143_441323
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	does he like it ? 444077_444547
+%mor:	aux|do-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|like-Inf-S pron|it-Prs-Acc-S3 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	now the horsie is eat icecream [*] . 451061_454621
+%mor:	adv|now det|the-Def-Art noun|horsie aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Past-S noun|icecream .
+%gra:	1|5|ADVMOD 2|3|DET 3|5|NSUBJ 4|5|COP 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*MOT:	mhm now the horsie's eating icecream . 455548_456688
+%mor:	intj|mhm adv|now det|the-Def-Art noun|horsie~part|s noun|eating noun|icecream .
+%gra:	1|7|DISCOURSE 2|7|ADVMOD 3|4|DET 4|7|NMOD-POSS 5|4|CASE 6|7|AMOD 7|7|ROOT 8|7|PUNCT
+*MOT:	how_about those other animals ? 459725_460945
+%mor:	verb|howabout-Fin-Imp-S det|that-Def-Dem adj|other-Pos-S1 noun|animal-Plur ?
+%gra:	1|4|ROOT 2|4|DET 3|4|AMOD 4|1|OBJ 5|1|PUNCT
+*MOT:	do you think they wanna eat icecream ? 461086_462126
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S pron|they-Prs-Nom-P3 aux|wanna-Fin-S verb|eat-Inf-S noun|icecream ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|6|NSUBJ 5|6|AUX 6|3|CCOMP 7|6|OBJ 8|3|PUNCT
+*MOT:	who are those other animals ? 464493_465693
+%mor:	pron|who-Rel-S1 aux|be-Fin-Ind-Pres-P3 det|that-Def-Dem adj|other-Pos-S1 noun|animal-Plur ?
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|5|ROOT 6|5|PUNCT
+*MOT:	hm ? 468838_469118
+%mor:	intj|hm ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh [/] oh big icecream . 472105_474305
+%mor:	intj|oh adj|big-Pos-S1 noun|icecream .
+%gra:	1|3|DISCOURSE 2|3|AMOD 3|3|ROOT 4|3|PUNCT
+*MOT:	oh a big icecream . 475517_476717
+%mor:	intj|oh det|a-Ind-Art adj|big-Pos-S1 noun|icecream .
+%gra:	1|4|DISCOURSE 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	that is a big one isn't it ? 477380_478760
+%mor:	pron|that-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-Pos-S1 noun|one aux|be-Fin-Ind-Pres-S3~part|not pron|it-Prs-Nom-S3 ?
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|AMOD 5|8|ROOT 6|8|COP 7|8|ADVMOD 8|5|PARATAXIS 9|5|PUNCT
+*MOT:	that is a big icecream mm . 480065_481775
+%mor:	pron|that-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|big-Pos-S1 noun|icecream noun|mm .
+%gra:	1|6|NSUBJ 2|6|COP 3|6|DET 4|6|AMOD 5|6|COMPOUND 6|6|ROOT 7|6|PUNCT
+*MOT:	I want icecream . 482798_485288
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 noun|icecream .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	who's eating that icecream ? 488255_489415
+%mor:	pron|who-Rel-S1~aux|be-Fin-Ind-Pres-S3 verb|eat-Part-Pres-S det|that-Def-Dem noun|icecream ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*CHI:	xxx I want +... 499879_504089
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 +...
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+%com:	toy drops
+*CHI:	no . 504577_504667
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	no ? 505627_505897
+%mor:	intj|no ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	you don't want that toy ? 505970_506370
+%mor:	pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2~part|not verb|want-Inf-S det|that-Def-Dem noun|toy ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	you don't want to answer the telephone ? 508257_509567
+%mor:	pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2~part|not verb|want-Inf-S part|to verb|answer-Inf-S det|the-Def-Art noun|telephone ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|8|ROOT 5|6|MARK 6|4|XCOMP 7|8|DET 8|6|OBJ 9|4|PUNCT
+*MOT:	that's okay . 511219_514409
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 adj|okay-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*MOT:	there's a cow . 515269_515719
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|cow .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*MOT:	do you think the cow wants some icecream ?
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S det|the-Def-Art noun|cow verb|want-Fin-Ind-Pres-S3 det|some-Def noun|icecream ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|8|ROOT 4|5|DET 5|6|NSUBJ 6|3|CCOMP 7|8|DET 8|6|OBJ 9|3|PUNCT
+*MOT:	what else is in this bag ? 517633_518962
+%mor:	pron|what-Int-S1 adv|else aux|be-Fin-Ind-Pres-S3 adp|in det|this-Def-Dem noun|bag ?
+%gra:	1|6|NSUBJ 2|1|AMOD 3|6|COP 4|6|CASE 5|6|DET 6|6|ROOT 7|6|PUNCT
+*MOT:	&=gasps what are these ? 520153_521113
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-P3 pron|this-Dem-P1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	&+s &+s xxx . 521214_521274
+*MOT:	what are they ? 526731_527951
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-P3 pron|they-Prs-Nom-P3 ?
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*CHI:	&-uh .
+*MOT:	mm . 531559_531569
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx broccoli . 532428_532511
+%mor:	noun|broccoli .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	they're broccoli ? 532511_533061
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 noun|broccoli ?
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	look at this . 536932_537132
+%mor:	verb|look-Fin-Imp-S adp|at pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*CHI:	xxx look at this . 537344_539542
+%mor:	verb|look-Fin-Imp-S adp|at pron|this-Dem-S1 .
+%gra:	1|3|ROOT 2|3|CASE 3|1|OBL 4|1|PUNCT
+*MOT:	<is this> [//] what is this ? 539558_540838
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	I don't know . 540986_542566
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	xxx .
+*MOT:	you know what it is ? 546297_546467
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Rel-S1 pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|3|NSUBJ 5|3|ACL-RELCL 6|2|PUNCT
+*MOT:	what is it ? 548798_549238
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 ?
+%gra:	1|3|ROOT 2|1|COP 3|1|NSUBJ 4|1|PUNCT
+*CHI:	it's [/] it's +... 550775_551035
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 +...
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	it's xxx Mcdonald's . 555924_557554
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 noun|McDonald~part|s .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|CASE 5|3|PUNCT
+*MOT:	it's Mcdonald's . 557890_558750
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 noun|McDonald~part|s .
+%gra:	1|3|NSUBJ 2|3|COP 3|4|ROOT 4|3|CASE 5|3|PUNCT
+*MOT:	it's a hamburger you're right . 558854_560524
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|hamburger pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|right-Pos-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|7|ROOT 5|7|NSUBJ 6|7|COP 7|4|ACL-RELCL 8|4|PUNCT
+*MOT:	what do you think these are ? 561213_562323
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S pron|this-Dem-P1 aux|be-Fin-Ind-Pres-P3 ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|1|NSUBJ 6|1|COP 7|4|PUNCT
+*MOT:	do you want some of these to go with your hamburger ? 563154_564834
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|want-Inf-S det|some-Def adp|of pron|this-Dem-P1 part|to verb|go-Inf-S adp|with pron|your-Prs-Gen-S2 noun|hamburger ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|11|ROOT 4|3|OBJ 5|6|CASE 6|4|NMOD 7|8|MARK 8|3|XCOMP 9|11|CASE 10|11|NMOD-POSS 11|8|OBL 12|3|PUNCT
+*MOT:	&=eating I think they're french_fries . 571707_572927
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 noun|frenchfry .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|NSUBJ 4|5|COP 5|2|CCOMP 6|2|PUNCT
+*MOT:	can you put them in the spoon ? 574429_575539
+%mor:	aux|can-Fin-S pron|you-Prs-Nom-S2 verb|put-Inf-S pron|they-Prs-Acc-P3 adp|in det|the-Def-Art noun|spoon ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|PUNCT
+*CHI:	no . 577461_577711
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	french_fries no okay . 578138_578508
+%mor:	noun|frenchfry-Plur det|no-Def-Art intj|okay .
+%gra:	1|3|ROOT 2|1|DISCOURSE 3|1|DISCOURSE 4|1|PUNCT
+*MOT:	you like the icecream better . 580891_581811
+%mor:	pron|you-Prs-Nom-S2 verb|like-Fin-Ind-Pres-S2 det|the-Def-Art noun|icecream adj|good-Cmp-S1 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|XCOMP 6|2|PUNCT
+*MOT:	is the icecream better than the french_fries ? 582039_583609
+%mor:	aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|icecream adj|good-Cmp-S1 adp|than det|the-Def-Art noun|frenchfry-Plur ?
+%gra:	1|4|COP 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*MOT:	mm . 584892_585442
+%mor:	intj|mm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	I'll put all this food in the tractor . 589991_593551
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|put-Inf-S det|all-Def det|this-Def-Dem noun|food adp|in det|the-Def-Art noun|tractor .
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|6|DET-PREDET 5|6|DET 6|3|OBJ 7|9|CASE 8|9|DET 9|3|OBL 10|3|PUNCT
+*MOT:	because maybe the animals want to eat it . 593956_595496
+%mor:	sconj|because adv|maybe det|the-Def-Art noun|animal-Plur verb|want-Fin-Ind-Pres-P3 part|to verb|eat-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|MARK 2|5|ADVMOD 3|4|DET 4|5|NSUBJ 5|8|ROOT 6|7|MARK 7|5|XCOMP 8|7|OBJ 9|5|PUNCT
+*MOT:	do you think they know +... 597025_597065
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S pron|they-Prs-Nom-P3 verb|know-Fin-Ind-Pres-P3 +...
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|NSUBJ 5|3|CCOMP 6|3|PUNCT
+*MOT:	0 . 597232_599332
+%act:	makes tractor sounds .
+*MOT:	uhoh what happened ? 600891_601841
+%mor:	intj|uhoh pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 ?
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+@End

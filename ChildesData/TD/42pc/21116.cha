@@ -1,0 +1,931 @@
+@UTF8
+@PID:	11312/c-00006263-1
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother, CHI Target_Child
+@Options:	multi
+@ID:	eng|EllisWeismer|MOT||female|||Mother|||
+@ID:	eng|EllisWeismer|CHI|3;06.|female|TD||Target_Child||pc|
+@Media:	21116, audio
+@Transcriber:	Julia Meltzer
+@Comment:	bad audio
+@Types:	long, toyplay, TD
+*MOT:	I want the cow . 360_730
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 det|the-Def-Art noun|cow .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	do I get the cow ? 1312_5462
+%mor:	aux|do-Fin-Ind-Pres-S1 pron|I-Prs-Nom-S1 verb|get-Inf-S det|the-Def-Art noun|cow ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	can I put the cow away ? 15323_15863
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|put-Inf-S det|the-Def-Art noun|cow adv|away ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|ADVMOD 7|3|PUNCT
+*MOT:	oh well . 16210_16430
+%mor:	intj|oh intj|well .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	I'll put the cow over here . 16567_17367
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|put-Inf-S det|the-Def-Art noun|cow adp|over adv|here .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	your boots go where this was . 17931_25201
+%mor:	pron|your-Prs-Gen-S2 noun|boot-Plur verb|go-Fin-Ind-Pres-P3 adv|where pron|this-Dem-S1 aux|be-Fin-Ind-Past-S3 .
+%gra:	1|2|NMOD-POSS 2|3|NSUBJ 3|6|ROOT 4|3|ADVMOD 5|6|NSUBJ 6|3|ADVCL 7|3|PUNCT
+*MOT:	that looks a little crowded . 26613_28093
+%mor:	pron|that-Dem-S1 verb|look-Fin-Ind-Pres-S3 det|a-Ind-Art adj|little-Pos-S1 adj|crowded-Pos-S1 .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|5|OBL-NPMOD 5|2|XCOMP 6|2|PUNCT
+*MOT:	okay . 29075_29465
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	<well how> [//] can I put a pig over here ? 29719_31109
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|put-Inf-S det|a-Ind-Art noun|pig adp|over adv|here ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|3|OBL 8|3|PUNCT
+*CHI:	that's a pig . 32732_34202
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|pig .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	xxx .
+*MOT:	that's okay . 35631_35981
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 adj|okay-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*MOT:	oh . 37288_37688
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	be nice to the pig . 37840_39040
+%mor:	aux|be-Fin-Imp-S adj|nice-Pos-S1 adp|to det|the-Def-Art noun|pig .
+%gra:	1|2|COP 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*MOT:	0 . 40124_41474
+%act:	pig sounds .
+*MOT:	that shuts him in there huh ? 43214_45024
+%mor:	pron|that-Dem-S1 verb|shut-Fin-Ind-Pres-S3 pron|he-Prs-Acc-S3 adp|in adv|there intj|huh ?
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|5|CASE 5|2|OBL 6|2|DISCOURSE 7|2|PUNCT
+*MOT:	who goes over here ? 45928_46838
+%mor:	pron|who-Rel-S1 verb|go-Fin-Ind-Pres-S3 adp|over adv|here ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|ADVMOD 4|2|ADVMOD 5|2|PUNCT
+*MOT:	now here's a spot . 47774_48594
+%mor:	adv|now adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|spot .
+%gra:	1|2|ADVMOD 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*CHI:	and someone goes in here . 49602_52592
+%mor:	cconj|and pron|someone-Ind-S1 verb|go-Fin-Ind-Pres-S3 adp|in adv|here .
+%gra:	1|3|CC 2|3|NSUBJ 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*CHI:	chick . 53027_53157
+%mor:	noun|chick .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	wanna put the chicken in there ? 54633_55673
+%mor:	intj|wanna verb|put-Fin-Imp-S det|the-Def-Art noun|chicken adp|in adv|there ?
+%gra:	1|2|DISCOURSE 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*MOT:	all right . 56313_56873
+%mor:	det|all-Def adj|right-Pos-S1 .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	or you can put the horses with the cows . 57643_60193
+%mor:	cconj|or pron|you-Prs-Nom-S2 aux|can-Fin-S verb|put-Inf-S det|the-Def-Art noun|horse-Plur adp|with det|the-Def-Art noun|cow-Plur .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*MOT:	yeah . 61707_62257
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh . 63027_63337
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*MOT:	be careful ! 63388_64318
+%mor:	aux|be-Fin-Imp-S adj|careful-Pos-S1 !
+%gra:	1|2|COP 2|2|ROOT 3|2|PUNCT
+*MOT:	he's gentle . 64354_64974
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|gentle-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*MOT:	yeah . 65489_66249
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh . 67519_67659
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	not to lock the chicken up . 67791_68841
+%mor:	part|not part|to verb|lock-Inf-S det|the-Def-Art noun|chicken adp|up .
+%gra:	1|3|ADVMOD 2|3|MARK 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|3|PUNCT
+*MOT:	oh . 69781_70011
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	there's another chicken over there . 70171_71321
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|another-Def noun|chicken adp|over adv|there .
+%gra:	1|2|EXPL 2|6|ROOT 3|4|DET 4|2|NSUBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*MOT:	oh . 82734_82774
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh there's another chicken . 83764_84884
+%mor:	intj|oh pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|another-Def noun|chicken .
+%gra:	1|3|DISCOURSE 2|3|EXPL 3|5|ROOT 4|5|DET 5|3|NSUBJ 6|3|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	that must be the momma . 85461_86581
+%mor:	pron|that-Dem-S1 aux|must-Fin-S aux|be-Inf-S det|the-Def-Art noun|momma .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|COP 4|5|DET 5|5|ROOT 6|5|PUNCT
+*CHI:	xxx .
+*CHI:	and a big chicken . 90332_91452
+%mor:	cconj|and det|a-Ind-Art adj|big-Pos-S1 noun|chicken .
+%gra:	1|4|CC 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	three ? 91841_92511
+%mor:	num|three ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	okay . 94355_94685
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	two xxx . 95996_96096
+%mor:	num|two .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx there . 98923_99733
+%mor:	adv|there .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they won't [: don't] [*] want to get wet . 102934_104314
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|want-Inf-S part|to verb|get-Inf-S adj|wet-Pos-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|XCOMP 8|4|PUNCT
+*MOT:	they don't want to get wet ? 104700_105610
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|want-Inf-S part|to verb|get-Inf-S adj|wet-Pos-S1 ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|MARK 6|4|XCOMP 7|6|XCOMP 8|4|PUNCT
+*CHI:	yeah . 106221_106661
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh !
+%mor:	intj|oh !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the chickens go in here . 108099_108929
+%mor:	det|the-Def-Art noun|chicken-Plur verb|go-Fin-Ind-Pres-P3 adp|in adv|here .
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|3|CASE 5|3|OBL 6|3|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	we put them in the wrong spot ! 110105_111255
+%mor:	pron|we-Prs-Nom-P1 verb|put-Fin-Ind-Past-P1 pron|they-Prs-Acc-P3 adp|in det|the-Def-Art adj|wrong-Pos-S1 noun|spot !
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|OBJ 4|7|CASE 5|7|DET 6|7|AMOD 7|2|OBL 8|2|PUNCT
+%com:	p moves animals to correct spot
+*CHI:	xxx .
+*MOT:	did you ? 118645_118905
+%mor:	verb|do-Fin-Ind-Past-S2 pron|you-Prs-Acc-S2 ?
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	oh very good . 119339_120229
+%mor:	intj|oh adv|very adj|good-Pos-S1 .
+%gra:	1|3|DISCOURSE 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*MOT:	is that the way they go though ? 120623_121763
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that det|the-Def-Art noun|way pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adv|though ?
+%gra:	1|7|ROOT 2|4|MARK 3|4|DET 4|1|NSUBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|6|ADVMOD 8|1|PUNCT
+*CHI:	no . 123170_123670
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they don't fit that way . 123809_126819
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|fit-Inf-S det|that-Def-Dem noun|way .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	oh yes they do . 127783_128433
+%mor:	intj|oh intj|yes pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3 .
+%gra:	1|4|DISCOURSE 2|4|DISCOURSE 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*MOT:	yeah . 128476_128556
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	the lambs go over here ? 132343_133723
+%mor:	det|the-Def-Art noun|lamb-Plur verb|go-Fin-Ind-Pres-P3 adv|over adv|here ?
+%gra:	1|2|DET 2|3|NSUBJ 3|5|ROOT 4|3|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*CHI:	yeah . 134810_134980
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh !
+%mor:	intj|oh !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the pigs go in there too . 136182_137402
+%mor:	det|the-Def-Art noun|pig-Plur verb|go-Fin-Ind-Pres-P3 adv|in adv|there adv|too .
+%gra:	1|2|DET 2|3|NSUBJ 3|6|ROOT 4|3|ADVMOD 5|3|ADVMOD 6|3|ADVMOD 7|3|PUNCT
+*MOT:	no ! 138134_138564
+%mor:	intj|no !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	yeah . 138600_138770
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	no ! 139533_140153
+%mor:	intj|no !
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	the lambs by themselves . 140173_140183
+%mor:	det|the-Def-Art noun|lamb-Plur adp|by pron|themselves-Prs-Acc-P3 .
+%gra:	1|2|DET 2|4|ROOT 3|4|CASE 4|2|NMOD 5|2|PUNCT
+*CHI:	yeah . 140915_140975
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	yeah the pigs go there . 141763_142863
+%mor:	intj|yeah det|the-Def-Art noun|pig-Plur verb|go-Fin-Ind-Pres-P3 adv|there .
+%gra:	1|4|DISCOURSE 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*MOT:	okay . 143710_143910
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they do . 144864_145324
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*MOT:	pig and the lambs go together huh ? 146562_148052
+%mor:	noun|pig cconj|and det|the-Def-Art noun|lamb-Plur verb|go-Fin-Ind-Pres-P3 adv|together intj|huh ?
+%gra:	1|5|NSUBJ 2|4|CC 3|4|DET 4|1|CONJ 5|7|ROOT 6|5|ADVMOD 7|5|DISCOURSE 8|5|PUNCT
+*MOT:	or the lambs go over there ? 148213_149263
+%mor:	cconj|or det|the-Def-Art noun|lamb-Plur verb|go-Fin-Ind-Pres-P3 adv|over adv|there ?
+%gra:	1|4|CC 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|6|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*MOT:	or you gonna put them together ? 149328_150458
+%mor:	cconj|or pron|you-Prs-Nom-S2 adv|gonna verb|put-Fin-Ind-Pres-S2 pron|they-Prs-Acc-P3 adv|together ?
+%gra:	1|4|CC 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|4|OBJ 6|4|ADVMOD 7|4|PUNCT
+*CHI:	no . 151400_151620
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	the pig +/. 152892_153072
+%mor:	det|the-Def-Art noun|pig +/.
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*MOT:	no [//] hey be gentle . 153382_154812
+%mor:	intj|hey aux|be-Fin-Imp-S adj|gentle-Pos-S1 .
+%gra:	1|3|DISCOURSE 2|3|COP 3|3|ROOT 4|3|PUNCT
+*MOT:	hey . 156344_156544
+%mor:	intj|hey .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	they're still animals . 157021_157881
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|still noun|animal-Plur .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*MOT:	yeah . 159049_159259
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	little chickies . 161600_162440
+%mor:	adj|little-Pos-S1 noun|chicky-Plur .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	there's some hay . 163899_164569
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|some-Def noun|hay .
+%gra:	1|2|EXPL 2|4|ROOT 3|4|DET 4|2|NSUBJ 5|2|PUNCT
+*MOT:	who eats hay ? 164862_165622
+%mor:	pron|who-Rel-S1 verb|eat-Fin-Ind-Pres-S3 noun|hay ?
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*MOT:	cow [* 0s] +/. 165721_166071
+%mor:	noun|cow +/.
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh maybe that's some straw . 166209_167199
+%mor:	intj|oh adv|maybe pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|some-Def noun|straw .
+%gra:	1|6|DISCOURSE 2|6|ADVMOD 3|6|NSUBJ 4|6|COP 5|6|DET 6|6|ROOT 7|6|PUNCT
+*MOT:	who should we give that to ? 167913_168773
+%mor:	pron|who-Int-S1 aux|should-Fin-S pron|we-Prs-Nom-P1 verb|give-Inf-S pron|that-Dem-S1 adp|to ?
+%gra:	1|4|OBL 2|4|AUX 3|4|NSUBJ 4|6|ROOT 5|4|OBJ 6|1|CASE 7|4|PUNCT
+*MOT:	the pig . 168868_169338
+%mor:	det|the-Def-Art noun|pig .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*MOT:	okay . 169548_169868
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	pig +/. 170902_171072
+%mor:	noun|pig +/.
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	look at all the people ? 171108_171958
+%mor:	verb|look-Fin-Imp-S adp|at det|all-Def det|the-Def-Art noun|person-Plur ?
+%gra:	1|5|ROOT 2|5|CASE 3|5|DET-PREDET 4|5|DET 5|1|OBL 6|1|PUNCT
+*CHI:	xxx ?
+*MOT:	you could put some pumpkins just right out here . 174359_175959
+%mor:	pron|you-Prs-Nom-S2 aux|could-Fin-S verb|put-Inf-S det|some-Def noun|pumpkin-Plur adv|just adv|right adp|out adv|here .
+%gra:	1|3|NSUBJ 2|3|AUX 3|9|ROOT 4|5|DET 5|3|OBJ 6|8|ADVMOD 7|9|ADVMOD 8|9|ADVMOD 9|3|ADVMOD 10|3|PUNCT
+*MOT:	because then <you'd put> [//] you'd grow pumpkins by the fence . 176135_178335
+%mor:	sconj|because adv|then pron|you-Prs-Nom-S2~aux|would-Fin-S verb|grow-Inf-S noun|pumpkin-Plur adp|by det|the-Def-Art noun|fence .
+%gra:	1|5|MARK 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*MOT:	isn't that what grandma does ? 178446_179496
+%mor:	aux|be-Fin-Ind-Pres-S3~part|not sconj|that det|what-Def-Int noun|grandma verb|do-Fin-Ind-Pres-S3 ?
+%gra:	1|6|ROOT 2|1|ADVMOD 3|6|OBJ 4|5|DET 5|6|NSUBJ 6|1|CCOMP 7|1|PUNCT
+*MOT:	grow pumpkins by the fence ? 180607_181557
+%mor:	verb|grow-Fin-Imp-S noun|pumpkin-Plur adp|by det|the-Def-Art noun|fence ?
+%gra:	1|5|ROOT 2|1|OBJ 3|5|CASE 4|5|DET 5|1|OBL 6|1|PUNCT
+*MOT:	yeah . 182107_182417
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	okay . 182440_182520
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	we'll put them right there . 183120_183900
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S verb|put-Inf-S pron|they-Prs-Acc-P3 adv|right adv|there .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|OBJ 5|6|ADVMOD 6|3|ADVMOD 7|3|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	they don't stay up . 185331_185951
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|stay-Inf-S adv|up .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	what_about this one ? 186717_187287
+%mor:	intj|whatabout det|this-Def-Dem noun|one ?
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	hm: .
+%mor:	intj|hm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	maybe the pumpkins go there . 190014_191264
+%mor:	adv|maybe det|the-Def-Art noun|pumpkin-Plur verb|go-Fin-Ind-Pres-P3 adv|there .
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	okay ? 192435_192635
+%mor:	intj|okay ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh okay .
+%mor:	intj|oh intj|okay .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*MOT:	are you sure ? 193965_194965
+%mor:	aux|be-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 adj|sure-Pos-S1 ?
+%gra:	1|3|COP 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*MOT:	it kind of looks silly though . 195002_196612
+%mor:	pron|it-Prs-Nom-S3 noun|kind adp|of verb|look-Fin-Ind-Pres-S3 adj|silly-Pos-S1 adv|though .
+%gra:	1|4|NSUBJ 2|4|ADVMOD 3|2|FIXED 4|6|ROOT 5|4|XCOMP 6|4|ADVMOD 7|4|PUNCT
+*MOT:	to put pumpkins in a fence . 196709_198199
+%mor:	part|to verb|put-Inf-S noun|pumpkin-Plur adp|in det|a-Ind-Art noun|fence .
+%gra:	1|2|MARK 2|6|ROOT 3|2|OBJ 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
+*MOT:	isn't it ? 198355_198905
+%mor:	aux|be-Fin-Ind-Pres-S3~part|not pron|it-Prs-Nom-S3 ?
+%gra:	1|3|COP 2|3|ADVMOD 3|3|ROOT 4|3|PUNCT
+*MOT:	goofball . 199637_200067
+%mor:	noun|goofball .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	look at the people . 201514_202224
+%mor:	verb|look-Fin-Imp-S adp|at det|the-Def-Art noun|person-Plur .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
+*CHI:	people ? 203023_203283
+%mor:	noun|person-Plur ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	can I have a people [: person] [*] ? 203396_203966
+%mor:	aux|can-Fin-S pron|I-Prs-Nom-S1 verb|have-Inf-S det|a-Ind-Art noun|person ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	yeah . 205094_205294
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	I want to put one up here . 205579_206559
+%mor:	pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|put-Inf-S num|one adp|up adv|here .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|4|COMPOUND-PRT 7|4|ADVMOD 8|2|PUNCT
+*CHI:	put some up here . 207267_208507
+%mor:	verb|put-Fin-Imp-S det|some-Def adp|up adv|here .
+%gra:	1|4|ROOT 2|1|OBJ 3|1|COMPOUND-PRT 4|1|ADVMOD 5|1|PUNCT
+*CHI:	put all these people up here and <feed the> [//] they hafta feed them . 208681_214901
+%mor:	verb|put-Fin-Imp-S det|all-Def det|this-Def-Dem noun|person-Plur adp|up adv|here cconj|and pron|they-Prs-Nom-P3 aux|hafta-Fin-Ind-P3 verb|feed-Inf-S pron|they-Prs-Acc-P3 .
+%gra:	1|11|ROOT 2|4|DET-PREDET 3|4|DET 4|1|OBJ 5|6|CASE 6|1|ADVMOD 7|10|CC 8|10|NSUBJ 9|10|AUX 10|1|CONJ 11|10|OBJ 12|1|PUNCT
+*CHI:	they hafta feed these guys .
+%mor:	pron|they-Prs-Nom-P3 aux|hafta-Fin-S3 verb|feed-Inf-S det|this-Def-Dem noun|guy-Plur .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*MOT:	okay . 215785_216005
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	so maybe we'll +... 217839_218019
+%mor:	adv|so adv|maybe pron|we-Prs-Nom-P1~aux|will-Fin-S +...
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*MOT:	well this is a firefighter though . 218489_219879
+%mor:	intj|well pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|firefighter adv|though .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|COP 4|5|DET 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*MOT:	we'll put him down here . 221026_222076
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S verb|put-Inf-S pron|he-Prs-Acc-S3 adp|down adv|here .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|ADVMOD 7|3|PUNCT
+*MOT:	he's gonna feed them . 222112_223152
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|feed-Inf-S pron|they-Prs-Acc-P3 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|IOBJ 6|4|PUNCT
+*MOT:	oop . 223192_223522
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I see xxx . 226588_228168
+%mor:	pron|I-Prs-Nom-S1 verb|see-Fin-Ind-Pres-S1 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	feed them . 229508_229948
+%mor:	verb|feed-Fin-Imp-S pron|they-Prs-Acc-P3 .
+%gra:	1|2|ROOT 2|1|IOBJ 3|1|PUNCT
+*MOT:	okay . 230919_231159
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	0 . 231225_231955
+%act:	pretend eating .
+*CHI:	xxx .
+*MOT:	who's gonna feed the chickens ? 232959_233789
+%mor:	pron|who-Rel-S1~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|feed-Inf-S det|the-Def-Art noun|chicken-Plur ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*MOT:	do xxx the chickens get out ? 235145_236375
+%mor:	aux|do-Fin-Ind-Pres-P3 det|the-Def-Art noun|chicken-Plur verb|get-Inf-S adv|out ?
+%gra:	1|4|AUX 2|3|DET 3|4|NSUBJ 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*MOT:	do they sit up here ? 236561_237341
+%mor:	aux|do-Fin-Ind-Pres-P3 pron|they-Prs-Nom-P3 verb|sit-Inf-S adp|up adv|here ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|3|COMPOUND-PRT 5|3|ADVMOD 6|3|PUNCT
+*CHI:	no . 237898_238118
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*MOT:	look it . 238214_238534
+%mor:	verb|look-Fin-Imp-S pron|it-Prs-Acc-S3 .
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*MOT:	they flew up there . 239793_240603
+%mor:	pron|they-Prs-Nom-P3 verb|fly-Fin-Ind-Past-P3 adp|up adv|there .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|COMPOUND-PRT 4|2|ADVMOD 5|2|PUNCT
+*MOT:	they flew the coop . 240711_241391
+%mor:	pron|they-Prs-Nom-P3 verb|fly-Fin-Ind-Past-P3 det|the-Def-Art noun|coop .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*MOT:	you think ? 241430_243140
+%mor:	pron|you-Prs-Nom-S2 verb|think-Fin-Ind-Pres-S2 ?
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*MOT:	huh ?
+%mor:	intj|huh ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and sheep could go there . 244691_246111
+%mor:	cconj|and noun|sheep-Plur aux|could-Fin-S verb|go-Inf-S adv|there .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*MOT:	sheep go [* 0es] there too huh ? 246332_247332
+%mor:	noun|sheep-Plur verb|go-Fin-Ind-Pres-P3 adv|there adv|too intj|huh ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|ADVMOD 4|2|ADVMOD 5|2|DISCOURSE 6|2|PUNCT
+*MOT:	all right . 248532_248942
+%mor:	det|all-Def adj|right-Pos-S1 .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	and the cow could go +... 249395_250555
+%mor:	cconj|and det|the-Def-Art noun|cow aux|could-Fin-S verb|go-Inf-S +...
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	xxx .
+*CHI:	xxx .
+*CHI:	and this one could go right here . 250745_256505
+%mor:	cconj|and det|this-Def-Dem noun|one aux|could-Fin-S verb|go-Inf-S adv|right adv|here .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|ADVMOD 7|5|ADVMOD 8|5|PUNCT
+*MOT:	what was she thinking ? 256613_258753
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Past-S3 pron|she-Prs-Nom-S3 verb|think-Part-Pres-S ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*MOT:	oop . 259385_259845
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	she still won't stay . 261827_262837
+%mor:	pron|she-Prs-Nom-S3 adv|still aux|will-Fin-S~part|not verb|stay-Inf-S .
+%gra:	1|5|NSUBJ 2|5|ADVMOD 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*CHI:	and maybe this cow could go right there . 264874_268294
+%mor:	cconj|and adv|maybe det|this-Def-Dem noun|cow aux|could-Fin-S verb|go-Inf-S adv|right adv|there .
+%gra:	1|6|CC 2|6|ADVMOD 3|4|DET 4|6|NSUBJ 5|6|AUX 6|8|ROOT 7|8|ADVMOD 8|6|ADVMOD 9|6|PUNCT
+*MOT:	a cow on the ceiling ? 268934_269894
+%mor:	det|a-Ind-Art noun|cow adp|on det|the-Def-Art noun|ceiling ?
+%gra:	1|2|DET 2|5|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|2|PUNCT
+*CHI:	0 . 270084_271044
+%act:	laughs .
+*CHI:	and this cow can go xxx the other ceiling . 273005_274925
+%mor:	cconj|and det|this-Def-Dem noun|cow aux|can-Fin-S verb|go-Inf-S det|the-Def-Art adj|other-Pos-S1 noun|ceiling .
+%gra:	1|5|CC 2|3|DET 3|5|NSUBJ 4|5|AUX 5|8|ROOT 6|8|DET 7|8|AMOD 8|5|OBJ 9|5|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	how are those cows gonna get home ? 277722_279712
+%mor:	adv|how aux|be-Fin-Ind-Pres-P3 det|that-Def-Dem noun|cow-Plur adv|gonna verb|get-Inf-S adv|home ?
+%gra:	1|6|ADVMOD 2|6|AUX 3|4|DET 4|6|NSUBJ 5|6|ADVMOD 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*MOT:	they're gonna hafta say Childsname come get us . 280729_283519
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adv|gonna part|hafta verb|say-Inf-S noun|Childsname verb|come-Inf-S verb|get-Inf-S pron|we-Prs-Acc-P1 .
+%gra:	1|5|NSUBJ 2|5|AUX 3|5|ADVMOD 4|5|DISCOURSE 5|9|ROOT 6|7|NSUBJ 7|5|CCOMP 8|7|XCOMP 9|8|OBJ 10|5|PUNCT
+*CHI:	I [/] I won't +/. 284578_284628
+%mor:	pron|I-Prs-Nom-S1 aux|will-Fin-S~part|not +/.
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*MOT:	you don't think so ? 286409_287029
+%mor:	pron|you-Prs-Nom-S2 aux|do-Fin-Ind-Pres-S2~part|not verb|think-Inf-S adv|so ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	I won't .
+%mor:	pron|I-Prs-Nom-S1 aux|will-Fin-S~part|not .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*MOT:	no ? 287833_288273
+%mor:	intj|no ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	oh !
+%mor:	intj|oh !
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	that chicken goes out_of +... 289368_291098
+%mor:	sconj|that noun|chicken verb|go-Fin-Ind-Pres-S3 noun|outof +...
+%gra:	1|3|MARK 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*MOT:	it can't go with the piggy ? 291492_292322
+%mor:	pron|it-Prs-Nom-S3 aux|can-Fin-S~part|not verb|go-Inf-S adp|with det|the-Def-Art noun|piggy ?
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|7|CASE 6|7|DET 7|4|OBL 8|4|PUNCT
+*CHI:	it can go right +... 292363_292823
+%mor:	pron|it-Prs-Nom-S3 aux|can-Fin-S verb|go-Inf-S adv|right +...
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*MOT:	look I put one of the people in by the piggy .
+%mor:	verb|look-Fin-Imp-S pron|I-Prs-Nom-S1 verb|put-Fin-Ind-Pres-S1 num|one adp|of det|the-Def-Art noun|person-Plur adp|in adp|by det|the-Def-Art noun|piggy .
+%gra:	1|11|ROOT 2|3|NSUBJ 3|1|CCOMP 4|3|OBJ 5|7|CASE 6|7|DET 7|4|NMOD 8|3|ADVMOD 9|11|CASE 10|11|DET 11|3|OBL 12|1|PUNCT
+*CHI:	and this +/. 293023_293203
+%mor:	cconj|and pron|this-Dem-S1 +/.
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*MOT:	who's xxx the piggy out ?
+%mor:	pron|who-Int-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|piggy adv|out ?
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	and this can go right here . 294703_299143
+%mor:	cconj|and pron|this-Dem-S1 aux|can-Fin-S verb|go-Inf-S adv|right adv|here .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*MOT:	huh ? 299167_299297
+%mor:	intj|huh ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	who threw a lamb in here ? 299770_301990
+%mor:	pron|who-Rel-S1 verb|throw-Fin-Ind-Past-S3 det|a-Ind-Art noun|lamb adp|in adv|here ?
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|DET 4|2|OBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*CHI:	that can go right there . 303533_304523
+%mor:	pron|that-Dem-S1 aux|can-Fin-S verb|go-Inf-S adv|right adv|there .
+%gra:	1|3|NSUBJ 2|3|AUX 3|5|ROOT 4|5|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*MOT:	okay . 305334_305574
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	he can go there . 305991_306651
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S verb|go-Inf-S adv|there .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*CHI:	or he can go right here . 307412_307862
+%mor:	cconj|or pron|he-Prs-Nom-S3 aux|can-Fin-S verb|go-Inf-S adv|right adv|here .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*MOT:	do people lay in the nest ? 309213_310363
+%mor:	aux|do-Fin-Ind-Pres-P3 noun|person-Plur verb|lay-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|nest ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|PUNCT
+*CHI:	yeah . 311625_311905
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	they do ? 312233_312663
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3 ?
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	this one's xxx .
+%mor:	det|this-Def-Dem noun|one~part|s .
+%gra:	1|2|DET 2|3|ROOT 3|2|CASE 4|2|PUNCT
+*MOT:	you've got quite an imagination . 312680_318800
+%mor:	pron|you-Prs-Nom-S2~aux|have-Fin-Ind-Pres-S2 verb|get-Part-Past-S det|quite-Def det|a-Ind-Art noun|imagination .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|DET-PREDET 5|6|DET 6|3|OBJ 7|3|PUNCT
+*CHI:	xxx .
+*MOT:	you got [: have] [*] cows and chickens on the silo ? 321549_325809
+%mor:	pron|you-Prs-Nom-S2 verb|have-Fin-Ind-Pres-S2 noun|cow-Plur cconj|and noun|chicken-Plur adp|on det|the-Def-Art noun|silo ?
+%gra:	1|2|NSUBJ 2|8|ROOT 3|2|OBJ 4|5|CC 5|3|CONJ 6|8|CASE 7|8|DET 8|2|OBL 9|2|PUNCT
+*MOT:	is that where they are ? 326506_327926
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that adv|where pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 ?
+%gra:	1|3|COP 2|3|NSUBJ 3|5|ROOT 4|3|NSUBJ 5|3|COP 6|3|PUNCT
+*MOT:	do they always go up there ? 329354_330544
+%mor:	aux|do-Fin-Ind-Pres-P3 pron|they-Prs-Nom-P3 adv|always verb|go-Inf-S adv|up adv|there ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|ADVMOD 4|6|ROOT 5|6|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*MOT:	wow . 332079_332419
+%mor:	intj|wow .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	what farm do you go to ? 332533_333523
+%mor:	det|what-Def-Int noun|farm aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|go-Inf-S adp|to ?
+%gra:	1|2|DET 2|5|OBL 3|5|AUX 4|5|NSUBJ 5|6|ROOT 6|2|CASE 7|5|PUNCT
+*CHI:	xxx go to . 335090_335240
+%mor:	verb|go-Fin-Imp-S adp|to .
+%gra:	1|2|ROOT 2|1|OBL 3|1|PUNCT
+*MOT:	a lamb on the ceiling too ? 336058_337588
+%mor:	det|a-Ind-Art noun|lamb adp|on det|the-Def-Art noun|ceiling adv|too ?
+%gra:	1|2|DET 2|6|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|2|ADVMOD 7|2|PUNCT
+*CHI:	0it goes right here [*] . 338843_340093
+%mor:	verb|go-Fin-Ind-Pres-S3 adv|right adv|here .
+%gra:	1|3|ROOT 2|3|ADVMOD 3|1|ADVMOD 4|1|PUNCT
+*CHI:	xxx goes right here . 343529_344179
+%mor:	verb|go-Fin-Ind-Pres-S3 adv|right adv|here .
+%gra:	1|3|ROOT 2|3|ADVMOD 3|1|ADVMOD 4|1|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	how'd the pig get there ? 345747_346657
+%mor:	adv|how~aux|would-Fin-S det|the-Def-Art noun|pig verb|get-Inf-S adv|there ?
+%gra:	1|5|ADVMOD 2|5|AUX 3|4|DET 4|5|NSUBJ 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	xxx there .
+%mor:	adv|there .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	he's gonna fall down . 348478_349168
+%mor:	pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|gonna verb|fall-Inf-S adv|down .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*MOT:	whoop . 349290_349720
+%mor:	noun|whoop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	I don't know if the piggy should be up there too . 352121_354321
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S sconj|if det|the-Def-Art noun|piggy aux|should-Fin-S aux|be-Inf-S adv|up adv|there adv|too .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|12|ROOT 5|11|MARK 6|7|DET 7|11|NSUBJ 8|11|AUX 9|11|COP 10|11|ADVMOD 11|4|CCOMP 12|11|ADVMOD 13|4|PUNCT
+*MOT:	oh the piggy is gonna fall down in the hole . 354900_356550
+%mor:	intj|oh det|the-Def-Art noun|piggy aux|be-Fin-Ind-Pres-S3 adv|gonna verb|fall-Inf-S adv|down adp|in det|the-Def-Art noun|hole .
+%gra:	1|6|DISCOURSE 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|10|ROOT 7|6|ADVMOD 8|10|CASE 9|10|DET 10|6|OBL 11|6|PUNCT
+*MOT:	what_about the lamb ? 357739_358239
+%mor:	intj|whatabout det|the-Def-Art noun|lamb ?
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	let's see . 359318_359648
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S .
+%gra:	1|3|ROOT 2|1|OBJ 3|1|XCOMP 4|1|PUNCT
+*CHI:	or it can stay up there . 360071_363301
+%mor:	cconj|or pron|it-Prs-Nom-S3 aux|can-Fin-S verb|stay-Inf-S adp|up adv|there .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|COMPOUND-PRT 6|4|ADVMOD 7|4|PUNCT
+*MOT:	there . 363301_363481
+%mor:	adv|there .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	or this xxx +/. 364225_364305
+%mor:	cconj|or pron|this-Dem-S1 +/.
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*MOT:	oop . 367593_368083
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	dumb the cow [*] . 369963_370823
+%mor:	adj|dumb-Pos-S1 det|the-Def-Art noun|cow .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*MOT:	no . 371468_371758
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	we don't say dumb . 371891_372371
+%mor:	pron|we-Prs-Nom-P1 aux|do-Fin-Ind-Pres-P1~part|not verb|say-Inf-S adj|dumb-Pos-S1 .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*MOT:	we say silly . 372413_373033
+%mor:	pron|we-Prs-Nom-P1 verb|say-Fin-Ind-Pres-P1 adj|silly-Pos-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|XCOMP 4|2|PUNCT
+*CHI:	silly cow . 374565_375425
+%mor:	adj|silly-Pos-S1 noun|cow .
+%gra:	1|2|AMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	I'm gonna kick the pumpkins out . 376551_377861
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adv|gonna verb|kick-Inf-S det|the-Def-Art noun|pumpkin-Plur adp|out .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|7|ROOT 5|6|DET 6|4|OBJ 7|4|COMPOUND-PRT 8|4|PUNCT
+*CHI:	maybe 0a little chicken can go in here [*] . 378713_383383
+%mor:	adv|maybe adj|little-Pos-S1 noun|chicken aux|can-Fin-S verb|go-Inf-S adp|in adv|here .
+%gra:	1|5|ADVMOD 2|3|AMOD 3|5|NSUBJ 4|5|AUX 5|7|ROOT 6|7|CASE 7|5|OBL 8|5|PUNCT
+*MOT:	do you think ? 383594_384064
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	and this xxx a little xxx . 385505_387155
+%mor:	cconj|and pron|this-Dem-S1 det|a-Ind-Art adj|little-Pos-S1 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	the cow can go xxx . 387648_388728
+%mor:	det|the-Def-Art noun|cow aux|can-Fin-S verb|go-Inf-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*MOT:	oh the other cow fell down . 389807_390537
+%mor:	intj|oh det|the-Def-Art adj|other-Pos-S1 noun|cow verb|fall-Fin-Ind-Past-S3 adv|down .
+%gra:	1|5|DISCOURSE 2|4|DET 3|4|AMOD 4|5|NSUBJ 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	look at all the dot [* 0s] below down there . 391328_393768
+%mor:	verb|look-Fin-Imp-S adp|at det|all-Def det|the-Def-Art noun|dot adv|below adv|down adv|there .
+%gra:	1|8|ROOT 2|5|CASE 3|5|DET-PREDET 4|5|DET 5|1|OBL 6|5|ADVMOD 7|8|ADVMOD 8|1|ADVMOD 9|1|PUNCT
+*MOT:	hm: . 394635_395265
+%mor:	intj|hm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they poop [* 0ed] it xxx in the cage [*] . 395308_397238
+%mor:	pron|they-Prs-Nom-P3 verb|poop-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|cage .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|2|OBJ 4|6|CASE 5|6|DET 6|2|OBL 7|2|PUNCT
+*CHI:	it is xxx .
+%mor:	pron|it-Prs-Nom-S3 aux|be-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*MOT:	oop . 398046_398216
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	you locked the chickens out . 399964_401334
+%mor:	pron|you-Prs-Nom-S2 verb|lock-Fin-Ind-Past-S2 det|the-Def-Art noun|chicken-Plur adv|out .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|DET 4|2|OBJ 5|2|COMPOUND-PRT 6|2|PUNCT
+*MOT:	we'll put them on the silo again . 401821_402821
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S verb|put-Inf-S pron|they-Prs-Acc-P3 adp|on det|the-Def-Art noun|silo adv|again .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|3|ADVMOD 9|3|PUNCT
+*MOT:	huh ?
+%mor:	intj|huh ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	no . 405062_405462
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they 0went poopy in the cage [*] . 405590_407040
+%mor:	pron|they-Prs-Nom-P3 verb|poopy-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|cage .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*MOT:	in the cage ? 407540_408070
+%mor:	adp|in det|the-Def-Art noun|cage ?
+%gra:	1|3|CASE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	how_about in their pen ? 408314_409134
+%mor:	noun|howabout adp|in pron|their-Prs-Gen-P3 noun|pen ?
+%gra:	1|4|ROOT 2|4|CASE 3|4|NMOD-POSS 4|1|NMOD 5|1|PUNCT
+*MOT:	there's a cage over here . 409827_410527
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|cage adp|over adv|here .
+%gra:	1|2|EXPL 2|6|ROOT 3|4|DET 4|2|NSUBJ 5|6|CASE 6|2|OBL 7|2|PUNCT
+*CHI:	no . 412594_412844
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they pooped in it [//] here . 412886_413736
+%mor:	pron|they-Prs-Nom-P3 verb|poop-Fin-Ind-Past-P3 adp|in adv|here .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|COMPOUND-PRT 4|2|ADVMOD 5|2|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	uhoh ! 420978_421358
+%mor:	intj|uhoh !
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh you knocked the chicken over ! 421881_423131
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|knock-Fin-Ind-Past-S2 det|the-Def-Art noun|chicken adv|over !
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|3|PUNCT
+*CHI:	0 . 423207_424217
+%act:	laughs .
+*CHI:	now you hafta stay in here . 427090_428440
+%mor:	adv|now pron|you-Prs-Nom-S2 aux|hafta-Fin-S verb|stay-Inf-S adp|in adv|here .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|CASE 6|4|OBL 7|4|PUNCT
+*CHI:	with that other horsie . 429035_430815
+%mor:	adp|with det|that-Def-Dem adj|other-Pos-S1 noun|horsie .
+%gra:	1|4|CASE 2|4|DET 3|4|AMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	that cow have [: has] [*] to stay there . 431777_433387
+%mor:	sconj|that noun|cow verb|have-Fin-Ind-Pres-S3 part|to verb|stay-Inf-S adv|there .
+%gra:	1|3|MARK 2|3|NSUBJ 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|ADVMOD 7|3|PUNCT
+*MOT:	uhhuh . 433563_433913
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	forever cow . 434331_434911
+%mor:	adv|forever noun|cow .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*MOT:	that's a baby cow . 435497_436497
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|baby noun|cow .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|DET 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*MOT:	careful . 437644_438644
+%mor:	adj|careful-Pos-S1 .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	baby cow xxx ? 439071_439881
+%mor:	noun|baby noun|cow ?
+%gra:	1|2|COMPOUND 2|2|ROOT 3|2|PUNCT
+*MOT:	well maybe the baby cow wants to be in the pen all the time . 441493_443563
+%mor:	intj|well adv|maybe det|the-Def-Art noun|baby noun|cow verb|want-Fin-Ind-Pres-S3 part|to aux|be-Inf-S adp|in det|the-Def-Art noun|pen det|all-Def det|the-Def-Art noun|time .
+%gra:	1|6|DISCOURSE 2|6|ADVMOD 3|5|DET 4|5|COMPOUND 5|6|NSUBJ 6|14|ROOT 7|11|MARK 8|11|COP 9|11|CASE 10|11|DET 11|6|XCOMP 12|14|DET-PREDET 13|14|DET 14|11|OBL-TMOD 15|6|PUNCT
+*CHI:	he can't . 445149_445579
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*MOT:	he can't ? 445777_446407
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not ?
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	he can't xxx because they are sick . 447148_449658
+%mor:	pron|he-Prs-Nom-S3 aux|can-Fin-S~part|not sconj|because pron|they-Prs-Nom-P3 aux|be-Fin-Ind-Pres-P3 adj|sick-Pos-S1 .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|ADVMOD 4|7|MARK 5|7|NSUBJ 6|7|COP 7|2|ADVCL 8|2|PUNCT
+*MOT:	they're sick ? 450772_451652
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 adj|sick-Pos-S1 ?
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*CHI:	all these animals are sick . 452006_453296
+%mor:	det|all-Def det|this-Def-Dem noun|animal-Plur aux|be-Fin-Ind-Pres-P3 adj|sick-Pos-S1 .
+%gra:	1|3|DET-PREDET 2|3|DET 3|5|NSUBJ 4|5|COP 5|5|ROOT 6|5|PUNCT
+*MOT:	oh !
+%mor:	intj|oh !
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	0did they get the flu [*] ? 454833_455743
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Pres-P3 det|the-Def-Art noun|flu ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	0 . 455785_455995
+%act:	head nod .
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	did you give them some fresh water ?
+%mor:	aux|do-Fin-Ind-Past-S2 pron|you-Prs-Nom-S2 verb|give-Inf-S pron|they-Prs-Acc-P3 det|some-Def adj|fresh-Pos-S1 noun|water ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|3|IOBJ 5|7|DET 6|7|AMOD 7|3|OBJ 8|3|PUNCT
+*CHI:	0 . 457395_460225
+%act:	head shake .
+*MOT:	to make their tummys feel better ? 460861_462791
+%mor:	part|to verb|make-Inf-S pron|their-Prs-Gen-P3 noun|tummy-Plur verb|feel-Inf-S adj|good-Cmp-S1 ?
+%gra:	1|2|MARK 2|6|ROOT 3|4|NMOD-POSS 4|2|OBJ 5|2|XCOMP 6|5|XCOMP 7|2|PUNCT
+*MOT:	how did they get sick ? 463447_464527
+%mor:	adv|how aux|do-Fin-Ind-Past-P3 pron|they-Prs-Nom-P3 verb|get-Inf-S adj|sick-Pos-S1 ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|XCOMP 6|4|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	0did they tell you they had a bellyache [*] ? 467000_468240
+%mor:	pron|they-Prs-Nom-P3 verb|tell-Fin-Ind-Pres-P3 pron|you-Prs-Acc-S2 pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Past-P3 det|a-Ind-Art noun|bellyache ?
+%gra:	1|2|NSUBJ 2|7|ROOT 3|2|IOBJ 4|5|NSUBJ 5|2|CCOMP 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	xxx goes with the pig . 469301_470721
+%mor:	verb|go-Fin-Ind-Pres-S3 adp|with det|the-Def-Art noun|pig .
+%gra:	1|4|ROOT 2|4|CASE 3|4|DET 4|1|OBL 5|1|PUNCT
+*MOT:	or 0do they got [: have] [*] a stuffy nose ? 470939_471809
+%mor:	cconj|or pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art adj|stuffy-Pos-S1 noun|nose ?
+%gra:	1|3|CC 2|3|NSUBJ 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*CHI:	they got [: have] [*] just a headaches [: headache] [*] . 472389_474983
+%mor:	pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 adv|just det|a-Ind-Art noun|headache .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|ADVMOD 4|5|DET 5|2|OBJ 6|2|PUNCT
+*MOT:	headaches ?
+%mor:	noun|headache-Plur ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they got headaches and a xxx . 476441_478121
+%mor:	pron|they-Prs-Nom-P3 verb|get-Fin-Ind-Past-P3 noun|headache-Plur cconj|and det|a-Ind-Art .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|OBJ 4|5|CC 5|3|CONJ 6|2|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	they do ? 479531_479861
+%mor:	pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3 ?
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	yeah because xxx . 480742_482022
+%mor:	intj|yeah sconj|because .
+%gra:	1|2|ROOT 2|1|MARK 3|1|PUNCT
+*CHI:	<but they feel better> [//] when they go to bed they will feel better . 484094_487844
+%mor:	adv|when pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adp|to noun|bed pron|they-Prs-Nom-P3 aux|will-Fin-S verb|feel-Inf-S adj|good-Cmp-S1 .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|8|ADVCL 4|5|CASE 5|3|OBL 6|8|NSUBJ 7|8|AUX 8|9|ROOT 9|8|XCOMP 10|8|PUNCT
+*MOT:	then they'll get some rest and feel all better ? 487944_489994
+%mor:	adv|then pron|they-Prs-Nom-P3~aux|will-Fin-S verb|get-Inf-S det|some-Def noun|rest cconj|and verb|feel-Inf-S adv|all adj|good-Cmp-S1 ?
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|6|DET 6|4|OBJ 7|8|CC 8|4|CONJ 9|10|ADVMOD 10|8|XCOMP 11|4|PUNCT
+*MOT:	okay . 490034_490144
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they all got [: have] [*] headaches . 491952_496692
+%mor:	pron|they-Prs-Nom-P3 det|all-Def verb|have-Fin-Ind-Pres-P3 noun|headache-Plur .
+%gra:	1|3|NSUBJ 2|1|DET 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	and people hafta go there too . 501188_502318
+%mor:	cconj|and noun|person-Plur aux|hafta-Fin-Ind-S3 verb|go-Inf-S adv|there adv|too .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|4|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*CHI:	<all these> [//] all 0of they [: them] [*] hafta go there . 502652_504812
+%mor:	det|all-Def pron|they-Prs-Acc-P3 part|hafta verb|go-Inf-S adv|there .
+%gra:	1|2|DET-PREDET 2|4|NSUBJ 3|4|ADVMOD 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*CHI:	all these people .
+%mor:	det|all-Def det|this-Def-Dem noun|person-Plur .
+%gra:	1|3|DET-PREDET 2|3|DET 3|3|ROOT 4|3|PUNCT
+*MOT:	well what if I want to put all these people in the pen ?
+%mor:	intj|well pron|what-Int-S1 sconj|if pron|I-Prs-Nom-S1 verb|want-Fin-Ind-Pres-S1 part|to verb|put-Inf-S det|all-Def det|this-Def-Dem noun|person-Plur adp|in det|the-Def-Art noun|pen ?
+%gra:	1|2|DISCOURSE 2|13|ROOT 3|5|MARK 4|5|NSUBJ 5|2|ADVCL 6|7|MARK 7|5|XCOMP 8|10|DET-PREDET 9|10|DET 10|7|OBJ 11|13|CASE 12|13|DET 13|7|OBL 14|2|PUNCT
+*CHI:	no . 505668_505958
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	they can't 0go 0there [*] . 508902_509902
+%mor:	pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*MOT:	they can't ? 510635_510925
+%mor:	pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not ?
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	yeah because they hafta stay the xxx for the cows xxx . 513166_513876
+%mor:	intj|yeah sconj|because pron|they-Prs-Nom-P3 aux|hafta-Fin-S3 verb|stay-Inf-S det|the-Def-Art adp|for det|the-Def-Art noun|cow-Plur .
+%gra:	1|5|DISCOURSE 2|5|MARK 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|5|OBJ 7|9|CASE 8|9|DET 9|5|OBL 10|5|PUNCT
+*CHI:	they hafta sleep in the beds in here . 514917_517597
+%mor:	pron|they-Prs-Nom-P3 aux|hafta-Fin-Ind-Pres-P3 verb|sleep-Inf-S adp|in det|the-Def-Art noun|bed-Plur adp|in adv|here .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|8|CASE 8|3|OBL 9|3|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	that's their bed up there . 519155_520015
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 pron|their-Prs-Gen-P3 noun|bed adp|up adv|there .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|NMOD-POSS 4|6|ROOT 5|4|ADVMOD 6|4|ADVMOD 7|4|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and a xxx .
+%mor:	cconj|and det|a-Ind-Art .
+%gra:	1|2|CC 2|2|ROOT 3|2|PUNCT
+*MOT:	so they don't have a house ?
+%mor:	adv|so pron|they-Prs-Nom-P3 aux|do-Fin-Ind-Pres-P3~part|not verb|have-Inf-S det|a-Ind-Art noun|house ?
+%gra:	1|5|ADVMOD 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|7|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
+*MOT:	they sleep <in the> [/] in the barn upstairs ?
+%mor:	pron|they-Prs-Nom-P3 verb|sleep-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|barn adv|upstairs ?
+%gra:	1|2|NSUBJ 2|6|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|ADVMOD 7|2|PUNCT
+*MOT:	with the chickens ?
+%mor:	adp|with det|the-Def-Art noun|chicken-Plur ?
+%gra:	1|3|CASE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*CHI:	no . 520866_524066
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	the chickens are down there . 530456_531476
+%mor:	det|the-Def-Art noun|chicken-Plur aux|be-Fin-Ind-Pres-P3 adv|down adv|there .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|COP 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*MOT:	but isn't there a chicken nest over there ? 532129_533749
+%mor:	cconj|but aux|be-Fin-Ind-Pres-S3~part|not adv|there det|a-Ind-Art noun|chicken noun|nest adp|over adv|there ?
+%gra:	1|7|CC 2|7|COP 3|7|ADVMOD 4|7|ADVMOD 5|7|DET 6|7|COMPOUND 7|9|ROOT 8|9|CASE 9|7|NMOD 10|7|PUNCT
+*CHI:	well he's sleeping xxx there . 535345_536775
+%mor:	intj|well pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|sleep-Part-Pres-S adv|there .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|ADVMOD 6|4|PUNCT
+*MOT:	oh .
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	so he's got a little bed over there . 537854_538984
+%mor:	adv|so pron|he-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|get-Part-Past-S det|a-Ind-Art adj|little-Pos-S1 noun|bed adp|over adv|there .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|7|DET 6|7|AMOD 7|4|OBJ 8|9|CASE 9|4|OBL 10|4|PUNCT
+*MOT:	okay . 540992_541452
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and this have [: has] [*] to stay in here so it won't get wet . 542803_543963
+%mor:	cconj|and pron|this-Dem-S1 verb|have-Fin-Ind-Pres-S3 part|to verb|stay-Inf-S adp|in adv|here adv|so pron|it-Prs-Nom-S3 aux|will-Fin-S~part|not verb|get-Inf-S adj|wet-Pos-S1 .
+%gra:	1|3|CC 2|3|NSUBJ 3|13|ROOT 4|5|MARK 5|3|XCOMP 6|7|CASE 7|5|OBL 8|12|MARK 9|12|NSUBJ 10|12|AUX 11|12|ADVMOD 12|3|PARATAXIS 13|12|XCOMP 14|3|PUNCT
+*MOT:	<oh so> [//] oh . 544428_544528
+%mor:	intj|oh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	so you you gotta take the fence down every day huh ? 545455_547015
+%mor:	adv|so pron|you-Prs-Acc-S2 pron|you-Prs-Nom-S2 aux|gotta-Fin-S verb|take-Inf-S det|the-Def-Art noun|fence adp|down det|every-Def noun|day intj|huh ?
+%gra:	1|5|ADVMOD 2|5|DISCOURSE 3|5|NSUBJ 4|5|AUX 5|11|ROOT 6|7|DET 7|5|OBJ 8|5|COMPOUND-PRT 9|10|DET 10|5|OBL-TMOD 11|5|DISCOURSE 12|5|PUNCT
+*CHI:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	is it only when they go outside to play that you gotta put the fence up ? 548424_550954
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 adv|only adv|when pron|they-Prs-Nom-P3 verb|go-Fin-Ind-Pres-P3 adv|outside part|to verb|play-Inf-S sconj|that pron|you-Prs-Nom-S2 aux|gotta-Fin-S verb|put-Inf-S det|the-Def-Art noun|fence adp|up ?
+%gra:	1|16|ROOT 2|1|NSUBJ 3|6|ADVMOD 4|6|ADVMOD 5|6|NSUBJ 6|1|ADVCL 7|6|ADVMOD 8|9|MARK 9|6|ADVCL 10|13|MARK 11|13|NSUBJ 12|13|AUX 13|6|ADVCL 14|15|DET 15|13|OBJ 16|13|COMPOUND-PRT 17|1|PUNCT
+*MOT:	then the cars don't run them over ? 551741_553111
+%mor:	adv|then det|the-Def-Art noun|car-Plur aux|do-Fin-Ind-Pres-P3~part|not verb|run-Inf-S pron|they-Prs-Acc-P3 adv|over ?
+%gra:	1|6|ADVMOD 2|3|DET 3|6|NSUBJ 4|6|AUX 5|6|ADVMOD 6|8|ROOT 7|6|OBJ 8|6|COMPOUND-PRT 9|6|PUNCT
+*CHI:	they're suppose ta stay here . 554431_555101
+%mor:	pron|they-Prs-Nom-P3~aux|be-Fin-Ind-Pres-P3 verb|suppose-Part-Pres-S part|to verb|stay-Inf-S adv|here .
+%gra:	1|3|NSUBJ-PASS 2|3|AUX-PASS 3|6|ROOT 4|5|MARK 5|3|XCOMP 6|5|ADVMOD 7|3|PUNCT
+*MOT:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	it's just like you right ? 556861_557441
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|just adp|like pron|you-Prs-Acc-S2 adj|right-Pos-S1 ?
+%gra:	1|2|NSUBJ 2|6|ROOT 3|5|ADVMOD 4|5|CASE 5|2|OBL 6|5|DISCOURSE 7|2|PUNCT
+*MOT:	yeah .
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and sleep in here xxx they hafta . 559868_560088
+%mor:	cconj|and verb|sleep-Fin-Imp-S adp|in adv|here pron|they-Prs-Nom-P3 verb|hafta-Fin-Ind-Pres-P3 .
+%gra:	1|2|CC 2|6|ROOT 3|4|CASE 4|2|OBL 5|6|NSUBJ 6|2|PARATAXIS 7|2|PUNCT
+*MOT:	okay . 561414_561624
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*MOT:	let's let then sleep . 561697_562567
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|let-Inf-S adv|then verb|sleep-Inf-S .
+%gra:	1|5|ROOT 2|1|OBJ 3|1|XCOMP 4|3|ADVMOD 5|3|XCOMP 6|1|PUNCT
+*MOT:	you wanna play with the potatos now ? 562689_563879
+%mor:	pron|you-Prs-Nom-S2 aux|wanna-Fin-Ind-Pres-S verb|play-Inf-S adp|with det|the-Def-Art noun|potato-Plur adv|now ?
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|6|CASE 5|6|DET 6|3|OBL 7|3|ADVMOD 8|3|PUNCT
+*MOT:	do you have a Potato_Head at home ? 564560_567910
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|have-Inf-S det|a-Ind-Art noun|PotatoHead adp|at noun|home ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|7|ROOT 4|5|DET 5|3|OBJ 6|7|CASE 7|5|NMOD 8|3|PUNCT
+*CHI:	0 .
+%act:	shrugs shoulders .
+*MOT:	you know . 570015_570505
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 .
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*MOT:	oop . 570735_570815
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	xxx .
+*MOT:	I get one too . 575262_575592
+%mor:	pron|I-Prs-Nom-S1 verb|get-Fin-Ind-Pres-S1 num|one adv|too .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*CHI:	I'm the mama . 577660_578520
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 det|the-Def-Art noun|mama .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|4|ROOT 5|4|PUNCT
+@End

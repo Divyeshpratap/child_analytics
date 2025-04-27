@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CHILDES Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        ul { list-style-type: none; }
+        .toggle { cursor: pointer; margin-right: 5px; font-weight: bold; }
+        .hidden { display: none; }
+        .tree-item { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">CHILDES Analysis</h1>
+        <!-- Navigation link to go back to main page if needed -->
+        <a href="{{ url_for('index') }}" class="btn btn-info mb-3">Back to Main Page</a>
+        <!-- Directory Tree -->
+        <div id="tree-container" class="mb-4"></div>
+        <label class="form-label fw-bold">Speaker lines to analyse:</label><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"
+                   name="speaker_option" id="speaker_child"
+                   value="child" checked>
+            <label class="form-check-label" for="speaker_child">Only Child (*CHI)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"
+                   name="speaker_option" id="speaker_inv"
+                   value="investigator">
+            <label class="form-check-label" for="speaker_inv">
+                Only Investigator / Parent (*MOT or *INV)
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"
+                   name="speaker_option" id="speaker_both"
+                   value="both">
+            <label class="form-check-label" for="speaker_both">Both</label>
+        </div>
+        <button id="process-btn" class="btn btn-primary mb-3">Process Selected Files</button>
+        <!-- Loading Spinner (initially hidden) -->
+        <div id="loadingSpinner" class="d-none text-center my-3">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Processing...</span>
+            </div>
+            <p>Processing, please wait...</p>
+        </div>
+        <!-- Overall Totals (will be populated after processing) -->
+        <div id="totals-container" class="mb-3"></div>
+        <!-- Download Button -->
+        <a href="/download_analysis" class="btn btn-success mb-3" target="_blank">Download Analysis (Excel)</a>
+        <!-- Results Table -->
+        <div id="results-container" class="table-responsive">
+            <table class="table table-striped table-bordered" id="results-table">
+                <thead class="table-light">
+                    <tr>
+                        <th>File</th>
+                        <th>Group</th>
+                        <th>Gender</th>
+                        <th>Result Verb Count</th>
+                        <th>Manner Verb Count</th>
+                        <th>View Parsed Data</th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" placeholder="Search File" class="form-control form-control-sm"></th>
+                        <th><input type="text" placeholder="Search Group" class="form-control form-control-sm"></th>
+                        <th>
+                            <select class="form-control form-control-sm">
+                                <option value="">All</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot class="table-light">
+                    <tr>
+                        <th colspan="3" class="text-end">Filtered Totals:</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        // Recursive function to render the directory tree.
+        function renderTree(nodes) {
+            let html = '<ul>';
+            nodes.forEach(function(node) {
+                let hasChildren = node.children && node.children.length > 0;
+                html += '<li>';
+                if(hasChildren) {
+                    html += '<span class="toggle">[+]</span>';
+                }
+                html += '<input type="checkbox" class="node-checkbox" data-id="'+node.id+'" checked> ';
+                html += '<span class="node-text">' + node.text + '</span>';
+                if(hasChildren) {
+                    html += '<div class="children hidden">' + renderTree(node.children) + '</div>';
+                }
+                html += '</li>';
+            });
+            html += '</ul>';
+            return html;
+        }
+
+        // Toggle expand/collapse.
+        $(document).on('click', '.toggle', function() {
+            let childrenDiv = $(this).siblings('div.children');
+            if(childrenDiv.hasClass('hidden')) {
+                childrenDiv.removeClass('hidden');
+                $(this).text('[-]');
+            } else {
+                childrenDiv.addClass('hidden');
+                $(this).text('[+]');
+            }
+        });
+
+        // Propagate checkbox selection to children.
+        $(document).on('change', '.node-checkbox', function() {
+            $(this).siblings('div.children').find('input.node-checkbox').prop('checked', this.checked);
+        });
+
+        $(document).ready(function() {
+            // Load directory tree.
+            $.getJSON("/get_childes_tree", function(data) {
+                $("#tree-container").html(renderTree(data));
+            });
+
+            // Process selected files.
+            $("#process-btn").click(function() {
+                if ($.fn.DataTable.isDataTable('#results-table')) {
+                    $('#results-table').DataTable().destroy();
+                }
+                // Show the spinner.
+                $("#loadingSpinner").removeClass("d-none");
+                $("#results-table tbody").empty();
+                let selectedFiles = [];
+                $("input.node-checkbox").each(function() {
+                    let id = $(this).attr("data-id");
+                    if(id && id.endsWith(".cha") && $(this).is(":checked")) {
+                        selectedFiles.push(id);
+                    }
+                });
+                if(selectedFiles.length === 0) {
+                    alert("No files selected!");
+                    return;
+                }
+                const speakerOption =
+                    $('input[name="speaker_option"]:checked').val();
+
+                $.ajax({
+                    url: "/process_childes",
+                    method: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        "selected_files": selectedFiles,
+                        "speaker_option": speakerOption 
+                    }),
+                    success: function(response) {
+                        if(response.status === "success") {
+                            let rows = "";
+                            response.results.forEach(function(item) {
+                                rows += "<tr>";
+                                rows += "<td>" + item.file + "</td>";
+                                rows += "<td>" + item.group + "</td>";
+                                rows += "<td>" + item.gender + "</td>";
+                                // Clickable counts for verb details.
+                                rows += "<td><a target='_blank' data-count='" + item.result_count + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=result'>" + item.result_count + "</a></td>";
+                                rows += "<td><a target='_blank' data-count='" + item.manner_count + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=manner'>" + item.manner_count + "</a></td>";
+                                rows += "<td><a target='_blank' href='/view_parsed_data?file=" + encodeURIComponent(item.file) + "'>View parsed data</a></td>";
+                                rows += "</tr>";
+                            });
+                            $("#results-table tbody").html(rows);
+                            // Populate overall totals.
+                            $("#totals-container").html(
+                                "<div class='alert alert-info'>Overall Totals: Result Verbs = " +
+                                response.overall_totals.total_result + ", Manner Verbs = " + response.overall_totals.total_manner + "</div>"
+                            );
+                            // Initialize DataTable.
+                            if ($.fn.DataTable.isDataTable('#results-table')) {
+                                $('#results-table').DataTable().destroy();
+                            }
+                            $("#results-table").DataTable({
+                                "paging": true,
+                                "searching": true,
+                                "ordering": true,
+                                "info": true,
+                                "autoWidth": false,
+                                "responsive": true,
+                                "lengthChange": true,
+                                "pageLength": 25,
+                                "order": [0, 'asc'],
+                                "dom": 'Bfrtip',
+                                "buttons": [
+                                    'copy', 'csv', 'excel', 'pdf', 'print'
+                                ],
+                                "footerCallback": function ( row, data, start, end, display ) {
+                                    var api = this.api();
+                                    var totalResult = 0;
+                                    var totalManner = 0;
+                                    // Iterate through the filtered nodes in column 3
+                                    api.column(3, { search: 'applied' }).nodes().each(function(cell) {
+                                        var count = $(cell).find('a').data('count');
+                                        totalResult += count ? parseFloat(count) : 0;
+                                    });
+                                    // Iterate through the filtered nodes in column 4
+                                    api.column(4, { search: 'applied' }).nodes().each(function(cell) {
+                                        var count = $(cell).find('a').data('count');
+                                        totalManner += count ? parseFloat(count) : 0;
+                                    });
+                                    $(api.column(3).footer()).html(totalResult);
+                                    $(api.column(4).footer()).html(totalManner);
+                                },
+                                "initComplete": function () {
+                                    // Hide the spinner after AJAX completes (regardless of success/error).
+                                    $("#loadingSpinner").addClass("d-none");
+                                    this.api().columns().every(function (index) {
+                                        var that = this;
+                                        // Use a dropdown for Gender filtering (index 2)
+                                        if(index === 2) {
+                                            $('select', this.header()).on('change', function () {
+                                                var val = $.fn.dataTable.util.escapeRegex($(this).val());
+                                                that.search(val ? '^' + val + '$' : '', true, false).draw();
+                                            });
+                                        } else {
+                                            $('input', this.header()).on('keyup change clear', function () {
+                                                if (that.search() !== this.value) {
+                                                    that.search(this.value).draw();
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+                        } else {
+                            alert("Error: " + response.message);
+                        }
+                    },
+                    error: function() {
+                        alert("An error occurred during processing.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

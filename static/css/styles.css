@@ -1,0 +1,33 @@
+/* static/css/styles.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#resultsTable th, #resultsTable td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Custom striped rows with lighter shades */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+/* Optional: Highlight row on hover with a slightly darker shade */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust DataTables Buttons */
+.dt-buttons .btn {
+    margin-right: 5px;
+}

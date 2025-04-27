@@ -1,0 +1,803 @@
+@UTF8
+@PID:	11312/c-00006370-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Target_Child, INV Investigator
+@Options:	multi
+@ID:	eng|EllisWeismer|CHI|4;06.|male|LT||Target_Child||ec|
+@ID:	eng|EllisWeismer|INV|||||Investigator|||
+@Media:	12080, audio
+@Date:	02-APR-2002
+@Transcriber:	Taylor_Baron
+@Types:	long, toyplay, LT
+*CHI:	where's the bed ? 0_430
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|bed ?
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	a bed . 1203_1703
+%mor:	det|a-Ind-Art noun|bed .
+%gra:	1|2|DET 2|2|ROOT 3|2|PUNCT
+*CHI:	yeah . 2003_2163
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	we need a bed ? 2750_3500
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 det|a-Ind-Art noun|bed ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHI:	a bed <for this> [/] for this ambulance . 3704_8224
+%mor:	det|a-Ind-Art noun|bed adp|for det|this-Def-Dem noun|ambulance .
+%gra:	1|2|DET 2|5|ROOT 3|5|CASE 4|5|DET 5|2|NMOD 6|2|PUNCT
+*INV:	oh like a stretcher or a gurney for the ambulance . 8592_11472
+%mor:	intj|oh intj|like det|a-Ind-Art noun|stretcher cconj|or det|a-Ind-Art noun|gurney adp|for det|the-Def-Art noun|ambulance .
+%gra:	1|4|DISCOURSE 2|4|DISCOURSE 3|4|DET 4|10|ROOT 5|7|CC 6|7|DET 7|4|CONJ 8|10|CASE 9|10|DET 10|7|NMOD 11|4|PUNCT
+*INV:	there's one in there . 11529_12459
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|one adp|in adv|there .
+%gra:	1|2|EXPL 2|5|ROOT 3|2|NSUBJ 4|5|CASE 5|3|NMOD 6|2|PUNCT
+*INV:	we'll find it . 12516_12876
+%mor:	pron|we-Prs-Nom-P1~aux|will-Fin-S verb|find-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|3|NSUBJ 2|3|AUX 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	<there not> [//] <it like> [//] the bed doesn't come out . 13524_18594
+%mor:	det|the-Def-Art noun|bed aux|do-Fin-Ind-Pres-S3~part|not verb|come-Inf-S adp|out .
+%gra:	1|2|DET 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|COMPOUND-PRT 7|5|PUNCT
+*INV:	you know what ? 18951_19381
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Int-S1 ?
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*INV:	that's because that one stays in and there's one in this bag that goes on top . 19635_25145
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 sconj|because det|that-Def-Dem noun|one verb|stay-Fin-Ind-Pres-S3 adv|in cconj|and pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 num|one adp|in det|this-Def-Dem noun|bag pron|that-Rel-S1 verb|go-Fin-Ind-Pres-S3 adp|on noun|top .
+%gra:	1|2|NSUBJ 2|18|ROOT 3|6|MARK 4|5|DET 5|6|NSUBJ 6|2|CCOMP 7|6|ADVMOD 8|10|CC 9|10|EXPL 10|6|CONJ 11|10|NSUBJ 12|14|CASE 13|14|DET 14|11|NMOD 15|16|NSUBJ 16|14|ACL-RELCL 17|18|CASE 18|16|OBL 19|2|PUNCT
+*INV:	see this one ? 26888_27608
+%mor:	verb|see-Fin-Imp-S det|this-Def-Dem noun|one ?
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*INV:	it goes on here . 29138_30448
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|on adv|here .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|COMPOUND-PRT 4|2|ADVMOD 5|2|PUNCT
+*INV:	it just sits on there . 31945_35975
+%mor:	pron|it-Prs-Nom-S3 adv|just verb|sit-Fin-Ind-Pres-S3 adp|on adv|there .
+%gra:	1|3|NSUBJ 2|3|ADVMOD 3|5|ROOT 4|5|CASE 5|3|OBL 6|3|PUNCT
+*INV:	you've got someone driving the ambulance already . 37230_47490
+%mor:	pron|you-Prs-Nom-S2~aux|have-Fin-Ind-Pres-S2 verb|get-Part-Past-S pron|someone-Ind-S1 verb|drive-Ger-S det|the-Def-Art noun|ambulance adv|already .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|3|OBJ 5|4|ACL 6|7|DET 7|5|OBJ 8|5|ADVMOD 9|3|PUNCT
+%com:	child makes siren noises
+*CHI:	I'm out_of 0the fire engine [*] . 48623_59003
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|outof-Pos-S1 noun|fire noun|engine .
+%gra:	1|5|NSUBJ 2|5|COP 3|5|AMOD 4|5|COMPOUND 5|5|ROOT 6|5|PUNCT
+*CHI:	wanna drive a fire engine ? 60079_61429
+%mor:	intj|wanna verb|drive-Fin-Imp-S det|a-Ind-Art noun|fire noun|engine ?
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|5|DET 4|5|COMPOUND 5|2|OBJ 6|2|PUNCT
+*CHI:	how_about I can get a fireman for you . 62545_64625
+%mor:	intj|howabout pron|I-Prs-Nom-S1 aux|can-Fin-S verb|get-Inf-S det|a-Ind-Art noun|fireman adp|for pron|you-Prs-Acc-S2 .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|6|DET 6|4|OBJ 7|8|CASE 8|4|OBL 9|4|PUNCT
+*INV:	okay . 64694_65594
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	here's a man . 71649_74169
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|man .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	here's a fireman . 74715_75535
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|fireman .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	and here's a fireman . 75755_77495
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|fireman .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*INV:	is there a firewoman there ? 78123_79363
+%mor:	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 det|a-Ind-Art noun|firewoman adv|there ?
+%gra:	1|5|ROOT 2|1|EXPL 3|4|DET 4|1|NSUBJ 5|1|ADVMOD 6|1|PUNCT
+*CHI:	<and here's a> [//] and here's <a &+amb> [//] a doctor . 79626_84046
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|doctor .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*INV:	oh good . 84546_85596
+%mor:	intj|oh adj|good-Pos-S1 .
+%gra:	1|2|DISCOURSE 2|2|ROOT 3|2|PUNCT
+*INV:	maybe we should call this the hospital . 85844_87914
+%mor:	adv|maybe pron|we-Prs-Nom-P1 aux|should-Fin-S verb|call-Inf-S pron|this-Dem-S1 det|the-Def-Art noun|hospital .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|OBJ 6|7|DET 7|4|XCOMP 8|4|PUNCT
+*CHI:	no . 88262_88672
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I'm suppose to be <a fire> [/] a fire place [*] . 88723_92253
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adj|suppose-Pos-S1 part|to aux|be-Inf-S det|a-Ind-Art noun|fire noun|place .
+%gra:	1|3|NSUBJ 2|3|COP 3|8|ROOT 4|8|MARK 5|8|COP 6|8|DET 7|8|COMPOUND 8|3|XCOMP 9|3|PUNCT
+*INV:	a fire station . 92522_93262
+%mor:	det|a-Ind-Art noun|fire noun|station .
+%gra:	1|3|DET 2|3|COMPOUND 3|3|ROOT 4|3|PUNCT
+*CHI:	yeah . 93646_93826
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	okay . 94175_94565
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	well where's the hospital ? 94586_95586
+%mor:	intj|well adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|hospital ?
+%gra:	1|2|DISCOURSE 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*CHI:	&-um I think a ↫hos↫hospital 0is supposed to be next_to it [*] . 96056_102226
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 det|a-Ind-Art noun|hospital verb|suppose-Part-Past-S part|to aux|be-Inf-S adp|nextto pron|it-Prs-Acc-S3 .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|4|DET 4|5|NSUBJ 5|2|CCOMP 6|9|MARK 7|9|COP 8|9|CASE 9|5|XCOMP 10|2|PUNCT
+*INV:	okay . 102302_102412
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	so we'll pretend it's over here somewhere . 102435_103995
+%mor:	adv|so pron|we-Prs-Nom-P1~aux|will-Fin-S verb|pretend-Inf-S pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|over adv|here adv|somewhere .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|8|NSUBJ 6|8|COP 7|8|CASE 8|4|CCOMP 9|8|ADVMOD 10|4|PUNCT
+*INV:	there's the fire station . 104779_105909
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|fire noun|station .
+%gra:	1|2|EXPL 2|5|ROOT 3|5|DET 4|5|COMPOUND 5|2|NSUBJ 6|2|PUNCT
+*INV:	here I'll set up the hospital here . 105929_108109
+%mor:	adv|here pron|I-Prs-Nom-S1~aux|will-Fin-S verb|set-Inf-S adp|up det|the-Def-Art noun|hospital adv|here .
+%gra:	1|8|ROOT 2|4|NSUBJ 3|4|AUX 4|1|CCOMP 5|4|COMPOUND-PRT 6|7|DET 7|4|OBJ 8|4|ADVMOD 9|1|PUNCT
+*INV:	and I'm driving the firetruck . 109789_110989
+%mor:	cconj|and pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|drive-Part-Pres-S det|the-Def-Art noun|firetruck .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*INV:	is that what you said ? 111154_111874
+%mor:	aux|be-Fin-Ind-Pres-S3 sconj|that pron|what-Rel-S1 pron|you-Prs-Nom-S2 verb|say-Fin-Ind-Past-S2 ?
+%gra:	1|5|ROOT 2|5|MARK 3|5|OBJ 4|5|NSUBJ 5|1|CCOMP 6|1|PUNCT
+*CHI:	yeah . 111920_112070
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	okay . 112408_112798
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<and here's a little> [//] and here's a chainsaw . 112849_115609
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|chainsaw .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*INV:	oh now who gets that ? 115854_117714
+%mor:	intj|oh adv|now pron|who-Int-S1 verb|get-Fin-Ind-Pres-S3 pron|that-Dem-S1 ?
+%gra:	1|4|DISCOURSE 2|4|ADVMOD 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	that's the one that I learned of [: from] [*] Hardhatharry [>] fire .
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|one pron|that-Rel-S1 pron|I-Prs-Nom-S1 verb|learn-Fin-Ind-Past-S1 adp|from noun|Hardhatharry noun|fire .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|10|ROOT 5|7|OBJ 6|7|NSUBJ 7|4|ACL-RELCL 8|10|CASE 9|10|COMPOUND 10|7|OBL 11|4|PUNCT
+*INV:	uhhuh [<] . 121350_121590
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	yeah . 125514_125884
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	what 0is that one [*] ? 125933_129976
+%mor:	det|what-Def-Int det|that-Def-Dem noun|one ?
+%gra:	1|3|DET-PREDET 2|3|DET 3|3|ROOT 4|3|PUNCT
+*INV:	that goes in the fire truck in_case they need it for the fire . 129976_132286
+%mor:	pron|that-Dem-S1 verb|go-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|fire noun|truck adv|incase pron|they-Prs-Nom-P3 verb|need-Fin-Ind-Pres-P3 pron|it-Prs-Acc-S3 adp|for det|the-Def-Art noun|fire .
+%gra:	1|2|NSUBJ 2|13|ROOT 3|6|CASE 4|6|DET 5|6|COMPOUND 6|2|OBL 7|2|ADVMOD 8|9|NSUBJ 9|2|PARATAXIS 10|9|OBJ 11|13|CASE 12|13|DET 13|9|OBL 14|2|PUNCT
+*INV:	where do you think these flowers go ? 133161_134461
+%mor:	adv|where aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S det|this-Def-Dem noun|flower-Plur verb|go-Fin-Ind-Pres-P3 ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|7|ROOT 5|6|DET 6|7|NSUBJ 7|4|CCOMP 8|4|PUNCT
+*CHI:	I think them go of [//] right here . 135114_139454
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|they-Prs-Acc-P3 verb|go-Fin-Ind-Pres-P3 adv|right adv|here .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|4|NSUBJ 4|2|CCOMP 5|6|ADVMOD 6|4|ADVMOD 7|2|PUNCT
+*INV:	okay . 140085_140225
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I'll put them over here then . 140423_141913
+%mor:	pron|I-Prs-Nom-S1~aux|will-Fin-S verb|put-Inf-S pron|they-Prs-Acc-P3 adp|over adv|here adv|then .
+%gra:	1|3|NSUBJ 2|3|AUX 3|7|ROOT 4|3|OBJ 5|3|COMPOUND-PRT 6|3|OBL 7|3|ADVMOD 8|3|PUNCT
+*INV:	and let's see if I can find some other things for the [>] hospital .
+%mor:	cconj|and verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|see-Inf-S sconj|if pron|I-Prs-Nom-S1 aux|can-Fin-S verb|find-Inf-S det|some-Def adj|other-Pos-S1 noun|thing-Plur adp|for det|the-Def-Art noun|hospital .
+%gra:	1|2|CC 2|14|ROOT 3|2|OBJ 4|2|XCOMP 5|8|MARK 6|8|NSUBJ 7|8|AUX 8|4|CCOMP 9|11|DET 10|11|AMOD 11|8|OBJ 12|14|CASE 13|14|DET 14|11|NMOD 15|2|PUNCT
+*CHI:	<where's the> [<] I'm finding another [/] another fireman . 142367_147967
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|find-Part-Pres-S det|another-Def noun|fireman .
+%gra:	1|8|ROOT 2|1|COP 3|6|OBJ 4|6|NSUBJ 5|6|AUX 6|1|ADVCL-RELCL 7|8|DET 8|6|OBJ 9|1|PUNCT
+*INV:	another . 151748_152288
+%mor:	det|another-Def .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	you know what there's only two . 152365_153605
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Rel-S1 pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 adv|only num|two .
+%gra:	1|2|NSUBJ 2|7|ROOT 3|5|NSUBJ 4|5|EXPL 5|2|CCOMP 6|7|ADVMOD 7|5|NSUBJ 8|2|PUNCT
+*CHI:	so probably there's just one more in the bag . 156273_159623
+%mor:	adv|so adv|probably pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 adv|just num|one adj|more-Cmp-S1 adp|in det|the-Def-Art noun|bag .
+%gra:	1|4|ADVMOD 2|4|ADVMOD 3|4|EXPL 4|10|ROOT 5|7|ADVMOD 6|7|NUMMOD 7|4|NSUBJ 8|10|CASE 9|10|DET 10|7|OBL 11|4|PUNCT
+*INV:	well you know what ? 160847_161367
+%mor:	intj|well pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Int-S1 ?
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*INV:	that's all there is . 161640_162190
+%mor:	pron|that-Dem-S1~aux|be-Fin-Ind-Pres-S3 det|all-Def adv|there verb|be-Fin-Ind-Pres-S3 .
+%gra:	1|3|NSUBJ 2|3|COP 3|5|ROOT 4|3|ADVMOD 5|3|ACL-RELCL 6|3|PUNCT
+*INV:	there's just the firetruck came with two fire people . 162238_165698
+%mor:	pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 adv|just det|the-Def-Art noun|firetruck verb|come-Fin-Ind-Past-S3 adp|with num|two noun|fire noun|person-Plur .
+%gra:	1|2|EXPL 2|10|ROOT 3|2|ADVMOD 4|5|DET 5|6|NSUBJ 6|2|PARATAXIS 7|10|CASE 8|10|NUMMOD 9|10|COMPOUND 10|6|OBL 11|2|PUNCT
+*CHI:	what does this go with ? 165907_171387
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Pres-S3 pron|this-Dem-S1 verb|go-Inf-S adp|with ?
+%gra:	1|4|OBL 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|1|CASE 6|4|PUNCT
+*INV:	well sometimes when kids play with that they pretend that it's extra water for the firetruck . 172196_177556
+%mor:	intj|well adv|sometimes adv|when noun|kid-Plur verb|play-Fin-Ind-Pres-P3 adp|with sconj|that pron|they-Prs-Nom-P3 verb|pretend-Fin-Ind-Pres-P3 sconj|that pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|extra-Pos-S1 noun|water adp|for det|the-Def-Art noun|firetruck .
+%gra:	1|9|DISCOURSE 2|9|ADVMOD 3|5|ADVMOD 4|5|NSUBJ 5|9|ADVCL 6|5|OBL 7|9|MARK 8|9|NSUBJ 9|17|ROOT 10|14|MARK 11|14|NSUBJ 12|14|COP 13|14|AMOD 14|9|CCOMP 15|17|CASE 16|17|DET 17|14|NMOD 18|9|PUNCT
+*INV:	what do you think ? 177633_180583
+%mor:	pron|what-Int-S1 aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*CHI:	yeah because this one's like fire . 181263_183563
+%mor:	intj|yeah sconj|because det|this-Def-Dem noun|one~aux|be-Fin-Ind-Pres-S3 intj|like noun|fire .
+%gra:	1|7|DISCOURSE 2|7|MARK 3|4|DET 4|7|NSUBJ 5|7|COP 6|7|DISCOURSE 7|7|ROOT 8|7|PUNCT
+*INV:	uhhuh you're right . 184458_185698
+%mor:	intj|uhhuh pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|right-Pos-S1 .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*INV:	so should we put that by the firetruck or in the fire station . 188128_191238
+%mor:	adv|so aux|should-Fin-S pron|we-Prs-Nom-P1 verb|put-Inf-S pron|that-Dem-S1 adp|by det|the-Def-Art noun|firetruck cconj|or adp|in det|the-Def-Art noun|fire noun|station .
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|13|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|13|CC 10|13|CASE 11|13|DET 12|13|COMPOUND 13|8|CONJ 14|4|PUNCT
+*CHI:	we should put it in the fire station . 191838_198258
+%mor:	pron|we-Prs-Nom-P1 aux|should-Fin-S verb|put-Inf-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|fire noun|station .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|3|OBJ 5|8|CASE 6|8|DET 7|8|COMPOUND 8|3|OBL 9|3|PUNCT
+*INV:	okay .
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and then we could ↫p↫put this +... 198438_198618
+%mor:	cconj|and adv|then pron|we-Prs-Nom-P1 aux|could-Fin-S verb|put-Inf-S pron|this-Dem-S1 +...
+%gra:	1|5|CC 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	oops . 201389_202699
+%mor:	noun|oop .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	put [//] can [//] then can we put this on <when it> [/] <when it does need> [//] when it needs to ? 205671_217361
+%mor:	adv|then aux|can-Fin-S pron|we-Prs-Nom-P1 verb|put-Inf-S pron|this-Dem-S1 adp|on adv|when pron|it-Prs-Nom-S3 verb|need-Fin-Ind-Pres-S3 part|to ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|10|ROOT 5|4|OBJ 6|4|COMPOUND-PRT 7|9|ADVMOD 8|9|NSUBJ 9|4|ADVCL 10|4|XCOMP 11|4|PUNCT
+*CHI:	here . 218192_218672
+%mor:	adv|here .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and here's the fireman . 219457_221447
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|fireman .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*CHI:	<and here> [/] and here's the saw . 221742_224192
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|saw .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*CHI:	I [* 0'll] show you <where I want> [//] where a saw I think belongs [*] . 224400_228260
+%mor:	pron|I-Prs-Nom-S1 verb|show-Fin-Ind-Pres-S1 pron|you-Prs-Acc-S2 adv|where det|a-Ind-Art verb|see-Fin-Ind-Past-S3 pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 verb|belong-Fin-Ind-Pres-S3 .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|2|IOBJ 4|6|ADVMOD 5|6|NSUBJ 6|2|CCOMP 7|8|NSUBJ 8|6|CCOMP 9|8|CCOMP 10|2|PUNCT
+*INV:	okay . 228670_228960
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and here's another doctor . 229293_230823
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|another-Def noun|doctor .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*INV:	okay . 232101_232281
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<here's a doctor> [//] here's this [/] this doctor . 233736_238236
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|this-Def-Dem noun|doctor .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	here's the doctor . 240290_241980
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|doctor .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	okay . 242709_243139
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	and you were going to show me where something belongs . 245380_247350
+%mor:	cconj|and pron|you-Prs-Nom-S2 aux|be-Fin-Ind-Past-S2 verb|go-Part-Pres-S part|to verb|show-Inf-S pron|I-Prs-Acc-S1 adv|where pron|something-Ind-S1 verb|belong-Fin-Ind-Pres-S3 .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|10|ROOT 5|6|MARK 6|4|XCOMP 7|6|IOBJ 8|10|ADVMOD 9|10|NSUBJ 10|6|ADVCL 11|4|PUNCT
+*CHI:	&-um I think this saw +... 251461_253501
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|this-Dem-S1 verb|see-Fin-Ind-Past-S3 +...
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|NSUBJ 4|2|CCOMP 5|2|PUNCT
+*CHI:	hey <this is just a thing where> [//] probably this is a fire one . 254177_257377
+%mor:	intj|hey adv|probably pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|fire noun|one .
+%gra:	1|7|DISCOURSE 2|7|ADVMOD 3|7|NSUBJ 4|7|COP 5|7|DET 6|7|COMPOUND 7|7|ROOT 8|7|PUNCT
+*INV:	yeah I think you're right . 259100_260180
+%mor:	intj|yeah pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|right-Pos-S1 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|6|ROOT 4|6|NSUBJ 5|6|COP 6|3|CCOMP 7|3|PUNCT
+*CHI:	because it [/] it opens and shuts . 260434_263494
+%mor:	sconj|because pron|it-Prs-Nom-S3 verb|open-Fin-Ind-Pres-S3 cconj|and verb|shut-Fin-Ind-Pres-S3 .
+%gra:	1|3|MARK 2|3|NSUBJ 3|5|ROOT 4|5|CC 5|3|CONJ 6|3|PUNCT
+*CHI:	and it does . 264457_264977
+%mor:	cconj|and pron|it-Prs-Nom-S3 verb|do-Fin-Ind-Pres-S3 .
+%gra:	1|3|CC 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	I think it's [//] the saw 0is supposed to go on [//] under the sides [*] . 265920_270510
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 det|the-Def-Art noun|saw verb|suppose-Part-Past-S part|to verb|go-Inf-S adp|under det|the-Def-Art noun|side-Plur .
+%gra:	1|2|NSUBJ 2|10|ROOT 3|4|DET 4|5|NSUBJ 5|2|CCOMP 6|7|MARK 7|5|XCOMP 8|10|CASE 9|10|DET 10|7|OBL 11|2|PUNCT
+*INV:	okay . 270699_271169
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	that 0is what I learned where it always goes [*] . 271861_276601
+%mor:	sconj|that pron|what-Rel-S1 pron|I-Prs-Nom-S1 verb|learn-Fin-Ind-Past-S1 adv|where pron|it-Prs-Nom-S3 adv|always verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|4|MARK 2|4|OBJ 3|4|NSUBJ 4|8|ROOT 5|8|ADVMOD 6|8|NSUBJ 7|8|ADVMOD 8|4|ADVCL 9|4|PUNCT
+*INV:	okay . 277044_277344
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	all the time the saw goes right here . 277530_279750
+%mor:	det|all-Def det|the-Def-Art noun|time det|the-Def-Art noun|saw verb|go-Fin-Ind-Pres-S3 adv|right adv|here .
+%gra:	1|3|DET-PREDET 2|3|DET 3|8|ROOT 4|5|DET 5|6|NSUBJ 6|3|ACL-RELCL 7|8|ADVMOD 8|6|ADVMOD 9|3|PUNCT
+*CHI:	and all the time these go &+un [//] back here . 279996_284016
+%mor:	cconj|and det|all-Def det|the-Def-Art noun|time pron|this-Dem-P1 verb|go-Fin-Ind-Pres-P3 adv|back adv|here .
+%gra:	1|4|CC 2|4|DET-PREDET 3|4|DET 4|8|ROOT 5|6|NSUBJ 6|4|ACL-RELCL 7|8|ADVMOD 8|6|ADVMOD 9|4|PUNCT
+*INV:	all the fire extinguishers . 285052_286562
+%mor:	det|all-Def det|the-Def-Art noun|fire noun|extinguisher-Plur .
+%gra:	1|4|DET-PREDET 2|4|DET 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*CHI:	yeah . 286816_287276
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	here's another fireextinguisher and another one . 292072_296042
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|another-Def noun|fireextinguisher cconj|and det|another-Def noun|one .
+%gra:	1|7|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|7|CC 6|7|DET 7|4|CONJ 8|1|PUNCT
+*INV:	uhhuh . 296940_297410
+%mor:	intj|uhhuh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	there [* 0's] a_lot_of fire extinguishers . 299367_302147
+%mor:	pron|there-Int-S1 noun|alotof noun|fire noun|extinguisher-Plur .
+%gra:	1|4|NMOD-POSS 2|4|COMPOUND 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*INV:	yeah there are . 302333_302893
+%mor:	intj|yeah pron|there-Int-S1 verb|be-Fin-Ind-Pres-P3 .
+%gra:	1|3|DISCOURSE 2|3|EXPL 3|3|ROOT 4|3|PUNCT
+*CHI:	is there another chainsaw ? 304100_309720
+%mor:	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 det|another-Def noun|chainsaw ?
+%gra:	1|4|ROOT 2|1|EXPL 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*INV:	no . 310927_311277
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and here's a doctor kit . 311299_312489
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|doctor noun|kit .
+%gra:	1|2|CC 2|6|ROOT 3|2|COP 4|6|DET 5|6|COMPOUND 6|2|NSUBJ 7|2|PUNCT
+*INV:	yup you're right . 313217_314687
+%mor:	intj|yup pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|right-Pos-S1 .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|COP 4|4|ROOT 5|4|PUNCT
+*INV:	where should we put that ? 314851_315511
+%mor:	adv|where aux|should-Fin-S pron|we-Prs-Nom-P1 verb|put-Inf-S pron|that-Dem-S1 ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	I think by the doctor's . 316784_318144
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 adp|by det|the-Def-Art noun|doctor~part|s .
+%gra:	1|2|NSUBJ 2|6|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|5|CASE 7|2|PUNCT
+*CHI:	and here's a ladder . 318375_319455
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|ladder .
+%gra:	1|2|CC 2|5|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|2|PUNCT
+*INV:	maybe we could hook that on the back of the firetruck . 321251_325171
+%mor:	adv|maybe pron|we-Prs-Nom-P1 aux|could-Fin-S verb|hook-Inf-S pron|that-Dem-S1 adp|on det|the-Def-Art noun|back adp|of det|the-Def-Art noun|firetruck .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|11|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|11|CASE 10|11|DET 11|8|NMOD 12|4|PUNCT
+*INV:	got it ? 325590_325900
+%mor:	verb|get-Fin-Ind-Past-S1 pron|it-Prs-Acc-S3 ?
+%gra:	1|2|ROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	yeah . 326217_326337
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	I can't . 327893_328133
+%mor:	pron|I-Prs-Nom-S1 aux|can-Fin-S~part|not .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	right there . 329020_329840
+%mor:	adv|right adv|there .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	and where does this go ? 330706_333386
+%mor:	cconj|and adv|where aux|do-Fin-Ind-Pres-S3 pron|this-Dem-S1 verb|go-Inf-S ?
+%gra:	1|5|CC 2|5|ADVMOD 3|5|AUX 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	it's suppose to be by the saw . 334559_337049
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|suppose-Pos-S1 part|to aux|be-Inf-S adp|by det|the-Def-Art noun|saw .
+%gra:	1|3|NSUBJ 2|3|COP 3|8|ROOT 4|8|MARK 5|8|COP 6|8|CASE 7|8|DET 8|3|XCOMP 9|3|PUNCT
+*INV:	I bet that would go in there too . 338136_339306
+%mor:	pron|I-Prs-Nom-S1 verb|bet-Fin-Ind-Pres-S1 pron|that-Dem-S1 aux|would-Fin-S verb|go-Inf-S adv|in adv|there adv|too .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|5|NSUBJ 4|5|AUX 5|2|CCOMP 6|7|ADVMOD 7|5|ADVMOD 8|5|ADVMOD 9|2|PUNCT
+*CHI:	I don't know . 340369_340989
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	is this a saw or something ? 341868_343448
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 det|a-Ind-Art noun|saw cconj|or pron|something-Ind-S1 ?
+%gra:	1|4|COP 2|4|NSUBJ 3|4|DET 4|6|ROOT 5|6|CC 6|4|CONJ 7|4|PUNCT
+*INV:	well sometimes &+pe &+un [//] they use this to get people out_of their car if their door gets stuck . 344109_349639
+%mor:	intj|well adv|sometimes pron|they-Prs-Nom-P3 verb|use-Fin-Ind-Pres-P3 pron|this-Dem-S1 part|to verb|get-Inf-S noun|person-Plur adp|outof pron|their-Prs-Gen-P3 noun|car sconj|if pron|their-Prs-Gen-P3 noun|door aux|get-Fin-Ind-Pres-S3 adj|stuck-Pos-S1 .
+%gra:	1|4|DISCOURSE 2|4|ADVMOD 3|4|NSUBJ 4|16|ROOT 5|4|OBJ 6|7|MARK 7|4|ADVCL 8|7|OBJ 9|11|CASE 10|11|NMOD-POSS 11|7|OBL 12|15|MARK 13|14|NMOD-POSS 14|15|NSUBJ 15|7|ADVCL 16|15|XCOMP 17|4|PUNCT
+*CHI:	<and this> [//] what is this for ? 350562_352972
+%mor:	pron|what-Int-S1 aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adp|for ?
+%gra:	1|4|ROOT 2|1|COP 3|1|NSUBJ 4|1|CASE 5|1|PUNCT
+*INV:	probably for opening metal . 353614_355204
+%mor:	adv|probably sconj|for noun|opening noun|metal .
+%gra:	1|4|ADVMOD 2|4|CASE 3|4|COMPOUND 4|4|ROOT 5|4|PUNCT
+*INV:	cutting metal or opening metal <doors or something> [>] .
+%mor:	verb|cut-Ger-S noun|metal cconj|or verb|open-Ger-S noun|metal noun|door-Plur cconj|or pron|something-Ind-S1 .
+%gra:	1|8|ROOT 2|1|OBJ 3|4|CC 4|1|CONJ 5|6|COMPOUND 6|4|OBJ 7|8|CC 8|6|CONJ 9|1|PUNCT
+*CHI:	<put this> [<] let's put this 0in [*] . 357154_361094
+%mor:	verb|put-Fin-Imp-S pron|this-Dem-S1 verb|let-Inf-Imp-S~pron|we-Prs-Acc-P1 verb|put-Inf-S pron|this-Dem-S1 .
+%gra:	1|6|ROOT 2|1|OBJ 3|1|PARATAXIS 4|3|OBJ 5|3|XCOMP 6|5|OBJ 7|1|PUNCT
+*INV:	okay . 367092_367632
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	I'm going to put the fireman in . 367851_370311
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|go-Part-Pres-S part|to verb|put-Inf-S det|the-Def-Art noun|fireman adv|in .
+%gra:	1|3|NSUBJ 2|3|AUX 3|8|ROOT 4|5|MARK 5|3|XCOMP 6|7|DET 7|5|OBJ 8|5|COMPOUND-PRT 9|3|PUNCT
+*INV:	uhoh . 373109_373589
+%mor:	intj|uhoh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	what ? 374004_374904
+%mor:	pron|what-Int-S1 ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	everything came out the back . 375364_376754
+%mor:	pron|everything-Tot-S1 verb|come-Fin-Ind-Past-S3 adp|out det|the-Def-Art noun|back .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|2|COMPOUND-PRT 4|5|DET 5|2|OBJ 6|2|PUNCT
+*INV:	maybe you should leave one closed or leave one open or something . 376825_380095
+%mor:	adv|maybe pron|you-Prs-Nom-S2 aux|should-Fin-S verb|leave-Inf-S num|one verb|close-Part-Past-S cconj|or verb|leave-Inf-S num|one adj|open-Pos-S1 cconj|or pron|something-Ind-S1 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|12|ROOT 5|4|OBJ 6|4|XCOMP 7|8|CC 8|4|CONJ 9|8|OBJ 10|8|XCOMP 11|12|CC 12|10|CONJ 13|4|PUNCT
+*INV:	there you go . 381504_382184
+%mor:	pron|there-Int-S1 pron|you-Prs-Nom-S2 verb|go-Fin-Ind-Pres-S2 .
+%gra:	1|3|EXPL 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	<now we> [/] now we can close it . 383597_387167
+%mor:	adv|now pron|we-Prs-Nom-P1 aux|can-Fin-S verb|close-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*INV:	yup . 388221_388521
+%mor:	intj|yup .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and out_of this [% child pulls string out_of fire engine] . 389552_390902
+%mor:	cconj|and verb|outof-Fin-Imp-S pron|this-Dem-S1 .
+%gra:	1|2|CC 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*CHI:	where do you hook this ? 393356_395486
+%mor:	adv|where aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|hook-Inf-S pron|this-Dem-S1 ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|5|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	I know this probably ? 397917_400407
+%mor:	pron|I-Prs-Nom-S1 verb|know-Fin-Ind-Pres-S1 pron|this-Dem-S1 adv|probably ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*INV:	okay . 402043_402433
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	here's a firehose . 403671_404851
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|firehose .
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	and then where can we put the firehose ? 405728_408018
+%mor:	cconj|and adv|then adv|where aux|can-Fin-S pron|we-Prs-Nom-P1 verb|put-Inf-S det|the-Def-Art noun|firehose ?
+%gra:	1|6|CC 2|6|ADVMOD 3|6|ADVMOD 4|6|AUX 5|6|NSUBJ 6|8|ROOT 7|8|DET 8|6|OBJ 9|6|PUNCT
+*CHI:	I [/] <I think> [//] <why don't> [//] I think it can [//] could go right here I don't know . 409016_417826
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|it-Prs-Nom-S3 aux|could-Fin-S verb|go-Inf-S adv|right adv|here pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|2|NSUBJ 2|11|ROOT 3|5|NSUBJ 4|5|AUX 5|2|CCOMP 6|7|ADVMOD 7|5|ADVMOD 8|11|NSUBJ 9|11|AUX 10|11|ADVMOD 11|2|PARATAXIS 12|2|PUNCT
+*INV:	hm maybe we can find another spot for it . 417878_419498
+%mor:	intj|hm adv|maybe pron|we-Prs-Nom-P1 aux|can-Fin-S verb|find-Inf-S det|another-Def noun|spot adp|for pron|it-Prs-Acc-S3 .
+%gra:	1|5|DISCOURSE 2|5|ADVMOD 3|5|NSUBJ 4|5|AUX 5|9|ROOT 6|7|DET 7|5|OBJ 8|9|CASE 9|7|NMOD 10|5|PUNCT
+*CHI:	where does the fireman go ? 419608_423958
+%mor:	adv|where aux|do-Fin-Ind-Pres-S3 det|the-Def-Art noun|fireman verb|go-Inf-S ?
+%gra:	1|5|ADVMOD 2|5|AUX 3|4|DET 4|5|NSUBJ 5|5|ROOT 6|5|PUNCT
+*CHI:	<where can fire and> [/] where can +... 424148_426508
+%mor:	adv|where aux|can-Fin-S +...
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*CHI:	I mean <here's a &+doc> [/] here's a [/] a doctor thing . 426833_431243
+%mor:	pron|I-Prs-Nom-S1 verb|mean-Fin-Ind-Pres-S1 adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|doctor noun|thing .
+%gra:	1|2|NSUBJ 2|3|PARATAXIS 3|7|ROOT 4|3|COP 5|7|DET 6|7|COMPOUND 7|3|NSUBJ 8|3|PUNCT
+*CHI:	here's a doctor laying thing . 431636_433846
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|doctor verb|lay-Ger-S noun|thing .
+%gra:	1|6|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|4|ACL 6|5|OBJ 7|1|PUNCT
+*INV:	you know +/. 434118_434488
+%mor:	pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 +/.
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*CHI:	for [//] <and then> [//] and for a baby . 434504_437314
+%mor:	cconj|and adp|for det|a-Ind-Art noun|baby .
+%gra:	1|4|CC 2|4|CASE 3|4|DET 4|4|ROOT 5|4|PUNCT
+*CHI:	you're right . 437336_437866
+%mor:	pron|you-Prs-Nom-S2~aux|be-Fin-Ind-Pres-S2 adj|right-Pos-S1 .
+%gra:	1|3|NSUBJ 2|3|COP 3|3|ROOT 4|3|PUNCT
+*INV:	when your brother was born did he stay in one of these at the hospital ? 438142_443222
+%mor:	adv|when pron|your-Prs-Gen-S2 noun|brother aux|be-Fin-Ind-Past-S3 verb|bear-Part-Past-S aux|do-Fin-Ind-Past-S3 pron|he-Prs-Nom-S3 verb|stay-Inf-S adp|in num|one adp|of pron|this-Dem-P1 adp|at det|the-Def-Art noun|hospital ?
+%gra:	1|5|ADVMOD 2|3|NMOD-POSS 3|5|NSUBJ-PASS 4|5|AUX-PASS 5|8|ADVCL 6|8|AUX 7|8|NSUBJ 8|15|ROOT 9|10|CASE 10|8|OBL 11|12|CASE 12|10|NMOD 13|15|CASE 14|15|DET 15|8|OBL 16|8|PUNCT
+*CHI:	no I don't think so . 443509_445789
+%mor:	intj|no pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S adv|so .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|ADVMOD 7|5|PUNCT
+*CHI:	put the baby on it . 446720_447550
+%mor:	verb|put-Fin-Imp-S det|the-Def-Art noun|baby adp|on pron|it-Prs-Acc-S3 .
+%gra:	1|5|ROOT 2|3|DET 3|1|OBJ 4|5|CASE 5|1|OBL 6|1|PUNCT
+*CHI:	I think he didn't . 451777_453257
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 pron|he-Prs-Nom-S3 verb|do-Fin-Ind-Past-S3~part|not .
+%gra:	1|2|NSUBJ 2|5|ROOT 3|4|NSUBJ 4|2|CCOMP 5|4|ADVMOD 6|2|PUNCT
+*CHI:	right there . 454335_456315
+%mor:	adv|right adv|there .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	okay . 456575_456835
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	let's put them in the ambulance . 457410_459020
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|put-Inf-S pron|they-Prs-Acc-P3 adp|in det|the-Def-Art noun|ambulance .
+%gra:	1|7|ROOT 2|1|OBJ 3|1|XCOMP 4|3|OBJ 5|7|CASE 6|7|DET 7|3|OBL 8|1|PUNCT
+*INV:	in the ambulance . 459036_459676
+%mor:	adp|in det|the-Def-Art noun|ambulance .
+%gra:	1|3|CASE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*INV:	what happened to the baby ? 459980_461140
+%mor:	pron|what-Int-S1 verb|happen-Fin-Ind-Past-S3 adp|to det|the-Def-Art noun|baby ?
+%gra:	1|2|NSUBJ 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*INV:	is he hurt ? 461218_461918
+%mor:	aux|be-Fin-Ind-Pres-S3 pron|he-Prs-Nom-S3 verb|hurt-Part-Past-S ?
+%gra:	1|3|COP 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	yeah I think so . 462183_463583
+%mor:	intj|yeah pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 adv|so .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*INV:	uhoh you better get him to the hospital right away . 463978_466768
+%mor:	intj|uhoh pron|you-Prs-Nom-S2 adv|well verb|get-Inf-S pron|he-Prs-Acc-S3 adp|to det|the-Def-Art noun|hospital adv|right adv|away .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|ADVMOD 4|10|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|10|ADVMOD 10|4|ADVMOD 11|4|PUNCT
+*CHI:	oh_man this guy is coming . 469456_474526
+%mor:	noun|ohman det|this-Def-Dem noun|guy aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S .
+%gra:	1|5|NSUBJ 2|3|DET 3|5|NSUBJ 4|5|AUX 5|5|ROOT 6|5|PUNCT
+*CHI:	<this guy is coming> [/] <this guy is coming> [/] this guy is coming . 475277_485717
+%mor:	det|this-Def-Dem noun|guy aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	I [/] I [//] this guy is coming . 492659_494569
+%mor:	det|this-Def-Dem noun|guy aux|be-Fin-Ind-Pres-S3 verb|come-Part-Pres-S .
+%gra:	1|2|DET 2|4|NSUBJ 3|4|AUX 4|4|ROOT 5|4|PUNCT
+*CHI:	uhoh . 503357_503427
+%mor:	intj|uhoh .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<it's put it> [//] let's put this light <by a> [//] over by a doctor . 510073_517043
+%mor:	verb|let-Fin-Imp-S~pron|we-Prs-Acc-P1 verb|put-Inf-S det|this-Def-Dem noun|light adp|over adp|by det|a-Ind-Art noun|doctor .
+%gra:	1|9|ROOT 2|1|OBJ 3|1|XCOMP 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|9|CASE 8|9|DET 9|3|OBL 10|1|PUNCT
+*INV:	okay . 517202_518092
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	<and then we'll> [/] <and then> [/] <and then why> [//] can we turn this light on ? 518107_522167
+%mor:	aux|can-Fin-S pron|we-Prs-Nom-P1 verb|turn-Inf-S det|this-Def-Dem noun|light adp|on ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|3|PUNCT
+*CHI:	can we ? 524819_525589
+%mor:	aux|can-Fin-S pron|we-Prs-Nom-P1 ?
+%gra:	1|2|ROOT 2|1|NSUBJ 3|1|PUNCT
+*INV:	well it doesn't work . 526217_527147
+%mor:	intj|well pron|it-Prs-Nom-S3 aux|do-Fin-Ind-Pres-S3~part|not verb|work-Inf-S .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|5|ROOT 6|5|PUNCT
+*INV:	it's just kind of a pretend light . 527221_528571
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adv|just noun|kind adp|of det|a-Ind-Art adj|pretend-Pos-S1 noun|light .
+%gra:	1|8|NSUBJ 2|8|COP 3|8|ADVMOD 4|8|ADVMOD 5|4|FIXED 6|8|DET 7|8|AMOD 8|8|ROOT 9|8|PUNCT
+*CHI:	was there a piece a metal here for here ? 530619_535099
+%mor:	verb|be-Fin-Ind-Past-S3 pron|there-Int-S1 det|a-Ind-Art noun|piece det|a-Ind-Art noun|metal adv|here adp|for adv|here ?
+%gra:	1|9|ROOT 2|1|EXPL 3|4|DET 4|1|NSUBJ 5|6|DET 6|4|APPOS 7|6|ADVMOD 8|9|CASE 9|1|OBL 10|1|PUNCT
+*INV:	well that door fell came out . 535652_537692
+%mor:	intj|well det|that-Def-Dem noun|door verb|fall-Fin-Ind-Past-S3 verb|come-Fin-Ind-Past-S3 adv|out .
+%gra:	1|5|DISCOURSE 2|3|DET 3|4|NSUBJ 4|6|ROOT 5|4|PARATAXIS 6|5|ADVMOD 7|4|PUNCT
+*INV:	it fell out . 537751_538261
+%mor:	pron|it-Prs-Nom-S3 verb|fall-Fin-Ind-Past-S3 adv|out .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	it broke ? 539318_540468
+%mor:	pron|it-Prs-Nom-S3 verb|break-Fin-Ind-Past-S3 ?
+%gra:	1|2|NSUBJ 2|2|ROOT 3|2|PUNCT
+*INV:	yeah . 540859_541269
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	well fix it later . 541316_542286
+%mor:	intj|well verb|fix-Fin-Imp-S pron|it-Prs-Acc-S3 adv|late .
+%gra:	1|2|DISCOURSE 2|4|ROOT 3|2|OBJ 4|2|ADVMOD 5|2|PUNCT
+*CHI:	how_about that top ? 543137_544247
+%mor:	intj|howabout det|that-Def-Dem noun|top ?
+%gra:	1|3|DISCOURSE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*INV:	these are all parts for like the for the floor . 545058_551388
+%mor:	pron|this-Dem-P1 aux|be-Fin-Ind-Pres-P3 det|all-Def noun|part-Plur adp|for adp|like det|the-Def-Art adp|for det|the-Def-Art noun|floor .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|DET 4|10|ROOT 5|7|CASE 6|7|CASE 7|4|NMOD 8|10|CASE 9|10|DET 10|7|NMOD 11|4|PUNCT
+*INV:	they fell off . 553863_554773
+%mor:	pron|they-Prs-Nom-P3 verb|fall-Fin-Ind-Past-P3 adv|off .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|ADVMOD 4|2|PUNCT
+*CHI:	why did all these things fall off ? 555211_557731
+%mor:	adv|why aux|do-Fin-Ind-Past-S3 det|all-Def det|this-Def-Dem noun|thing-Plur verb|fall-Inf-S adv|off ?
+%gra:	1|6|ADVMOD 2|6|AUX 3|5|DET-PREDET 4|5|DET 5|6|NSUBJ 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*INV:	I don't know . 558029_558819
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*CHI:	can we push them in ? 560818_562268
+%mor:	aux|can-Fin-S pron|we-Prs-Nom-P1 verb|push-Inf-S pron|they-Prs-Acc-P3 adv|in ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|5|ROOT 4|3|OBJ 5|3|ADVMOD 6|3|PUNCT
+*CHI:	can we do something ? 563404_564954
+%mor:	aux|can-Fin-S pron|we-Prs-Nom-P1 verb|do-Inf-S pron|something-Ind-S1 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|4|ROOT 4|3|OBJ 5|3|PUNCT
+*INV:	yeah we can probably fix it . 565162_566382
+%mor:	intj|yeah pron|we-Prs-Nom-P1 aux|can-Fin-S adv|probably verb|fix-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|5|DISCOURSE 2|5|NSUBJ 3|5|AUX 4|5|ADVMOD 5|6|ROOT 6|5|OBJ 7|5|PUNCT
+*CHI:	here's [//] <the here> [//] here's a bear that goes in the ambulance . 575308_592988
+%mor:	adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|bear pron|that-Rel-S1 verb|go-Fin-Ind-Pres-S3 adp|in det|the-Def-Art noun|ambulance .
+%gra:	1|9|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|6|NSUBJ 6|4|ACL-RELCL 7|9|CASE 8|9|DET 9|6|OBL 10|1|PUNCT
+*CHI:	the ambulance that [* 0s] where it goes . 594300_595990
+%mor:	det|the-Def-Art noun|ambulance pron|that-Rel-S1 adv|where pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 .
+%gra:	1|2|DET 2|6|ROOT 3|6|OBJ 4|6|ADVMOD 5|6|NSUBJ 6|2|ACL-RELCL 7|2|PUNCT
+*CHI:	<in the> [/] in the ambulance do you know where ? 596068_600028
+%mor:	adp|in det|the-Def-Art noun|ambulance aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|know-Inf-S adv|where ?
+%gra:	1|3|CASE 2|3|DET 3|6|OBL 4|6|AUX 5|6|NSUBJ 6|7|ROOT 7|6|ADVMOD 8|6|PUNCT
+*INV:	what ? 600143_600983
+%mor:	pron|what-Int-S1 ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	<where what goes> [>] ? 601177_601357
+%mor:	adv|where pron|what-Int-S1 verb|go-Fin-Ind-Pres-S3 ?
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	<do you know> [<] where this goes ? 601357_601377
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|know-Inf-S adv|where pron|this-Dem-S1 verb|go-Fin-Ind-Pres-S3 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|ADVMOD 5|6|NSUBJ 6|3|CCOMP 7|3|PUNCT
+*INV:	in the ambulance . 601377_601557
+%mor:	adp|in det|the-Def-Art noun|ambulance .
+%gra:	1|3|CASE 2|3|DET 3|3|ROOT 4|3|PUNCT
+*CHI:	here . 603710_604490
+%mor:	adv|here .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	well +/. 604490_604840
+%mor:	intj|well +/.
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	it goes right here . 605345_606095
+%mor:	pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adv|right adv|here .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|ADVMOD 4|2|ADVMOD 5|2|PUNCT
+*INV:	okay . 606806_607466
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	until someone gets hurt . 607562_608792
+%mor:	sconj|until pron|someone-Ind-S1 aux|get-Fin-Ind-Pres-S3 verb|hurt-Part-Past-S .
+%gra:	1|4|MARK 2|4|NSUBJ-PASS 3|4|AUX-PASS 4|4|ROOT 5|4|PUNCT
+*INV:	okay . 609810_610230
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	when you lay down . 610325_611275
+%mor:	adv|when pron|you-Prs-Nom-S2 verb|lay-Fin-Ind-Pres-S2 adv|down .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|4|ROOT 4|3|ADVMOD 5|3|PUNCT
+*INV:	okay . 612205_612315
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	you get that ready . 614993_615863
+%mor:	pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Pres-S2 pron|that-Dem-S1 adj|ready-Pos-S1 .
+%gra:	1|2|NSUBJ 2|4|ROOT 3|2|OBJ 4|2|XCOMP 5|2|PUNCT
+*INV:	I'm gonna take a peak out the door . 616037_618367
+%mor:	pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 adv|gonna verb|take-Inf-S det|a-Ind-Art noun|peak adp|out det|the-Def-Art noun|door .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|6|DET 6|4|OBJ 7|9|CASE 8|9|DET 9|4|OBL 10|4|PUNCT
+*INV:	check the time . 619467_620327
+%mor:	verb|check-Fin-Imp-S det|the-Def-Art noun|time .
+%gra:	1|3|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*INV:	we have a couple more minutes to play . 620850_627200
+%mor:	pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|a-Ind-Art noun|couple adj|more-Cmp-S1 noun|minute-Plur part|to verb|play-Inf-S .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|DET 4|5|OBL-NPMOD 5|6|AMOD 6|2|OBJ 7|8|MARK 8|2|ADVCL 9|2|PUNCT
+*CHI:	and here's some things and here's some things . 627633_644553
+%mor:	cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|some-Def noun|thing-Plur cconj|and adv|here~aux|be-Fin-Ind-Pres-S3 det|some-Def noun|thing-Plur .
+%gra:	1|2|CC 2|10|ROOT 3|2|COP 4|5|DET 5|2|NSUBJ 6|7|CC 7|2|CONJ 8|7|COP 9|10|DET 10|7|NSUBJ 11|2|PUNCT
+*CHI:	that [//] why <that thing> [//] 0does this thing goes [* +es] in with these [*] ? 646208_651078
+%mor:	adv|why det|this-Def-Dem noun|thing verb|go-Fin-Ind-Pres-S3 adv|in adp|with pron|this-Dem-P1 ?
+%gra:	1|4|ADVMOD 2|3|DET 3|4|NSUBJ 4|7|ROOT 5|4|ADVMOD 6|7|CASE 7|4|OBL 8|4|PUNCT
+*CHI:	see ? 652261_652711
+%mor:	verb|see-Fin-Imp-S ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	mhm . 653100_653650
+%mor:	intj|mhm .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	do you know where those go ? 653665_657505
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|know-Inf-S adv|where det|that-Def-Dem verb|go-Fin-Ind-Pres-P3 ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|6|ROOT 4|6|ADVMOD 5|6|NSUBJ 6|3|CCOMP 7|3|PUNCT
+*CHI:	right here . 658990_659600
+%mor:	adv|right adv|here .
+%gra:	1|2|ADVMOD 2|2|ROOT 3|2|PUNCT
+*INV:	now what are we gonna use those for ? 660227_662487
+%mor:	adv|now pron|what-Int-S1 aux|be-Fin-Ind-Pres-P1 pron|we-Prs-Nom-P1 adv|gonna verb|use-Inf-S pron|that-Dem-P1 adp|for ?
+%gra:	1|6|ADVMOD 2|6|OBJ 3|6|AUX 4|6|NSUBJ 5|6|ADVMOD 6|8|ROOT 7|6|OBJ 8|2|CASE 9|6|PUNCT
+*CHI:	I don't know . 664295_665175
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	is that medicine and supplies ? 666149_668599
+%mor:	aux|be-Fin-Ind-Pres-S3 det|that-Def-Dem noun|medicine cconj|and noun|supplies-Plur ?
+%gra:	1|3|COP 2|3|DET 3|5|ROOT 4|5|CC 5|3|CONJ 6|3|PUNCT
+*CHI:	yeah . 668947_669257
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	and <where does> [//] where 0in the ambulance [*] ? 670129_672959
+%mor:	cconj|and adv|where det|the-Def-Art noun|ambulance ?
+%gra:	1|4|CC 2|4|ADVMOD 3|4|DET 4|4|ROOT 5|4|PUNCT
+*INV:	is there another place to put that in the ambulance ? 674012_676232
+%mor:	verb|be-Fin-Ind-Pres-S3 pron|there-Int-S1 det|another-Def noun|place part|to verb|put-Inf-S pron|that-Dem-S1 adp|in det|the-Def-Art noun|ambulance ?
+%gra:	1|10|ROOT 2|1|EXPL 3|4|DET 4|1|NSUBJ 5|6|MARK 6|4|ACL 7|6|OBJ 8|10|CASE 9|10|DET 10|6|OBL 11|1|PUNCT
+*CHI:	I don't know . 679142_680162
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|know-Inf-S .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|4|ROOT 5|4|PUNCT
+*INV:	here let me take a look . 680400_681380
+%mor:	adv|here verb|let-Fin-Imp-S pron|I-Prs-Acc-S1 verb|take-Inf-S det|a-Ind-Art noun|look .
+%gra:	1|2|ADVMOD 2|6|ROOT 3|2|OBJ 4|2|XCOMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*CHI:	hey here's a water thing . 683439_686479
+%mor:	intj|hey adv|here~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art noun|water noun|thing .
+%gra:	1|2|DISCOURSE 2|6|ROOT 3|2|COP 4|6|DET 5|6|COMPOUND 6|2|NSUBJ 7|2|PUNCT
+*CHI:	it can work this little hose . 687353_689163
+%mor:	pron|it-Prs-Nom-S3 aux|can-Fin-S verb|work-Inf-S det|this-Def-Dem adj|little-Pos-S1 noun|hose .
+%gra:	1|3|NSUBJ 2|3|AUX 3|6|ROOT 4|6|DET 5|6|AMOD 6|3|OBJ 7|3|PUNCT
+*INV:	yeah . 689515_690015
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	this looks like it for one of the +... 690063_691243
+%mor:	pron|this-Dem-S1 verb|look-Fin-Ind-Pres-S3 adp|like pron|it-Prs-Acc-S3 adp|for num|one adp|of det|the-Def-Art +...
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|CASE 4|2|OBL 5|6|CASE 6|2|OBL 7|8|CASE 8|6|NMOD 9|2|PUNCT
+*INV:	oh you know what it's for ? 692105_693215
+%mor:	intj|oh pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Rel-S1 pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|for ?
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|7|ROOT 4|3|OBJ 5|4|NSUBJ 6|4|ACL-RELCL 7|4|ACL-RELCL 8|3|PUNCT
+*INV:	it's for this . 693907_694687
+%mor:	pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adp|for pron|this-Dem-S1 .
+%gra:	1|4|NSUBJ 2|4|COP 3|4|CASE 4|4|ROOT 5|4|PUNCT
+*CHI:	what's for that ? 694741_696111
+%mor:	pron|what-Int-S1~aux|be-Fin-Ind-Pres-S3 adp|for pron|that-Dem-S1 ?
+%gra:	1|2|NSUBJ 2|4|ROOT 3|4|CASE 4|2|OBL 5|2|PUNCT
+*INV:	this is called an I_V . 696692_698172
+%mor:	pron|this-Dem-S1 aux|be-Fin-Ind-Pres-S3 verb|call-Part-Past-S det|a-Ind-Art noun|iv .
+%gra:	1|3|NSUBJ-PASS 2|3|AUX-PASS 3|5|ROOT 4|5|DET 5|3|XCOMP 6|3|PUNCT
+*INV:	and sometimes when people are in the hospital and <they need fluids but they can't> [//] they need water but they can't drink it . 698224_704484
+%mor:	cconj|and adv|sometimes adv|when noun|person-Plur aux|be-Fin-Ind-Pres-P3 adp|in det|the-Def-Art noun|hospital cconj|and pron|they-Prs-Nom-P3 verb|need-Fin-Ind-Pres-P3 noun|water cconj|but pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|drink-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|8|CC 2|8|ADVMOD 3|8|ADVMOD 4|8|NSUBJ 5|8|COP 6|8|CASE 7|8|DET 8|18|ROOT 9|11|CC 10|11|NSUBJ 11|8|CONJ 12|11|OBJ 13|17|CC 14|17|NSUBJ 15|17|AUX 16|17|ADVMOD 17|8|CONJ 18|17|OBJ 19|8|PUNCT
+*INV:	they and they need food but they can't eat it . 704563_707483
+%mor:	pron|they-Prs-Nom-P3 cconj|and pron|they-Prs-Nom-P3 verb|need-Fin-Ind-Pres-P3 noun|food cconj|but pron|they-Prs-Nom-P3 aux|can-Fin-S~part|not verb|eat-Inf-S pron|it-Prs-Acc-S3 .
+%gra:	1|4|NSUBJ 2|3|CC 3|1|CONJ 4|11|ROOT 5|4|OBJ 6|10|CC 7|10|NSUBJ 8|10|AUX 9|10|ADVMOD 10|4|CONJ 11|10|OBJ 12|4|PUNCT
+*INV:	they put it in this tube and it goes in their blood . 707501_711281
+%mor:	pron|they-Prs-Nom-P3 verb|put-Fin-Ind-Past-P3 pron|it-Prs-Acc-S3 adp|in det|this-Def-Dem noun|tube cconj|and pron|it-Prs-Nom-S3 verb|go-Fin-Ind-Pres-S3 adp|in pron|their-Prs-Gen-P3 noun|blood .
+%gra:	1|2|NSUBJ 2|12|ROOT 3|2|OBJ 4|6|CASE 5|6|DET 6|2|OBL 7|9|CC 8|9|NSUBJ 9|2|CONJ 10|12|CASE 11|12|NMOD-POSS 12|9|OBL 13|2|PUNCT
+*INV:	so we'll put that by the hospital . 715172_716732
+%mor:	adv|so pron|we-Prs-Nom-P1~aux|will-Fin-S verb|put-Inf-S pron|that-Dem-S1 adp|by det|the-Def-Art noun|hospital .
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|8|ROOT 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|4|PUNCT
+*CHI:	where does [: is] [*] this suppose to go ? 716835_720875
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 pron|this-Dem-S1 adj|suppose-Pos-S1 part|to verb|go-Inf-S ?
+%gra:	1|4|ADVMOD 2|4|COP 3|4|NSUBJ 4|6|ROOT 5|6|MARK 6|4|XCOMP 7|4|PUNCT
+*CHI:	where's the little fire engine ? 721015_723255
+%mor:	adv|where~aux|be-Fin-Ind-Pres-S3 det|the-Def-Art adj|little-Pos-S1 noun|fire noun|engine ?
+%gra:	1|6|ROOT 2|1|COP 3|6|DET 4|6|AMOD 5|6|COMPOUND 6|2|NSUBJ 7|1|PUNCT
+*INV:	do you think does it can it fit in there ? 724706_726676
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 verb|think-Inf-S aux|do-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3 aux|can-Fin-S pron|it-Prs-Nom-S3 verb|fit-Inf-S adp|in adv|there ?
+%gra:	1|3|AUX 2|3|NSUBJ 3|10|ROOT 4|8|AUX 5|8|NSUBJ 6|8|AUX 7|8|NSUBJ 8|3|CCOMP 9|10|CASE 10|8|OBL 11|3|PUNCT
+*CHI:	nope that doesn't either . 729977_731917
+%mor:	intj|nope pron|that-Rel-S1 aux|do-Fin-Ind-Pres-S3~part|not cconj|either .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|5|ROOT 4|3|ADVMOD 5|3|ADVMOD 6|3|PUNCT
+*INV:	maybe we should keep it at the fire station so they have an extra hose huh ? 731975_735265
+%mor:	adv|maybe pron|we-Prs-Nom-P1 aux|should-Fin-S verb|keep-Inf-S pron|it-Prs-Acc-S3 adp|at det|the-Def-Art noun|fire noun|station adv|so pron|they-Prs-Nom-P3 verb|have-Fin-Ind-Pres-P3 det|a-Ind-Art adj|extra-Pos-S1 noun|hose intj|huh ?
+%gra:	1|4|ADVMOD 2|4|NSUBJ 3|4|AUX 4|16|ROOT 5|4|OBJ 6|9|CASE 7|9|DET 8|9|COMPOUND 9|4|OBL 10|12|ADVMOD 11|12|NSUBJ 12|4|PARATAXIS 13|15|DET 14|15|AMOD 15|12|OBJ 16|15|APPOS 17|4|PUNCT
+*CHI:	yeah . 735905_735995
+%mor:	intj|yeah .
+%gra:	1|1|ROOT 2|1|PUNCT
+*INV:	that would be a good idea . 737314_738234
+%mor:	pron|that-Dem-S1 aux|would-Fin-S aux|be-Inf-S det|a-Ind-Art adj|good-Pos-S1 noun|idea .
+%gra:	1|6|NSUBJ 2|6|AUX 3|6|COP 4|6|DET 5|6|AMOD 6|6|ROOT 7|6|PUNCT
+*CHI:	how_about the piece that connects here ? 738399_743269
+%mor:	verb|howabout-Fin-Imp-S det|the-Def-Art noun|piece pron|that-Rel-S1 verb|connect-Fin-Ind-Pres-S3 adv|here ?
+%gra:	1|6|ROOT 2|3|DET 3|1|OBJ 4|5|NSUBJ 5|3|ACL-RELCL 6|5|ADVMOD 7|1|PUNCT
+*INV:	hm ? 743318_745558
+%mor:	intj|hm ?
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	how_about the piece that connects to here ? 745767_748337
+%mor:	verb|howabout-Fin-Imp-S det|the-Def-Art noun|piece pron|that-Rel-S1 verb|connect-Fin-Ind-Pres-S3 adp|to adv|here ?
+%gra:	1|7|ROOT 2|3|DET 3|1|OBJ 4|5|NSUBJ 5|3|ACL-RELCL 6|7|CASE 7|5|OBL 8|1|PUNCT
+*INV:	okay . 748635_749075
+%mor:	intj|okay .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	my little fire engine 0is in [*] . 755854_758114
+%mor:	pron|my-Prs-Gen-S1 adj|little-Pos-S1 noun|fire noun|engine adp|in .
+%gra:	1|4|NMOD-POSS 2|4|AMOD 3|4|COMPOUND 4|5|ROOT 5|4|NMOD 6|4|PUNCT
+*CHI:	0 . 759292_762342
+%act:	child hakes siren noises .
+*CHI:	fire fire we have a fire . 763697_767307
+%mor:	noun|fire noun|fire pron|we-Prs-Nom-P1 verb|have-Fin-Ind-Pres-P1 det|a-Ind-Art noun|fire .
+%gra:	1|2|COMPOUND 2|4|OBJ 3|4|NSUBJ 4|6|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHI:	gotta get to the fire . 768999_769399
+%mor:	aux|gotta-Fin-S verb|get-Inf-S adp|to det|the-Def-Art noun|fire .
+%gra:	1|2|AUX 2|5|ROOT 3|5|CASE 4|5|DET 5|2|OBL 6|2|PUNCT
+*INV:	do you wanna go fight a fire ? 770825_773275
+%mor:	aux|do-Fin-Ind-Pres-S2 pron|you-Prs-Nom-S2 intj|wanna verb|go-Inf-S verb|fight-Inf-S det|a-Ind-Art noun|fire ?
+%gra:	1|4|AUX 2|4|NSUBJ 3|4|DISCOURSE 4|7|ROOT 5|4|XCOMP 6|7|DET 7|5|OBJ 8|4|PUNCT
+*CHI:	help me help me I've been hurt . 774373_778063
+%mor:	verb|help-Fin-Imp-S pron|I-Prs-Acc-S1 verb|help-Inf-S pron|I-Prs-Acc-S1 pron|I-Prs-Nom-S1~aux|have-Fin-Ind-Pres-S1 aux|be-Part-Past-S verb|hurt-Part-Past-S .
+%gra:	1|8|ROOT 2|1|OBJ 3|1|XCOMP 4|3|OBJ 5|8|NSUBJ-PASS 6|8|AUX 7|8|AUX-PASS 8|3|CCOMP 9|1|PUNCT
+*CHI:	bring your fire engine there's a bad fire . 778078_780418
+%mor:	verb|bring-Fin-Imp-S pron|your-Prs-Gen-S2 noun|fire noun|engine pron|there-Int-S1~aux|be-Fin-Ind-Pres-S3 det|a-Ind-Art adj|bad-Pos-S1 noun|fire .
+%gra:	1|9|ROOT 2|4|NMOD-POSS 3|4|COMPOUND 4|1|OBJ 5|6|EXPL 6|1|PARATAXIS 7|9|DET 8|9|AMOD 9|6|NSUBJ 10|1|PUNCT
+*INV:	uhoh uhoh . 781210_782890
+%mor:	intj|uhoh intj|uhoh .
+%gra:	1|2|ROOT 2|1|DISCOURSE 3|1|PUNCT
+*CHI:	you forgot this . 782908_785138
+%mor:	pron|you-Prs-Nom-S2 verb|forget-Fin-Ind-Past-S2 pron|this-Dem-S1 .
+%gra:	1|2|NSUBJ 2|3|ROOT 3|2|OBJ 4|2|PUNCT
+*INV:	oh better put it in . 785711_787011
+%mor:	intj|oh adv|well verb|put-Fin-S pron|it-Prs-Acc-S3 adp|in .
+%gra:	1|3|DISCOURSE 2|3|ADVMOD 3|5|ROOT 4|3|OBJ 5|3|OBL 6|3|PUNCT
+*CHI:	no it's supposed to go in the back . 787029_788599
+%mor:	intj|no pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 verb|suppose-Part-Past-S part|to verb|go-Inf-S adp|in det|the-Def-Art noun|back .
+%gra:	1|4|DISCOURSE 2|4|NSUBJ 3|4|AUX 4|9|ROOT 5|6|MARK 6|4|XCOMP 7|9|CASE 8|9|DET 9|6|OBL 10|4|PUNCT
+*CHI:	xxx .
+*INV:	where should it go ? 791569_793239
+%mor:	adv|where aux|should-Fin-S pron|it-Prs-Nom-S3 verb|go-Inf-S ?
+%gra:	1|4|ADVMOD 2|4|AUX 3|4|NSUBJ 4|4|ROOT 5|4|PUNCT
+*INV:	how_about if we just put it in here ? 793287_794417
+%mor:	intj|howabout sconj|if pron|we-Prs-Nom-P1 adv|just verb|put-Fin-Ind-Past-P1 pron|it-Prs-Acc-S3 adp|in adv|here ?
+%gra:	1|8|ROOT 2|5|MARK 3|5|NSUBJ 4|5|ADVMOD 5|1|ADVCL 6|5|OBJ 7|8|CASE 8|5|OBL 9|1|PUNCT
+*CHI:	no . 794616_794946
+%mor:	intj|no .
+%gra:	1|1|ROOT 2|1|PUNCT
+*CHI:	we need to put it in the back . 795949_797779
+%mor:	pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 part|to verb|put-Inf-S pron|it-Prs-Acc-S3 adp|in det|the-Def-Art noun|back .
+%gra:	1|2|NSUBJ 2|8|ROOT 3|4|MARK 4|2|XCOMP 5|4|OBJ 6|8|CASE 7|8|DET 8|4|OBL 9|2|PUNCT
+*CHI:	hey I know . 797953_798853
+%mor:	intj|hey pron|I-Prs-Nom-S1 verb|know-Fin-Ind-Pres-S1 .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|3|ROOT 4|3|PUNCT
+*CHI:	we could put this hose on by all the other hoses . 798906_802676
+%mor:	pron|we-Prs-Nom-P1 aux|could-Fin-S verb|put-Inf-S det|this-Def-Dem noun|hose adp|on adp|by det|all-Def det|the-Def-Art adj|other-Pos-S1 noun|hose-Plur .
+%gra:	1|3|NSUBJ 2|3|AUX 3|11|ROOT 4|5|DET 5|3|OBJ 6|3|COMPOUND-PRT 7|11|CASE 8|11|DET-PREDET 9|11|DET 10|11|AMOD 11|3|OBL 12|3|PUNCT
+*CHI:	xxx put in this hose . 804486_806356
+%mor:	verb|put-Fin-Imp-S adp|in det|this-Def-Dem noun|hose .
+%gra:	1|4|ROOT 2|1|COMPOUND-PRT 3|4|DET 4|1|OBJ 5|1|PUNCT
+*INV:	I don't think it will fit on there . 806567_807717
+%mor:	pron|I-Prs-Nom-S1 aux|do-Fin-Ind-Pres-S1~part|not verb|think-Inf-S pron|it-Prs-Nom-S3 aux|will-Fin-S verb|fit-Inf-S adp|on adv|there .
+%gra:	1|4|NSUBJ 2|4|AUX 3|4|ADVMOD 4|9|ROOT 5|7|NSUBJ 6|7|AUX 7|4|CCOMP 8|9|CASE 9|7|OBL 10|4|PUNCT
+*INV:	if there's it's full this hose . 807995_810385
+%mor:	sconj|if pron|there-Int-S1~verb|be-Fin-Ind-Pres-S3 pron|it-Prs-Nom-S3~aux|be-Fin-Ind-Pres-S3 adj|full-Pos-S1 det|this-Def-Dem noun|hose .
+%gra:	1|3|MARK 2|3|EXPL 3|6|ADVCL 4|6|NSUBJ 5|6|COP 6|8|ROOT 7|8|DET 8|6|NSUBJ 9|6|PUNCT
+*INV:	I think that one's just an extra hose . 812002_813772
+%mor:	pron|I-Prs-Nom-S1 verb|think-Fin-Ind-Pres-S1 sconj|that pron|one-Prs-S3~aux|be-Fin-Ind-Pres-S3 adv|just det|a-Ind-Art adj|extra-Pos-S1 noun|hose .
+%gra:	1|2|NSUBJ 2|9|ROOT 3|9|MARK 4|9|NSUBJ 5|9|COP 6|9|ADVMOD 7|9|DET 8|9|AMOD 9|2|CCOMP 10|2|PUNCT
+*INV:	but we gotta go fight the fire . 818388_819168
+%mor:	cconj|but pron|we-Prs-Nom-P1 aux|gotta-Fin-S verb|go-Inf-S verb|fight-Inf-S det|the-Def-Art noun|fire .
+%gra:	1|4|CC 2|4|NSUBJ 3|4|AUX 4|7|ROOT 5|4|XCOMP 6|7|DET 7|5|OBJ 8|4|PUNCT
+*INV:	where is the fire ? 819676_819956
+%mor:	adv|where aux|be-Fin-Ind-Pres-S3 det|the-Def-Art noun|fire ?
+%gra:	1|4|ROOT 2|1|COP 3|4|DET 4|1|NSUBJ 5|1|PUNCT
+*CHI:	follow [/] follow him we need to go fight the fire [/] fire . 822624_827204
+%mor:	verb|follow-Fin-Imp-S pron|he-Prs-Acc-S3 pron|we-Prs-Nom-P1 verb|need-Fin-Ind-Pres-P1 part|to verb|go-Inf-S verb|fight-Inf-S det|the-Def-Art noun|fire .
+%gra:	1|9|ROOT 2|1|OBJ 3|4|NSUBJ 4|1|PARATAXIS 5|6|MARK 6|4|XCOMP 7|6|XCOMP 8|9|DET 9|7|OBJ 10|1|PUNCT
+*CHI:	first I need to put this somewhere . 830194_833364
+%mor:	adv|first pron|I-Prs-Nom-S1 verb|need-Fin-Ind-Pres-S1 part|to verb|put-Inf-S pron|this-Dem-S1 adv|somewhere .
+%gra:	1|3|ADVMOD 2|3|NSUBJ 3|7|ROOT 4|5|MARK 5|3|XCOMP 6|5|OBJ 7|5|ADVMOD 8|3|PUNCT
+*INV:	okay you know what I'm going to go get your mom and you get to play for a couple minutes . 833881_838081
+%mor:	intj|okay pron|you-Prs-Nom-S2 verb|know-Fin-Ind-Pres-S2 pron|what-Rel-S1 pron|I-Prs-Nom-S1~aux|be-Fin-Ind-Pres-S1 verb|go-Part-Pres-S part|to verb|go-Inf-S verb|get-Inf-S pron|your-Prs-Gen-S2 noun|mom cconj|and pron|you-Prs-Nom-S2 verb|get-Fin-Ind-Pres-S2 part|to verb|play-Inf-S adp|for det|a-Ind-Art noun|couple noun|minute-Plur .
+%gra:	1|3|DISCOURSE 2|3|NSUBJ 3|21|ROOT 4|7|OBJ 5|7|NSUBJ 6|7|AUX 7|3|CCOMP 8|9|MARK 9|7|XCOMP 10|9|XCOMP 11|12|NMOD-POSS 12|10|OBJ 13|15|CC 14|15|NSUBJ 15|3|CONJ 16|17|MARK 17|15|XCOMP 18|21|CASE 19|20|DET 20|21|NMOD-NPMOD 21|17|OBL 22|3|PUNCT
+@End
