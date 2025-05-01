@@ -17,42 +17,81 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Initialize Flask app
 app = Flask(__name__)
 
-# Configure upload folder (if needed) and allowed extensions
-UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'wav', 'mp3'}
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+# ---------------------------------------------------------------------
+# Paths & upload folders
+# ---------------------------------------------------------------------
+UPLOAD_FOLDER       = 'uploads'
+BEL_UPLOAD_FOLDER   = 'bel_uploads'
 Path(UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+Path(BEL_UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Define the base directory for the CHILDES data.
-# Expected structure: ChildesData/LT/ and ChildesData/TD/
 CHILDES_ROOT = os.path.join(os.getcwd(), 'ChildesData')
+ALLOWED_EXTENSIONS   = {'wav', 'mp3'}
+BEL_ALLOWED_EXT      = {'.cha'}
 
-logging.info("Loading SpaCy models...")
-nlpSpacy = spacy.load('en_core_web_trf')
+# ---------------------------------------------------------------------
+# Model loading
+# ---------------------------------------------------------------------
+logging.info("Loading SpaCy models …")
+nlpSpacy        = spacy.load('en_core_web_trf')
 nlpResultManner = spacy.load('taggerModels/resultManner/output/model-best')
-nlpAction = spacy.load('taggerModels/action/model-best')
+nlpAction       = spacy.load('taggerModels/action/model-best')
 logging.info("All SpaCy models loaded successfully.")
 
-# -----------------------
-# Global in-memory cache to store file analysis results.
-# Keys are file paths (e.g. "LT/30ec/11005.cha") and values are analysis dictionaries.
-analysis_cache = {}
-text_analysis = {}
+# ---------------------------------------------------------------------
+# Global caches
+# ---------------------------------------------------------------------
+analysis_cache = {}   # CHILDES multi-file
+text_analysis   = {}   # free-text
+bel_analysis    = {}   # single BEL file
 
+# ---------------------------------------------------------------------
+# ──────────── shared REGEXES  (compiled once) ────────────
+# ---------------------------------------------------------------------
+TIMESTAMP_CHILDES_RE = re.compile(r'[\x15\x14\x16]\d+_\d+[\x15\x14\x16]')
+TIMESTAMP_BEL_RE     = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
 
-# Bel-specific config
+NOISE_RE        = re.compile(r'\s*&[=+][A-Za-z]+')
+META_BRACKET_RE = re.compile(r'\s*\[=! [^\]]+]')
+STD_REPL_RE     = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
+ANGLE_RE        = re.compile(r'<([^>]+)>')
+LANG_UTT_TAG_RE = re.compile(r'\s*\[-\s*[a-z]{3}]')
+INLINE_SUFFIX_RE= re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
+START_HYPHEN_RE = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
+END_HYPHEN_RE   = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
+UNDERSCORE_RE   = re.compile(r'_')
+MULTISPACE_RE   = re.compile(r'\s{2,}')
 
-BEL_UPLOAD_FOLDER = 'bel_uploads'
-Path(BEL_UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
-bel_analysis = {}            # single-file cache like text_analysis
-BEL_ALLOWED_EXT = {'.cha'}  
+# ---------------------------------------------------------------------
+# Shared cleaning helper
+# ---------------------------------------------------------------------
+def _clean_utterance(text, timestamp_re=None):
+    """
+    Apply corpus-independent cleaning rules + optional timestamp rule.
+    Returns cleaned utterance or '' if nothing remains.
+    """
+    if timestamp_re:
+        text = timestamp_re.sub('', text)
+
+    text = NOISE_RE.sub('',           text)
+    text = META_BRACKET_RE.sub('',    text)
+    text = STD_REPL_RE.sub(r'\1',     text)
+    text = ANGLE_RE.sub(r'\1',        text)
+    text = LANG_UTT_TAG_RE.sub('',    text)
+    text = INLINE_SUFFIX_RE.sub('',   text)
+    text = START_HYPHEN_RE.sub(r'\1', text)
+    text = END_HYPHEN_RE.sub('',      text)
+    text = UNDERSCORE_RE.sub(' ',     text)
+    text = MULTISPACE_RE.sub(' ',     text).strip()
+
+    if text and text[-1] not in '.!?':
+        text += '.'
+    return text
+
 # -----------------------
 # Utility Functions
 # -----------------------
-
-def allowed_file(filename):
-    """Check if the file has an allowed extension."""
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def process_text(original_text):
     """Process text for POS tagging and linguistic annotations."""
@@ -185,84 +224,34 @@ def generate_childes_tree():
             })
     return tree
 
-def parse_childes_file(file_relative_path, speaker_option="both"):
-    """
-    speaker_option ∈ {"child", "investigator", "both"}
-      child        → only *CHI:
-      investigator → *MOT: or *INV:  (whichever appears)
-      both         → all three tags
-    """
+def clean_text(raw: str) -> str:
+    return _clean_utterance(raw)
 
-    CHILDES_TIMESTAMP_RE        = re.compile(r'[\x15\x14\x16]\d+_\d+[\x15\x14\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
-
-    speaker_tags = {
-        "child": ["*CHI:"],
+# ---------------------------------------------------------------------
+# CHILDES utils
+# ---------------------------------------------------------------------
+def parse_childes_file(file_rel, speaker_option="both"):
+    tag_map = {
+        "child":        ["*CHI:"],
         "investigator": ["*MOT:", "*INV:"],
-        "both": ["*CHI:", "*MOT:", "*INV:"]
+        "both":         ["*CHI:", "*MOT:", "*INV:"]
     }
-    target_tags = speaker_tags.get(speaker_option, speaker_tags["both"])
-    chi_lines = []
+    target_tags = tag_map.get(speaker_option, tag_map["both"])
+    utterances  = []
+
+    file_path = os.path.join(CHILDES_ROOT, file_rel)
     try:
-        file_path = os.path.join(CHILDES_ROOT, file_relative_path)
-        with open(file_path, encoding='utf-8') as f:
-            lines = f.readlines()
-        for line in lines:
-            if any(line.startswith(tag) for tag in target_tags):
-
-                text = line.split(":", 1)[1].strip()
-                # text = line.strip().replace("*CHI:", "").strip()
-                # 0. timestamps
-                text = CHILDES_TIMESTAMP_RE.sub('', text)
-
-                # 1. &-codes
-                text = NOISE_RE.sub('', text)
-
-                # 2. bracketed meta comments
-                text = META_BRACKET_RE.sub('', text)
-
-                # 3. <xxx> [: yyy]  →  yyy
-                text = STD_REPL_RE.sub(r'\1', text)
-
-                # 4. <here>  → here
-                text = ANGLE_RE.sub(r'\1', text)
-
-                # 5. utterance-level language tags  [- spa]
-                text = LANG_UTT_TAG_RE.sub('', text)
-
-                # 6. inline suffixes  @s:spa @c @l
-                text = INLINE_SUFFIX_RE.sub('', text)
-
-                # 7. remove hyphen at the start of a word and end of a word
-                text = START_HYPHEN_RE.sub(r'\1', text)
-
-                # 8. remove hyphen at the end of a word
-                text = END_HYPHEN_RE.sub('', text)
-
-                # 9. underscores → spaces
-                text = UNDERSCORE_RE.sub(' ', text)
-
-                # 10. collapse multiple spaces
-                text = MULTISPACE_RE.sub(' ', text).strip()
-
-                # 11. ensure terminal punctuation
-                if text and text[-1] not in '.!?':
-                    text += '.'
-
-                if text:
-                    chi_lines.append(text)
+        with open(file_path, encoding='utf-8') as fh:
+            for line in fh:
+                if any(line.startswith(t) for t in target_tags):
+                    text = line.split(":", 1)[1].strip()
+                    text = _clean_utterance(text, TIMESTAMP_CHILDES_RE)
+                    if text:
+                        utterances.append(text)
     except Exception as e:
-        print(f"Error parsing file {file_path}: {e}")
-    return chi_lines
+        logging.error(f"Error parsing {file_rel}: {e}")
+
+    return utterances
 
 def process_child_file(file_relative_path, speaker_option="both"):
     """
@@ -308,58 +297,34 @@ def process_child_file(file_relative_path, speaker_option="both"):
     }
 
 
-def clean_text(text):
-    # -------- pre-compiled regexes (ordered for sequential application) --------
-    # TIMESTAMP_RE        = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
 
-    # 0. timestamps
-    # text = TIMESTAMP_RE.sub('', text)
 
-    # 1. &-codes
-    text = NOISE_RE.sub('', text)
+# ---------------------------------------------------------------------
+# BEL parser
+# ---------------------------------------------------------------------
+def parse_bel_file(file_path, speaker_option):
+    tag_map = {
+        "child":   ["*CHI:"],
+        "parent":  ["*PAR:"],
+        "sibling": ["*SIB:"],
+        "all":     ["*CHI:", "*PAR:", "*SIB:"]
+    }
+    target_tags = tag_map.get(speaker_option, tag_map["all"])
+    cleaned     = []
 
-    # 2. bracketed meta comments
-    text = META_BRACKET_RE.sub('', text)
+    try:
+        with open(file_path, encoding='utf-8') as fh:
+            for line in fh:
+                if not any(line.startswith(t) for t in target_tags):
+                    continue
+                text = line.split(":", 1)[1].strip()
+                text = _clean_utterance(text, TIMESTAMP_BEL_RE)
+                if text:
+                    cleaned.append(text)
+    except Exception as e:
+        logging.error(f"Error parsing BEL file {file_path}: {e}")
 
-    # 3. <xxx> [: yyy]  →  yyy
-    text = STD_REPL_RE.sub(r'\1', text)
-
-    # 4. <here>  → here
-    text = ANGLE_RE.sub(r'\1', text)
-
-    # 5. utterance-level language tags  [- spa]
-    text = LANG_UTT_TAG_RE.sub('', text)
-
-    # 6. inline suffixes  @s:spa @c @l
-    text = INLINE_SUFFIX_RE.sub('', text)
-
-    # 7. remove hyphen at the start of a word 
-    text = START_HYPHEN_RE.sub(r'\1', text)
-
-    # 8 remove hyphen at the end of a word
-    text = END_HYPHEN_RE.sub('', text)
-
-    # 9. underscores → spaces
-    text = UNDERSCORE_RE.sub(' ', text)
-
-    # 10. collapse multiple spaces
-    text = MULTISPACE_RE.sub(' ', text).strip()
-
-    # 11. ensure terminal punctuation
-    if text and text[-1] not in '.!?':
-        text += '.'
-    
-    return text
+    return cleaned
 
 # -----------------------
 # Routes for Existing Functionality
@@ -449,99 +414,6 @@ def download_text_analysis():
         as_attachment=True,
         download_name="text_analysis.xlsx"
     )    
-
-# ------------------------------------------------------------------
-# BEL parser – keeps only the words actually spoken by the target
-# ------------------------------------------------------------------
-def parse_bel_file(file_path, speaker_option):
-    """
-    Extract utterances for the requested speaker(s) from a BEL .cha file and
-    clean them so they can be POS-tagged.
-
-    Parameters
-    ----------
-    file_path : str | Path
-    speaker_option :
-        "child"   → *CHI: lines
-        "parent"  → *PAR: lines
-        "sibling" → *SIB: lines
-        "all"     → the three tags above
-    """
-    tag_map = {
-        "child":   ["*CHI:"],
-        "parent":  ["*PAR:"],
-        "sibling": ["*SIB:"],
-        "all":     ["*CHI:", "*PAR:", "*SIB:"]
-    }
-    target_tags = tag_map.get(speaker_option, tag_map["all"])
-
-    # -------- pre-compiled regexes (ordered for sequential application) --------
-    BEL_TIMESTAMP_RE        = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
-
-    cleaned_lines = []
-
-    try:
-        with open(file_path, encoding='utf-8') as f:
-            for line in f:
-                if not any(line.startswith(tag) for tag in target_tags):
-                    continue
-
-                # ── isolate the utterance text (after the first colon) ──
-                text = line.split(":", 1)[1].strip()
-
-                # 0. timestamps
-                text = BEL_TIMESTAMP_RE.sub('', text)
-
-                # 1. &-codes
-                text = NOISE_RE.sub('', text)
-
-                # 2. bracketed meta comments
-                text = META_BRACKET_RE.sub('', text)
-
-                # 3. <xxx> [: yyy]  →  yyy
-                text = STD_REPL_RE.sub(r'\1', text)
-
-                # 4. <here>  → here
-                text = ANGLE_RE.sub(r'\1', text)
-
-                # 5. utterance-level language tags  [- spa]
-                text = LANG_UTT_TAG_RE.sub('', text)
-
-                # 6. inline suffixes  @s:spa @c @l
-                text = INLINE_SUFFIX_RE.sub('', text)
-
-                # 7. remove hyphen at the start of a word
-                text = START_HYPHEN_RE.sub(r'\1', text)
-
-                # 8. remove hyphen at the end of a word
-                text = END_HYPHEN_RE.sub('', text)
-
-                # 9. underscores → spaces
-                text = UNDERSCORE_RE.sub(' ', text)
-
-                # 10. collapse multiple spaces
-                text = MULTISPACE_RE.sub(' ', text).strip()
-
-                # 11. ensure terminal punctuation
-                if text and text[-1] not in '.!?':
-                    text += '.'
-
-                if text:
-                    cleaned_lines.append(text)
-    except Exception as e:
-        logging.error(f"Error parsing BEL file {file_path}: {e}")
-
-    return cleaned_lines
 
 # -----------------------
 # NEW Routes for CHILDES Analysis

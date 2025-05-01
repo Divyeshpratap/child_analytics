@@ -17,42 +17,110 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Initialize Flask app
 app = Flask(__name__)
 
-# Configure upload folder (if needed) and allowed extensions
-UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'wav', 'mp3'}
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+# ---------------------------------------------------------------------
+# Paths & upload folders
+# ---------------------------------------------------------------------
+UPLOAD_FOLDER       = 'uploads'
+BEL_UPLOAD_FOLDER   = 'bel_uploads'
 Path(UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+Path(BEL_UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Define the base directory for the CHILDES data.
-# Expected structure: ChildesData/LT/ and ChildesData/TD/
 CHILDES_ROOT = os.path.join(os.getcwd(), 'ChildesData')
+ALLOWED_EXTENSIONS   = {'wav', 'mp3'}
+BEL_ALLOWED_EXT      = {'.cha'}
 
-logging.info("Loading SpaCy models...")
-nlpSpacy = spacy.load('en_core_web_trf')
+# ---------------------------------------------------------------------
+# Model loading
+# ---------------------------------------------------------------------
+logging.info("Loading SpaCy models …")
+nlpSpacy        = spacy.load('en_core_web_trf')
 nlpResultManner = spacy.load('taggerModels/resultManner/output/model-best')
-nlpAction = spacy.load('taggerModels/action/model-best')
+nlpAction       = spacy.load('taggerModels/action/model-best')
 logging.info("All SpaCy models loaded successfully.")
 
-# -----------------------
-# Global in-memory cache to store file analysis results.
-# Keys are file paths (e.g. "LT/30ec/11005.cha") and values are analysis dictionaries.
-analysis_cache = {}
-text_analysis = {}
+# ---------------------------------------------------------------------
+# Global caches
+# ---------------------------------------------------------------------
+analysis_cache = {}   # CHILDES multi-file
+text_analysis   = {}   # free-text
+bel_analysis    = {}   # single BEL file
 
+# ---------------------------------------------------------------------
+# ──────────── shared REGEXES  (compiled once) ────────────
+# ---------------------------------------------------------------------
+TIMESTAMP_CHILDES_RE = re.compile(r'[\x15\x14\x16]\d+_\d+[\x15\x14\x16]')
+TIMESTAMP_BEL_RE     = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
 
-# Bel-specific config
+NOISE_RE        = re.compile(r'\s*&[=+][A-Za-z]+')
+META_BRACKET_RE = re.compile(r'\s*\[=! [^\]]+]')
+STD_REPL_RE     = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
+ANGLE_RE        = re.compile(r'<([^>]+)>')
+LANG_UTT_TAG_RE = re.compile(r'\s*\[-\s*[a-z]{3}]')
+INLINE_SUFFIX_RE= re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
+START_HYPHEN_RE = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
+END_HYPHEN_RE   = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
+UNDERSCORE_RE   = re.compile(r'_')
+MULTISPACE_RE   = re.compile(r'\s{2,}')
 
-BEL_UPLOAD_FOLDER = 'bel_uploads'
-Path(BEL_UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
-bel_analysis = {}            # single-file cache like text_analysis
-BEL_ALLOWED_EXT = {'.cha'}  
+# ---------------------------------------------------------------------
+# Shared cleaning helper
+# ---------------------------------------------------------------------
+def _clean_utterance(text, timestamp_re=None):
+    """
+    Apply corpus-independent cleaning rules + optional timestamp rule.
+    Returns cleaned utterance or '' if nothing remains.
+    """
+    if timestamp_re:
+        text = timestamp_re.sub('', text)
+
+    text = NOISE_RE.sub('',           text)
+    text = META_BRACKET_RE.sub('',    text)
+    text = STD_REPL_RE.sub(r'\1',     text)
+    text = ANGLE_RE.sub(r'\1',        text)
+    text = LANG_UTT_TAG_RE.sub('',    text)
+    text = INLINE_SUFFIX_RE.sub('',   text)
+    text = START_HYPHEN_RE.sub(r'\1', text)
+    text = END_HYPHEN_RE.sub('',      text)
+    text = UNDERSCORE_RE.sub(' ',     text)
+    text = MULTISPACE_RE.sub(' ',     text).strip()
+
+    if text and text[-1] not in '.!?':
+        text += '.'
+    return text
+
+# ---------------------------------------------------------------------
+# speaker-level analysis helper
+# ---------------------------------------------------------------------
+def _analyse_utterances(lines: list[str]) -> dict:
+    """
+    Combine utterances → run POS pipeline → return counts & breakdowns.
+    """
+    text = "\n".join(lines)
+    if not text:
+        return {
+            "result_count": 0,
+            "manner_count": 0,
+            "result_breakdown": {},
+            "manner_breakdown": {},
+            "text": ""
+        }
+    df = process_text(text)
+    res_cnt = int((df['Result/Manner'] == 'Result').sum())
+    man_cnt = int((df['Result/Manner'] == 'Manner').sum())
+    res_bd  = dict(Counter(df[df['Result/Manner'] == 'Result']['Token']))
+    man_bd  = dict(Counter(df[df['Result/Manner'] == 'Manner']['Token']))
+    return {
+        "result_count": res_cnt,
+        "manner_count": man_cnt,
+        "result_breakdown": res_bd,
+        "manner_breakdown": man_bd,
+        "text": text
+    }
+
 # -----------------------
 # Utility Functions
 # -----------------------
-
-def allowed_file(filename):
-    """Check if the file has an allowed extension."""
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def process_text(original_text):
     """Process text for POS tagging and linguistic annotations."""
@@ -185,84 +253,38 @@ def generate_childes_tree():
             })
     return tree
 
-def parse_childes_file(file_relative_path, speaker_option="both"):
-    """
-    speaker_option ∈ {"child", "investigator", "both"}
-      child        → only *CHI:
-      investigator → *MOT: or *INV:  (whichever appears)
-      both         → all three tags
-    """
+def clean_text(raw: str) -> str:
+    return _clean_utterance(raw)
 
-    CHILDES_TIMESTAMP_RE        = re.compile(r'[\x15\x14\x16]\d+_\d+[\x15\x14\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
-
-    speaker_tags = {
-        "child": ["*CHI:"],
+# ---------------------------------------------------------------------
+# CHILDES utils
+# ---------------------------------------------------------------------
+def parse_childes_file(file_rel, speaker_option="both"):
+    tag_map = {
+        "child":        ["*CHI:"],
         "investigator": ["*MOT:", "*INV:"],
-        "both": ["*CHI:", "*MOT:", "*INV:"]
+        "both":         ["*CHI:", "*MOT:", "*INV:"]
     }
-    target_tags = speaker_tags.get(speaker_option, speaker_tags["both"])
-    chi_lines = []
+    target_tags = tag_map.get(speaker_option, tag_map["both"])
+    utterances  = {"CHI": [], "MOT": [], "INV": []}
+    sequence   = []
+    file_path = os.path.join(CHILDES_ROOT, file_rel)
     try:
-        file_path = os.path.join(CHILDES_ROOT, file_relative_path)
-        with open(file_path, encoding='utf-8') as f:
-            lines = f.readlines()
-        for line in lines:
-            if any(line.startswith(tag) for tag in target_tags):
-
+        with open(file_path, encoding='utf-8') as fh:
+            for line in fh:
+                tag = next((t for t in target_tags if line.startswith(t)), None)
+                if not tag:
+                    continue
+                speaker = tag.strip("*:")  # "*CHI:" → "CHI"
                 text = line.split(":", 1)[1].strip()
-                # text = line.strip().replace("*CHI:", "").strip()
-                # 0. timestamps
-                text = CHILDES_TIMESTAMP_RE.sub('', text)
-
-                # 1. &-codes
-                text = NOISE_RE.sub('', text)
-
-                # 2. bracketed meta comments
-                text = META_BRACKET_RE.sub('', text)
-
-                # 3. <xxx> [: yyy]  →  yyy
-                text = STD_REPL_RE.sub(r'\1', text)
-
-                # 4. <here>  → here
-                text = ANGLE_RE.sub(r'\1', text)
-
-                # 5. utterance-level language tags  [- spa]
-                text = LANG_UTT_TAG_RE.sub('', text)
-
-                # 6. inline suffixes  @s:spa @c @l
-                text = INLINE_SUFFIX_RE.sub('', text)
-
-                # 7. remove hyphen at the start of a word and end of a word
-                text = START_HYPHEN_RE.sub(r'\1', text)
-
-                # 8. remove hyphen at the end of a word
-                text = END_HYPHEN_RE.sub('', text)
-
-                # 9. underscores → spaces
-                text = UNDERSCORE_RE.sub(' ', text)
-
-                # 10. collapse multiple spaces
-                text = MULTISPACE_RE.sub(' ', text).strip()
-
-                # 11. ensure terminal punctuation
-                if text and text[-1] not in '.!?':
-                    text += '.'
-
+                text = _clean_utterance(text, TIMESTAMP_CHILDES_RE)
                 if text:
-                    chi_lines.append(text)
+                    utterances[speaker].append(text)
+                    sequence.append((speaker, text))
     except Exception as e:
-        print(f"Error parsing file {file_path}: {e}")
-    return chi_lines
+        logging.error(f"Error parsing {file_rel}: {e}")
+
+    return utterances, sequence
 
 def process_child_file(file_relative_path, speaker_option="both"):
     """
@@ -273,93 +295,70 @@ def process_child_file(file_relative_path, speaker_option="both"):
       - Also extract child metadata (group and gender).
     Returns a dictionary with file info, counts, breakdowns, parsed data, group, and gender.
     """
-    chi_lines = parse_childes_file(file_relative_path, speaker_option)
-    full_text = "\n".join(chi_lines)
-    df = process_text(full_text)
-    result_count = int((df['Result/Manner'] == 'Result').sum())
-    manner_count = int((df['Result/Manner'] == 'Manner').sum())
-    result_list = df[df["Result/Manner"]=="Result"]["Token"].tolist()
-    manner_list = df[df["Result/Manner"]=="Manner"]["Token"].tolist()
-    result_breakdown = dict(Counter(result_list))
-    manner_breakdown = dict(Counter(manner_list))
-    
-    # Determine group from the file path (first part before the slash: LT or TD)
-    group = file_relative_path.split('/')[0] if '/' in file_relative_path else "Unknown"
-    
-    # Extract gender from the filename.
-    # Example: "11005.cha" --> second character indicates gender (1: female, 2: male)
-    base = os.path.basename(file_relative_path)
-    file_id = os.path.splitext(base)[0]  # e.g., "11005"
-    if len(file_id) >= 2:
-        gender_code = file_id[1]
-        gender = "female" if gender_code == '1' else ("male" if gender_code == '2' else "unknown")
-    else:
-        gender = "unknown"
-    
+    speaker_lines, seq = parse_childes_file(file_relative_path, speaker_option)
+    speaker_stats  = {spk: _analyse_utterances(v) for spk, v in speaker_lines.items() if v}
+
+    total_result   = sum(v["result_count"] for v in speaker_stats.values())
+    total_manner   = sum(v["manner_count"] for v in speaker_stats.values())
+
+    # aggregated verb lists for legacy routes
+    all_results = Counter()
+    all_manners = Counter()
+    for st in speaker_stats.values():
+        all_results.update(st["result_breakdown"])
+        all_manners.update(st["manner_breakdown"])
+
+    # meta info (unchanged)
+    group  = file_relative_path.split('/')[0] if '/' in file_relative_path else "Unknown"
+    base   = os.path.basename(file_relative_path)
+    gender = "female" if len(base) >= 2 and base[1] == '1' else ("male" if len(base) >= 2 and base[1] == '2' else "unknown")
+
     return {
         "file": file_relative_path,
         "group": group,
         "gender": gender,
-        "result_count": result_count,
-        "manner_count": manner_count,
-        "result_breakdown": result_breakdown,
-        "manner_breakdown": manner_breakdown,
-        "parsed_data": chi_lines
+        "total_result": total_result,
+        "total_manner": total_manner,
+        "speakers": speaker_stats,
+        # legacy fields used elsewhere
+        "result_breakdown": dict(all_results),
+        "manner_breakdown": dict(all_manners),
+        "parsed_data": speaker_lines,          # dict{spk:[lines]}
+        "sequence": seq
     }
 
 
-def clean_text(text):
-    # -------- pre-compiled regexes (ordered for sequential application) --------
-    # TIMESTAMP_RE        = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
 
-    # 0. timestamps
-    # text = TIMESTAMP_RE.sub('', text)
 
-    # 1. &-codes
-    text = NOISE_RE.sub('', text)
+# ---------------------------------------------------------------------
+# BEL parser
+# ---------------------------------------------------------------------
+def parse_bel_file(file_path, speaker_option):
+    tag_map = {
+        "child":   ["*CHI:"],
+        "parent":  ["*PAR:"],
+        "sibling": ["*SIB:"],
+        "all":     ["*CHI:", "*PAR:", "*SIB:"]
+    }
+    target_tags = tag_map.get(speaker_option, tag_map["all"])
+    utterances  = {"CHI": [], "PAR": [], "SIB": []}
+    sequence = []
+    try:
+        with open(file_path, encoding='utf-8') as fh:
+            for line in fh:
+                tag = next((t for t in target_tags if line.startswith(t)), None)
+                if not tag:
+                    continue
+                speaker = tag.strip("*:")      # "*PAR:" → "PAR"
+                text = line.split(":", 1)[1].strip()
+                text = _clean_utterance(text, TIMESTAMP_BEL_RE)
+                if text:
+                    utterances[speaker].append(text)
+                    sequence.append((speaker, text))
+    except Exception as e:
+        logging.error(f"Error parsing BEL file {file_path}: {e}")
 
-    # 2. bracketed meta comments
-    text = META_BRACKET_RE.sub('', text)
-
-    # 3. <xxx> [: yyy]  →  yyy
-    text = STD_REPL_RE.sub(r'\1', text)
-
-    # 4. <here>  → here
-    text = ANGLE_RE.sub(r'\1', text)
-
-    # 5. utterance-level language tags  [- spa]
-    text = LANG_UTT_TAG_RE.sub('', text)
-
-    # 6. inline suffixes  @s:spa @c @l
-    text = INLINE_SUFFIX_RE.sub('', text)
-
-    # 7. remove hyphen at the start of a word 
-    text = START_HYPHEN_RE.sub(r'\1', text)
-
-    # 8 remove hyphen at the end of a word
-    text = END_HYPHEN_RE.sub('', text)
-
-    # 9. underscores → spaces
-    text = UNDERSCORE_RE.sub(' ', text)
-
-    # 10. collapse multiple spaces
-    text = MULTISPACE_RE.sub(' ', text).strip()
-
-    # 11. ensure terminal punctuation
-    if text and text[-1] not in '.!?':
-        text += '.'
-    
-    return text
+    return utterances, sequence
 
 # -----------------------
 # Routes for Existing Functionality
@@ -450,99 +449,6 @@ def download_text_analysis():
         download_name="text_analysis.xlsx"
     )    
 
-# ------------------------------------------------------------------
-# BEL parser – keeps only the words actually spoken by the target
-# ------------------------------------------------------------------
-def parse_bel_file(file_path, speaker_option):
-    """
-    Extract utterances for the requested speaker(s) from a BEL .cha file and
-    clean them so they can be POS-tagged.
-
-    Parameters
-    ----------
-    file_path : str | Path
-    speaker_option :
-        "child"   → *CHI: lines
-        "parent"  → *PAR: lines
-        "sibling" → *SIB: lines
-        "all"     → the three tags above
-    """
-    tag_map = {
-        "child":   ["*CHI:"],
-        "parent":  ["*PAR:"],
-        "sibling": ["*SIB:"],
-        "all":     ["*CHI:", "*PAR:", "*SIB:"]
-    }
-    target_tags = tag_map.get(speaker_option, tag_map["all"])
-
-    # -------- pre-compiled regexes (ordered for sequential application) --------
-    BEL_TIMESTAMP_RE        = re.compile(r'[\x14\x15\x16][^\x14\x15\x16]*[\x14\x15\x16]')
-    NOISE_RE            = re.compile(r'\s*&[=+][A-Za-z]+')
-    META_BRACKET_RE     = re.compile(r'\s*\[=! [^\]]+]')
-    STD_REPL_RE         = re.compile(r'<[^>]+>\s*\[:\s*([^\]]+)]')
-    ANGLE_RE            = re.compile(r'<([^>]+)>')
-    LANG_UTT_TAG_RE     = re.compile(r'\s*\[-\s*[a-z]{3}]')
-    INLINE_SUFFIX_RE    = re.compile(r'(@s:[a-z]{3}|@c|@l)\b')
-    START_HYPHEN_RE     = re.compile(r'(^|(?<=\s))-(?=[A-Za-z])')
-    END_HYPHEN_RE       = re.compile(r'(?<=[A-Za-z])-(?=\s|\.|$)')
-    UNDERSCORE_RE       = re.compile(r'_')
-    MULTISPACE_RE       = re.compile(r'\s{2,}')
-
-    cleaned_lines = []
-
-    try:
-        with open(file_path, encoding='utf-8') as f:
-            for line in f:
-                if not any(line.startswith(tag) for tag in target_tags):
-                    continue
-
-                # ── isolate the utterance text (after the first colon) ──
-                text = line.split(":", 1)[1].strip()
-
-                # 0. timestamps
-                text = BEL_TIMESTAMP_RE.sub('', text)
-
-                # 1. &-codes
-                text = NOISE_RE.sub('', text)
-
-                # 2. bracketed meta comments
-                text = META_BRACKET_RE.sub('', text)
-
-                # 3. <xxx> [: yyy]  →  yyy
-                text = STD_REPL_RE.sub(r'\1', text)
-
-                # 4. <here>  → here
-                text = ANGLE_RE.sub(r'\1', text)
-
-                # 5. utterance-level language tags  [- spa]
-                text = LANG_UTT_TAG_RE.sub('', text)
-
-                # 6. inline suffixes  @s:spa @c @l
-                text = INLINE_SUFFIX_RE.sub('', text)
-
-                # 7. remove hyphen at the start of a word
-                text = START_HYPHEN_RE.sub(r'\1', text)
-
-                # 8. remove hyphen at the end of a word
-                text = END_HYPHEN_RE.sub('', text)
-
-                # 9. underscores → spaces
-                text = UNDERSCORE_RE.sub(' ', text)
-
-                # 10. collapse multiple spaces
-                text = MULTISPACE_RE.sub(' ', text).strip()
-
-                # 11. ensure terminal punctuation
-                if text and text[-1] not in '.!?':
-                    text += '.'
-
-                if text:
-                    cleaned_lines.append(text)
-    except Exception as e:
-        logging.error(f"Error parsing BEL file {file_path}: {e}")
-
-    return cleaned_lines
-
 # -----------------------
 # NEW Routes for CHILDES Analysis
 # -----------------------
@@ -579,8 +485,8 @@ def process_childes():
             analysis = process_child_file(file_rel, speaker_option)
             analysis_cache[file_rel] = analysis
             results.append(analysis)
-            total_result += analysis["result_count"]
-            total_manner += analysis["manner_count"]
+            total_result += analysis["total_result"]    # was "result_count"
+            total_manner += analysis["total_manner"]    # was "manner_count"
         response = {
             'status': 'success',
             'results': results,
@@ -599,11 +505,22 @@ def view_parsed_data():
     file_rel = request.args.get("file")
     if not file_rel:
         return "No file specified", 400
-    chi_lines = parse_childes_file(file_rel)
-    html_content = "<html><head><title>Parsed Data - {}</title></head><body>".format(file_rel)
-    html_content += "<h2>Parsed *CHI Data for {}</h2><pre>".format(file_rel)
-    html_content += "\n".join(chi_lines)
-    html_content += "</pre></body></html>"
+    # chi_dict = parse_childes_file(file_rel)        # now returns dict
+    # ---------- unpack tuple ----------
+    utterances, sequence = parse_childes_file(file_rel)
+
+    # rebuild text in original order  (sequence = [(spk, utterance), …])
+    flat = [f"{spk}: {utt}" for spk, utt in sequence]
+    # flat = []
+    # for spk, lines in chi_dict.items():
+    #     flat.extend([f"{spk}: {u}" for u in lines])
+
+    html_content = (
+        f"<html><head><title>Parsed Data - {file_rel}</title></head><body>"
+        f"<h2>Parsed Utterances for {file_rel}</h2><pre>"
+        + "\n".join(flat) +
+        "</pre></body></html>"
+    )
     return html_content
 
 @app.route('/view_verb_details', methods=['GET'])
@@ -657,47 +574,45 @@ def download_analysis():
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     
-    # Create a summary DataFrame
+    # ---------- Summary sheet ----------
     summary_rows = []
-    for file_rel, analysis in analysis_cache.items():
-        summary_rows.append({
+    for file_rel, a in analysis_cache.items():
+        row = {
             "File": file_rel,
-            "Group": analysis.get("group", ""),
-            "Gender": analysis.get("gender", ""),
-            "Result Count": analysis.get("result_count", 0),
-            "Manner Count": analysis.get("manner_count", 0),
-            "Result Verbs Breakdown": analysis.get("result_breakdown", {}),
-            "Manner Verbs Breakdown": analysis.get("manner_breakdown", {})
-        })
-    summary_df = pd.DataFrame(summary_rows)
-    summary_df.to_excel(writer, sheet_name="Summary", index=False)
-    
-    # Create one sheet per file with detailed data.
-    for file_rel, analysis in analysis_cache.items():
-        sheet_name = file_rel.replace("/", "_")
-        sheet_name = sheet_name.split('.')[0]
+            "Group": a.get("group", ""),
+            "Gender": a.get("gender", ""),
+            "Total Result": a.get("total_result", 0),
+            "Total Manner": a.get("total_manner", 0)
+        }
+        for spk in ("CHI", "MOT", "INV"):
+            stats = a.get("speakers", {}).get(spk, {})
+            row[f"{spk}_Result"] = stats.get("result_count", 0)
+            row[f"{spk}_Manner"] = stats.get("manner_count", 0)
+        summary_rows.append(row)
 
-        # Build a DataFrame for the parsed transcript.
-        transcript_df = pd.DataFrame({"Parsed Transcript": analysis.get("parsed_data", [])})
-        # Build DataFrames for breakdowns.
-        result_breakdown_df = pd.DataFrame(list(analysis.get("result_breakdown", {}).items()),
-                                           columns=["Result Verb", "Count"])
-        manner_breakdown_df = pd.DataFrame(list(analysis.get("manner_breakdown", {}).items()),
-                                           columns=["Manner Verb", "Count"])
-        # Write transcript and breakdowns in the same sheet, separated by a blank row.
-        result_breakdown_df.to_excel(writer, sheet_name=sheet_name, index=False, startrow=0, header=True)
-        manner_breakdown_df.to_excel(writer, sheet_name=sheet_name, index=False, startrow=len(result_breakdown_df)+4, header=True)
-        transcript_df.to_excel(writer, sheet_name=sheet_name, index=False, startrow=len(result_breakdown_df)+ len(manner_breakdown_df) + 8, header = True)
+    pd.DataFrame(summary_rows).to_excel(writer, sheet_name="Summary", index=False)
 
+    # ---------- One sheet per file ----------
+    for file_rel, a in analysis_cache.items():
+        sheet_name = file_rel.replace("/", "_").split('.')[0]
 
-    # writer.save()
+        # flattened transcript "TAG: utterance"
+        # flat_lines = []
+        flat_lines = [f"{spk}: {utt}" for spk, utt in a["sequence"]]
+        for spk, lines in a["parsed_data"].items():
+            flat_lines.extend([f"{spk}: {u}" for u in lines])
+
+        pd.DataFrame({"Transcript": flat_lines}).to_excel(
+            writer, sheet_name=sheet_name, index=False
+        )
+
     writer.close()
     output.seek(0)
     return send_file(
         output,
         mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         as_attachment=True,
-        download_name="childes_analysis.xlsx"  # Updated keyword argument
+        download_name="childes_analysis.xlsx"
     )
 
 
@@ -726,36 +641,38 @@ def process_bel():
     saved_path = Path(BEL_UPLOAD_FOLDER) / filename
     f.save(saved_path)
 
-    # 3. parse + analyse
-    speaker_lines = parse_bel_file(saved_path, speaker_option)
-    full_text = "\n".join(speaker_lines)
-    df = process_text(full_text)
+    # 3. parse & analyse per speaker
+    speaker_lines, seq = parse_bel_file(saved_path, speaker_option)           # dict{CHI/PAR/SIB : [lines]}
+    speaker_stats = {spk: _analyse_utterances(lines)                    # dict{…: {result_count, …}}
+                     for spk, lines in speaker_lines.items() if lines}
 
-    # 4. summary
-    result_count  = int((df['Result/Manner'] == 'Result').sum())
-    manner_count  = int((df['Result/Manner'] == 'Manner').sum())
-    result_break  = dict(Counter(df[df["Result/Manner"]=="Result"]["Token"]))
-    manner_break  = dict(Counter(df[df["Result/Manner"]=="Manner"]["Token"]))
+    total_result = sum(v['result_count'] for v in speaker_stats.values())
+    total_manner = sum(v['manner_count'] for v in speaker_stats.values())
 
+    # token-level table (combined text – still handy for the UI)
+    combined_text = "\n".join(
+        line for lines in speaker_lines.values() for line in lines
+    )
+    df = process_text(combined_text)
+
+    # 4. cache
     bel_analysis.update({
-        'original_text': full_text,
-        'result_count': result_count,
-        'manner_count': manner_count,
-        'parsed_data': speaker_lines,
-        'result_breakdown': result_break,
-        'manner_breakdown': manner_break
+        'speakers':        speaker_stats,
+        'total_result':    total_result,
+        'total_manner':    total_manner,
+        'parsed_data':     speaker_lines,      # keep raw utterances per speaker
+        'sequence':        seq
     })
 
     return jsonify({
         'status': 'success',
-        'original_text': full_text,
+        'speakers': speaker_stats,             # ← JSON now exposes per-speaker counts
+        'overall': {
+            'result_count': total_result,
+            'manner_count': total_manner
+        },
         'results': df.to_dict(orient='records'),
-        'summary': {
-            'result_count': result_count,
-            'manner_count': manner_count,
-            'result_breakdown': result_break,
-            'manner_breakdown': manner_break
-        }
+        'sequence': seq
     }), 200
 
 
@@ -767,16 +684,34 @@ def download_bel_analysis():
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
 
-    summary_df = pd.DataFrame([{
-        "Result Count": bel_analysis['result_count'],
-        "Manner Count": bel_analysis['manner_count'],
-        "Unique Result Breakdown": str(bel_analysis['result_breakdown']),
-        "Unique Manner Breakdown": str(bel_analysis['manner_breakdown'])
-    }])
-    summary_df.to_excel(writer, sheet_name="Summary", index=False)
+    # ---------- Summary ----------
+    speakers      = bel_analysis.get("speakers", {})
+    total_result  = bel_analysis.get("total_result", 0)
+    total_manner  = bel_analysis.get("total_manner", 0)
 
-    details_df = pd.DataFrame({"Parsed Text": bel_analysis['parsed_data']})
-    details_df.to_excel(writer, sheet_name="Details", index=False)
+    row = {
+        "Total Result":  total_result,
+        "Total Manner":  total_manner,
+        # per-speaker counts
+        "CHI_Result":    speakers.get("CHI", {}).get("result_count", 0),
+        "CHI_Manner":    speakers.get("CHI", {}).get("manner_count", 0),
+        "PAR_Result":    speakers.get("PAR", {}).get("result_count", 0),
+        "PAR_Manner":    speakers.get("PAR", {}).get("manner_count", 0),
+        "SIB_Result":    speakers.get("SIB", {}).get("result_count", 0),
+        "SIB_Manner":    speakers.get("SIB", {}).get("manner_count", 0),
+    }
+    pd.DataFrame([row]).to_excel(writer, sheet_name="Summary", index=False)
+
+    # ---------- Details ----------
+    # flatten to "TAG: utterance" so reviewers can see who said what
+    # flat_lines = []
+    flat_lines = [f"{spk}: {utt}" for spk, utt in bel_analysis["sequence"]]
+    for spk, lines in bel_analysis.get("parsed_data", {}).items():
+        flat_lines.extend([f"{spk}: {u}" for u in lines])
+
+    pd.DataFrame({"Transcript": flat_lines}).to_excel(
+        writer, sheet_name="Details", index=False
+    )
 
     writer.close()
     output.seek(0)
@@ -786,6 +721,7 @@ def download_bel_analysis():
         as_attachment=True,
         download_name="bel_analysis.xlsx"
     )
+
 
 
 if __name__ == "__main__":

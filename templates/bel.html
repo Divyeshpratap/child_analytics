@@ -141,19 +141,20 @@ $('#belForm').on('submit', function (e) {
                 return;
             }
 
-            // original text
-            $('#belOriginal').text(resp.original_text);
-
-            // summary
+            /* ---------- 1. original transcript ---------- */
+            const flatTx = resp.sequence           // ← NEW list [[spk, utterance], …]
+                .map(pair => pair[0] + ': ' + pair[1])
+                .join('\n');
+            $('#belOriginal').text(flatTx);
+            /* ---------- 2. summary counts ---------- */
             $('#belSummary').html(
-                'Result Verbs: <strong>' + resp.summary.result_count +
+                'Result Verbs: <strong>' + resp.overall.result_count +
                 '</strong> &nbsp;&nbsp; Manner Verbs: <strong>' +
-                resp.summary.manner_count + '</strong>'
+                resp.overall.manner_count + '</strong>'
             );
 
-            // table
-            const tbody = $('#belTable tbody');
-            tbody.empty();
+            /* ---------- 3. token-level table ---------- */
+            const tbody = $('#belTable tbody').empty();
             resp.results.forEach(r => {
                 tbody.append(
                     `<tr><td>${r['Position']}</td><td>${r['Token']}</td>` +
@@ -172,11 +173,9 @@ $('#belForm').on('submit', function (e) {
                 buttons:['copy','csv','excel','pdf','print'],
                 initComplete:function(){
                     this.api().columns().every(function(){
-                        var that=this;
+                        let that=this;
                         $('input',this.header()).on('keyup change clear',function(){
-                            if(that.search()!==this.value){
-                                that.search(this.value).draw();
-                            }
+                            if(that.search()!==this.value){ that.search(this.value).draw(); }
                         });
                     });
                 }

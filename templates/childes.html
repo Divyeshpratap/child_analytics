@@ -179,8 +179,8 @@
                                 rows += "<td>" + item.group + "</td>";
                                 rows += "<td>" + item.gender + "</td>";
                                 // Clickable counts for verb details.
-                                rows += "<td><a target='_blank' data-count='" + item.result_count + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=result'>" + item.result_count + "</a></td>";
-                                rows += "<td><a target='_blank' data-count='" + item.manner_count + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=manner'>" + item.manner_count + "</a></td>";
+                                rows += "<td><a target='_blank' data-count='" + item.total_result + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=result'>" + item.total_result + "</a></td>";
+                                rows += "<td><a target='_blank' data-count='" + item.total_manner + "' href='/view_verb_details?file=" + encodeURIComponent(item.file) + "&type=manner'>" + item.total_manner + "</a></td>";
                                 rows += "<td><a target='_blank' href='/view_parsed_data?file=" + encodeURIComponent(item.file) + "'>View parsed data</a></td>";
                                 rows += "</tr>";
                             });
