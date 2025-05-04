@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 import re
 from io import BytesIO
-from pathlib import Path
 import json
 from zipfile import ZipFile
 
@@ -24,8 +23,10 @@ app = Flask(__name__)
 # ---------------------------------------------------------------------
 UPLOAD_FOLDER       = 'uploads'
 BEL_UPLOAD_FOLDER   = 'bel_uploads'
+ERROR_FOLDER      = 'error'
 Path(UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
 Path(BEL_UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+Path(ERROR_FOLDER).mkdir(parents=True, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 CHILDES_ROOT = os.path.join(os.getcwd(), 'ChildesData')
@@ -648,11 +649,26 @@ def process_bel():
     filename = secure_filename(f.filename)
     saved_path = Path(BEL_UPLOAD_FOLDER) / filename
     f.save(saved_path)
+    filename_without_ext = os.path.splitext(filename)[0]
 
     # 3. parse & analyse per speaker
     speaker_lines, seq = parse_bel_file(saved_path, speaker_option)           # dict{CHI/PAR/SIB : [lines]}
-    speaker_stats = {spk: _analyse_utterances(lines)                    # dict{…: {result_count, …}}
-                     for spk, lines in speaker_lines.items() if lines}
+    # speaker_stats = {spk: _analyse_utterances(lines)                    # dict{…: {result_count, …}}
+    #                  for spk, lines in speaker_lines.items() if lines}
+
+    speaker_stats = {}
+    for spk, lines in speaker_lines.items():
+        if not lines:
+            continue
+        st = _analyse_utterances(lines)
+        # compute lexeme breakdowns per‑speaker
+        df_spk = process_text('\n'.join(lines))
+        verb_df = df_spk[df_spk['Result/Manner'].isin(['Result', 'Manner'])]
+        st['result_lexeme_breakdown'] = dict(Counter(
+            verb_df[verb_df['Result/Manner'] == 'Result']['lemma']))
+        st['manner_lexeme_breakdown'] = dict(Counter(
+            verb_df[verb_df['Result/Manner'] == 'Manner']['lemma']))
+        speaker_stats[spk] = st
 
     total_result = sum(v['result_count'] for v in speaker_stats.values())
     total_manner = sum(v['manner_count'] for v in speaker_stats.values())
@@ -662,7 +678,39 @@ def process_bel():
         line for lines in speaker_lines.values() for line in lines
     )
     df = process_text(combined_text)
-    filename_without_ext = os.path.splitext(filename)[0]
+    
+    verb_df = df[df['Result/Manner'].isin(['Result', 'Manner'])]
+    # Token level breakdown
+    result_token_breakdown = dict(Counter(
+        verb_df[verb_df['Result/Manner'] == 'Result']['Token']
+    ))
+
+    manner_token_breakdown = dict(Counter(
+        verb_df[verb_df['Result/Manner'] == 'Manner']['Token']
+    ))
+
+    # Lexeme‑level breakdowns (requested feature #2)
+    result_lexeme_breakdown = dict(Counter(
+        verb_df[verb_df['Result/Manner'] == 'Result']['lemma']
+    ))
+    manner_lexeme_breakdown = dict(Counter(
+        verb_df[verb_df['Result/Manner'] == 'Manner']['lemma']
+    ))
+
+    # Consistency check (requested feature #1)
+    for lemma, group in verb_df.groupby('lemma'):
+        unique_tags = set(group['Result/Manner'])
+        if len(unique_tags) > 1:
+            logging.warning(
+                f"Inconsistent Result/Manner tagging for lemma '{lemma}' in file '{filename}'. Tags: {unique_tags}")
+            # write error file
+            err_path = Path(ERROR_FOLDER) / f"{filename_without_ext}_{lemma}_tag_mismatch.txt"
+            try:
+                with open(err_path, 'w', encoding='utf-8') as err_f:
+                    err_f.write(f"Lemma: {lemma}\nTags found: {', '.join(unique_tags)}\n")
+                logging.info(f"Wrote mismatch log → {err_path}")
+            except Exception as e:
+                logging.error(f"Unable to write error file {err_path}: {e}")
     # 4. cache
     bel_analysis.update({
         'filename':        filename_without_ext,
@@ -670,7 +718,11 @@ def process_bel():
         'total_result':    total_result,
         'total_manner':    total_manner,
         'parsed_data':     speaker_lines,      # keep raw utterances per speaker
-        'sequence':        seq
+        'sequence':        seq,
+        'result_token_breakdown': result_token_breakdown,
+        'manner_token_breakdown': manner_token_breakdown,
+        'result_lexeme_breakdown': result_lexeme_breakdown,
+        'manner_lexeme_breakdown': manner_lexeme_breakdown
     })
     # print(f'bel analysis dictionary is {bel_analysis}')
     return jsonify({
@@ -681,94 +733,93 @@ def process_bel():
             'manner_count': total_manner
         },
         'results': df.to_dict(orient='records'),
-        'sequence': seq
+        'sequence': seq,
+        'result_lexeme_breakdown': result_lexeme_breakdown,
+        'manner_lexeme_breakdown': manner_lexeme_breakdown
     }), 200
-
-
 
 @app.route('/download_bel_analysis', methods=['GET'])
 def download_bel_analysis():
+    """Bundle Excel + CSV + JSON for the most‑recent BEL analysis."""
     if not bel_analysis:
         return "No analysis available.", 400
 
-    filename = bel_analysis.get('filename', "bel_analysis")
-    speakers = bel_analysis.get("speakers", {})
-    total_result = bel_analysis.get("total_result", 0)
-    total_manner = bel_analysis.get("total_manner", 0)
+    filename                = bel_analysis.get('filename', 'bel_analysis')
+    speakers                = bel_analysis.get('speakers', {})
+    total_result            = bel_analysis.get('total_result', 0)
+    total_manner            = bel_analysis.get('total_manner', 0)
+    file_result_lex_bd      = bel_analysis.get('result_lexeme_breakdown', {})
+    file_manner_lex_bd      = bel_analysis.get('manner_lexeme_breakdown', {})
+    file_result_token_bd    = bel_analysis.get('result_token_breakdown', {})
+    file_manner_token_bd    = bel_analysis.get('manner_token_breakdown', {})
 
-    # ---------- Summary Data ----------
-    summary_rows = []
-    for speaker in ["CHI", "PAR", "SIB"]:
-        spk_data = speakers.get(speaker, {})
-        summary_rows.append({
-            "Speaker": speaker,
-            "Result_Count": spk_data.get("result_count", 0),
-            "Manner_Count": spk_data.get("manner_count", 0),
-            "Result_Breakdown": str(spk_data.get("result_breakdown", {})),
-            "Manner_Breakdown": str(spk_data.get("manner_breakdown", {})),
-        })
+    # ---------- Build rows ----------
+    rows_excel = []     # dicts with *stringified* breakdowns → nice in Excel/CSV
+    rows_json  = []     # dicts with *true* dicts           → nice in JSON
 
-    summary_rows.append({
-        "Speaker": "Total",
-        "Result_Count": total_result,
-        "Manner_Count": total_manner,
-        "Result_Breakdown": "",
-        "Manner_Breakdown": ""
-    })
-
-    summary_df = pd.DataFrame(summary_rows)
-
-    # ---------- Details Data ----------
-    flat_lines = [f"{spk}: {utt}" for spk, utt in bel_analysis.get("sequence", [])]
-    details_df = pd.DataFrame({"Transcript": flat_lines})
-
-    # ---------- Create Excel ----------
-    excel_buffer = BytesIO()
-    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
-        summary_df.to_excel(writer, sheet_name="Summary", index=False)
-        details_df.to_excel(writer, sheet_name="Details", index=False)
-    excel_buffer.seek(0)
-
-    # ---------- Create CSV ----------
-    csv_df = pd.DataFrame([
-        {
+    for spk in ['CHI', 'PAR', 'SIB']:
+        spk_data = speakers.get(spk, {})
+        base_row = {
             "filename": filename,
-            "Speaker": speaker,
+            "Speaker": spk,
             "Result_Count": spk_data.get("result_count", 0),
             "Manner_Count": spk_data.get("manner_count", 0),
-            "Result_Breakdown": spk_data.get("result_breakdown", {}),
-            "Manner_Breakdown": spk_data.get("manner_breakdown", {}),
+            "Result_Breakdown":          spk_data.get("result_breakdown", {}),
+            "Manner_Breakdown":          spk_data.get("manner_breakdown", {}),
+            "Result_lexeme_breakdown":   spk_data.get("result_lexeme_breakdown", {}),
+            "Manner_lexeme_breakdown":   spk_data.get("manner_lexeme_breakdown", {}),
         }
-        for speaker, spk_data in speakers.items()
-    ] + [{
+        rows_json.append(base_row)
+        rows_excel.append({k: (str(v) if isinstance(v, dict) else v)
+                           for k, v in base_row.items()})
+
+    # add total row
+    total_row = {
         "filename": filename,
         "Speaker": "Total",
         "Result_Count": total_result,
         "Manner_Count": total_manner,
-        "Result_Breakdown": "",
-        "Manner_Breakdown": ""
-    }])
+        # "Result_Breakdown":        file_result_token_bd,
+        # "Manner_Breakdown":        file_manner_token_bd,
+        # "Result_lexeme_breakdown": file_result_lex_bd,
+        # "Manner_lexeme_breakdown": file_manner_lex_bd,
+    }
+    rows_json.append(total_row)
+    rows_excel.append({k: (str(v) if isinstance(v, dict) else v)
+                       for k, v in total_row.items()})
 
-    csv_buffer = BytesIO()
-    csv_df.to_csv(csv_buffer, index=False)
-    csv_buffer.seek(0)
+    # ---------- Excel ----------
+    excel_buf = BytesIO()
+    with pd.ExcelWriter(excel_buf, engine='xlsxwriter') as writer:
+        pd.DataFrame(rows_excel).to_excel(writer, sheet_name="Summary", index=False)
 
-    # ---------- Create JSON ----------
-    json_buffer = BytesIO()
-    json_data = csv_df.to_dict(orient="records")
-    json_buffer.write(json.dumps(json_data, indent=2).encode("utf-8"))
-    json_buffer.seek(0)
+        # raw transcript for context
+        flat_lines = [f"{spk}: {utt}" for spk, utt in bel_analysis.get("sequence", [])]
+        pd.DataFrame({"Transcript": flat_lines}).to_excel(writer,
+                                                          sheet_name="Details",
+                                                          index=False)
+    excel_buf.seek(0)
 
-    # ---------- Create ZIP ----------
-    zip_buffer = BytesIO()
-    with ZipFile(zip_buffer, 'w') as zip_file:
-        zip_file.writestr(f"{filename}.xlsx", excel_buffer.read())
-        zip_file.writestr(f"{filename}.csv", csv_buffer.read())
-        zip_file.writestr(f"{filename}.json", json_buffer.read())
-    zip_buffer.seek(0)
+    # ---------- CSV ----------
+    csv_buf = BytesIO()
+    pd.DataFrame(rows_excel).to_csv(csv_buf, index=False)
+    csv_buf.seek(0)
+
+    # ---------- JSON (true nested objects) ----------
+    json_buf = BytesIO()
+    json_buf.write(json.dumps(rows_json, indent=2).encode('utf-8'))
+    json_buf.seek(0)
+
+    # ---------- ZIP ----------
+    zip_buf = BytesIO()
+    with ZipFile(zip_buf, 'w') as zf:
+        zf.writestr(f"{filename}.xlsx", excel_buf.read())
+        zf.writestr(f"{filename}.csv",  csv_buf.read())
+        zf.writestr(f"{filename}.json", json_buf.read())
+    zip_buf.seek(0)
 
     return send_file(
-        zip_buffer,
+        zip_buf,
         mimetype='application/zip',
         as_attachment=True,
         download_name=f"{filename}_analysis_bundle.zip"
